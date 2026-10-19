@@ -7,9 +7,11 @@ __pycache__/
 env/
 venv/
 
-# Large archives and uncompressed telemetry dumps exceeding GitHub's 100 MB limit
+# Proprietary vendor documentation and archives (refer to official links in README)
+official_docs/
+
+# Large uncompressed telemetry dumps exceeding GitHub's 100 MB limit
 # (Full raw .bin telemetry captures are permanently tracked under outputs/records/acquisition/)
-official_docs/*.zip
 outputs/records/acquisition/*_decoded/imu.ndjson
 outputs/records/validation_step28*/*.jsonl
 
@@ -30,3 +32,4 @@ Thumbs.db
 *.swp
 *.bak
 *.tmp
+
