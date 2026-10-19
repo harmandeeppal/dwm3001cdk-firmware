@@ -1,6 +1,6 @@
 # dwm3001cdk-firmware
 
-**Project:** AUT COMP971 Dissertation — Multimodal Inertial-UWB Fusion for Real-Time Human Motion Forecasting and XR Telepresence  
+**Project:** AUT COMP971 Dissertation — Multimodal Inertial-UWB Fusion for Real-Time Human Motion Forecasting.  
 **Repository Name:** `dwm3001cdk-firmware`  
 **Status (19 October 2026):** **OPERATIONAL, STANDARDIZED & VERIFIED** — 6-node star telemetry deployed, empirical 2-node bench and on-body calibration accepted, 30-minute benchmark soak captured, Step 28B causal 60 Hz dataset validated (107,999 frames with 0.0 ppm drift), and 3-node live telemetry streaming at 60.16 Hz with zero packet loss.
 
