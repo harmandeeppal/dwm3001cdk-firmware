@@ -1,0 +1,1149 @@
+﻿{
+    "test":  "6-node star benchmark",
+    "port":  "COM16",
+    "timestamp":  "2026-10-10_115510",
+    "duration_s":  30,
+    "active_duration_s":  27,
+    "complete_matrix_rounds":  0,
+    "complete_matrix_yield_pct":  0,
+    "complete_matrix_wire_pct":  0,
+    "imu_counts":  {
+                       "Node_5":  984,
+                       "Node_4":  312,
+                       "Node_3":  690,
+                       "Node_2":  1620,
+                       "Node_1":  0,
+                       "Node_0":  732
+                   },
+    "node_status_latest":  {
+                               "Node_5":  {
+                                              "node_index":  5,
+                                              "flags":  5,
+                                              "sync_epoch":  0,
+                                              "imu_samples_acquired":  186858,
+                                              "imu_queue_put_ok":  186858,
+                                              "imu_queue_dropped":  15,
+                                              "imu_queue_high_water":  48,
+                                              "ble_imu_notify_ok":  31111,
+                                              "ble_imu_notify_failed":  12,
+                                              "ble_uwb_notify_failed":  3,
+                                              "uwb_range_attempts":  0,
+                                              "uwb_range_valid":  0,
+                                              "uwb_range_invalid":  0
+                                          },
+                               "Node_4":  {
+                                              "node_index":  4,
+                                              "flags":  5,
+                                              "sync_epoch":  0,
+                                              "imu_samples_acquired":  186312,
+                                              "imu_queue_put_ok":  186312,
+                                              "imu_queue_dropped":  26,
+                                              "imu_queue_high_water":  48,
+                                              "ble_imu_notify_ok":  31022,
+                                              "ble_imu_notify_failed":  22,
+                                              "ble_uwb_notify_failed":  4,
+                                              "uwb_range_attempts":  0,
+                                              "uwb_range_valid":  0,
+                                              "uwb_range_invalid":  0
+                                          },
+                               "Node_3":  {
+                                              "node_index":  3,
+                                              "flags":  5,
+                                              "sync_epoch":  0,
+                                              "imu_samples_acquired":  187092,
+                                              "imu_queue_put_ok":  187092,
+                                              "imu_queue_dropped":  35,
+                                              "imu_queue_high_water":  48,
+                                              "ble_imu_notify_ok":  31142,
+                                              "ble_imu_notify_failed":  32,
+                                              "ble_uwb_notify_failed":  3,
+                                              "uwb_range_attempts":  0,
+                                              "uwb_range_valid":  0,
+                                              "uwb_range_invalid":  0
+                                          },
+                               "Node_2":  {
+                                              "node_index":  2,
+                                              "flags":  5,
+                                              "sync_epoch":  0,
+                                              "imu_samples_acquired":  4044,
+                                              "imu_queue_put_ok":  4044,
+                                              "imu_queue_dropped":  0,
+                                              "imu_queue_high_water":  2,
+                                              "ble_imu_notify_ok":  664,
+                                              "ble_imu_notify_failed":  0,
+                                              "ble_uwb_notify_failed":  0,
+                                              "uwb_range_attempts":  0,
+                                              "uwb_range_valid":  0,
+                                              "uwb_range_invalid":  0
+                                          },
+                               "Node_0":  {
+                                              "node_index":  0,
+                                              "flags":  5,
+                                              "sync_epoch":  0,
+                                              "imu_samples_acquired":  157158,
+                                              "imu_queue_put_ok":  157158,
+                                              "imu_queue_dropped":  49,
+                                              "imu_queue_high_water":  48,
+                                              "ble_imu_notify_ok":  26099,
+                                              "ble_imu_notify_failed":  44,
+                                              "ble_uwb_notify_failed":  5,
+                                              "uwb_range_attempts":  0,
+                                              "uwb_range_valid":  0,
+                                              "uwb_range_invalid":  0
+                                          }
+                           },
+    "uwb_summary":  {
+                        "Pair_4":  {
+                                       "pair_name":  "PELVIS \u003c-\u003e RIGHT-ANKLE",
+                                       "valid_count":  0,
+                                       "invalid_count":  0,
+                                       "total_attempts":  0,
+                                       "expected_rounds":  135,
+                                       "true_yield_pct":  0,
+                                       "wire_success_pct":  0,
+                                       "rate_hz":  0,
+                                       "median_cm":  null,
+                                       "first_range_s":  null,
+                                       "status_breakdown":  {
+
+                                                            },
+                                       "max_contiguous_dropout_rounds":  0,
+                                       "max_contiguous_dropout_s":  0
+                                   },
+                        "Pair_3":  {
+                                       "pair_name":  "PELVIS \u003c-\u003e LEFT-ANKLE",
+                                       "valid_count":  0,
+                                       "invalid_count":  0,
+                                       "total_attempts":  0,
+                                       "expected_rounds":  135,
+                                       "true_yield_pct":  0,
+                                       "wire_success_pct":  0,
+                                       "rate_hz":  0,
+                                       "median_cm":  null,
+                                       "first_range_s":  null,
+                                       "status_breakdown":  {
+
+                                                            },
+                                       "max_contiguous_dropout_rounds":  0,
+                                       "max_contiguous_dropout_s":  0
+                                   },
+                        "Pair_2":  {
+                                       "pair_name":  "PELVIS \u003c-\u003e RIGHT-WRIST",
+                                       "valid_count":  0,
+                                       "invalid_count":  0,
+                                       "total_attempts":  0,
+                                       "expected_rounds":  135,
+                                       "true_yield_pct":  0,
+                                       "wire_success_pct":  0,
+                                       "rate_hz":  0,
+                                       "median_cm":  null,
+                                       "first_range_s":  null,
+                                       "status_breakdown":  {
+
+                                                            },
+                                       "max_contiguous_dropout_rounds":  0,
+                                       "max_contiguous_dropout_s":  0
+                                   },
+                        "Pair_1":  {
+                                       "pair_name":  "PELVIS \u003c-\u003e LEFT-WRIST",
+                                       "valid_count":  0,
+                                       "invalid_count":  0,
+                                       "total_attempts":  0,
+                                       "expected_rounds":  135,
+                                       "true_yield_pct":  0,
+                                       "wire_success_pct":  0,
+                                       "rate_hz":  0,
+                                       "median_cm":  null,
+                                       "first_range_s":  null,
+                                       "status_breakdown":  {
+
+                                                            },
+                                       "max_contiguous_dropout_rounds":  0,
+                                       "max_contiguous_dropout_s":  0
+                                   },
+                        "Pair_0":  {
+                                       "pair_name":  "PELVIS \u003c-\u003e HEAD",
+                                       "valid_count":  0,
+                                       "invalid_count":  0,
+                                       "total_attempts":  0,
+                                       "expected_rounds":  135,
+                                       "true_yield_pct":  0,
+                                       "wire_success_pct":  0,
+                                       "rate_hz":  0,
+                                       "median_cm":  null,
+                                       "first_range_s":  null,
+                                       "status_breakdown":  {
+
+                                                            },
+                                       "max_contiguous_dropout_rounds":  0,
+                                       "max_contiguous_dropout_s":  0
+                                   }
+                    },
+    "first_range_elapsed":  {
+                                "Pair_4":  null,
+                                "Pair_3":  null,
+                                "Pair_2":  null,
+                                "Pair_1":  null,
+                                "Pair_0":  null
+                            },
+    "first_pelvis_uptime_s":  {
+                                  "Pair_4":  null,
+                                  "Pair_3":  null,
+                                  "Pair_2":  null,
+                                  "Pair_1":  null,
+                                  "Pair_0":  null
+                              },
+    "first_controlee_uptime_s":  {
+                                     "Pair_4":  null,
+                                     "Pair_3":  null,
+                                     "Pair_2":  null,
+                                     "Pair_1":  null,
+                                     "Pair_0":  null
+                                 },
+    "star_range_blocks":  [
+
+                          ],
+    "diagnostics":  [
+                        {
+                            "elapsed_s":  3.09,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB1",
+                            "stage_name":  "interval_min_lead_us",
+                            "sub_code":  200,
+                            "timestamp_us":  40321000,
+                            "detail":  2147483647
+                        },
+                        {
+                            "elapsed_s":  4.02,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  41329000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  4.02,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  41329000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  4.02,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  41329000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  4.834,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  42336000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  4.834,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  42336000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  4.834,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  42336000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  5.04,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  211,
+                            "timestamp_us":  42336000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.24,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB4",
+                            "stage_name":  "fira_steady_fail_count",
+                            "sub_code":  216,
+                            "timestamp_us":  43343000,
+                            "detail":  205
+                        },
+                        {
+                            "elapsed_s":  6.931,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  44351000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  6.931,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  44351000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.961,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  44351000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.11,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB5",
+                            "stage_name":  "fira_steady_total",
+                            "sub_code":  221,
+                            "timestamp_us":  44348000,
+                            "detail":  210
+                        },
+                        {
+                            "elapsed_s":  8.012,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  45359000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  8.04,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  45359000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.041,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  45359000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.19,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB6",
+                            "stage_name":  "fira_last_block_index",
+                            "sub_code":  226,
+                            "timestamp_us":  45352000,
+                            "detail":  226
+                        },
+                        {
+                            "elapsed_s":  9.27,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB7",
+                            "stage_name":  "fira_lifetime_min_lead",
+                            "sub_code":  231,
+                            "timestamp_us":  46359000,
+                            "detail":  2147483647
+                        },
+                        {
+                            "elapsed_s":  9.81,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  47376000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  9.81,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  47376000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  9.81,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  47376000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  10.17,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xC8",
+                            "stage_name":  "0xC8",
+                            "sub_code":  236,
+                            "timestamp_us":  47367000,
+                            "detail":  3056
+                        },
+                        {
+                            "elapsed_s":  10.832,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  48384000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  11.009,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  48384000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  11.009,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  48384000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  11.94,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  49392000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  11.94,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  49392000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  11.94,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  49392000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  12.21,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xCA",
+                            "stage_name":  "0xCA",
+                            "sub_code":  246,
+                            "timestamp_us":  49379000,
+                            "detail":  832
+                        },
+                        {
+                            "elapsed_s":  12.841,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  50400000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  12.842,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  50400000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  13.049,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  50400000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  13.17,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xCB",
+                            "stage_name":  "0xCB",
+                            "sub_code":  251,
+                            "timestamp_us":  50385000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  14.19,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xCC",
+                            "stage_name":  "0xCC",
+                            "sub_code":  0,
+                            "timestamp_us":  51391000,
+                            "detail":  2
+                        },
+                        {
+                            "elapsed_s":  14.88,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  52416000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  14.88,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  52416000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  14.88,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  52416000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  15.181,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xCD",
+                            "stage_name":  "0xCD",
+                            "sub_code":  5,
+                            "timestamp_us":  52399000,
+                            "detail":  261
+                        },
+                        {
+                            "elapsed_s":  15.96,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  53424000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  15.96,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  53424000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  15.961,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  53424000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  16.2,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xCE",
+                            "stage_name":  "0xCE",
+                            "sub_code":  10,
+                            "timestamp_us":  53407000,
+                            "detail":  33
+                        },
+                        {
+                            "elapsed_s":  16.889,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  54432000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  16.89,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  54432000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  16.892,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  54432000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  17.25,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xCF",
+                            "stage_name":  "0xCF",
+                            "sub_code":  15,
+                            "timestamp_us":  54413000,
+                            "detail":  65536
+                        },
+                        {
+                            "elapsed_s":  17.85,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  55440000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  17.851,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  55440000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  17.851,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  55440000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  18.899,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  56448000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  18.93,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  56448000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  18.93,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  56448000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  19.409,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  25,
+                            "timestamp_us":  56424000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  20.01,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  57456000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  20.011,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  57456000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  20.011,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  57456000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  20.253,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xBA",
+                            "stage_name":  "0xBA",
+                            "sub_code":  30,
+                            "timestamp_us":  57431000,
+                            "detail":  -1872706887
+                        },
+                        {
+                            "elapsed_s":  21.42,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB0",
+                            "stage_name":  "dw3000_tx_count",
+                            "sub_code":  35,
+                            "timestamp_us":  58438000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  22.289,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB1",
+                            "stage_name":  "interval_min_lead_us",
+                            "sub_code":  40,
+                            "timestamp_us":  59444000,
+                            "detail":  2147483647
+                        },
+                        {
+                            "elapsed_s":  22.951,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  60479000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  22.951,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  60479000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  23.01,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  60479000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  23.312,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB2",
+                            "stage_name":  "dw3000_late_tx_count",
+                            "sub_code":  45,
+                            "timestamp_us":  60449000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  24.03,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  61486000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  24.031,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  61486000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  24.12,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  61486000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  24.48,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  51,
+                            "timestamp_us":  61453000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  24.96,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  62494000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  25.11,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  62494000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  25.169,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  62494000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  25.353,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB4",
+                            "stage_name":  "fira_steady_fail_count",
+                            "sub_code":  56,
+                            "timestamp_us":  62461000,
+                            "detail":  300
+                        },
+                        {
+                            "elapsed_s":  25.92,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  63501000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  25.92,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  63501000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  25.922,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  63501000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  26.342,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB5",
+                            "stage_name":  "fira_steady_total",
+                            "sub_code":  62,
+                            "timestamp_us":  63468000,
+                            "detail":  306
+                        },
+                        {
+                            "elapsed_s":  27.332,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB6",
+                            "stage_name":  "fira_last_block_index",
+                            "sub_code":  67,
+                            "timestamp_us":  64471000,
+                            "detail":  323
+                        },
+                        {
+                            "elapsed_s":  28.049,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  65517000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  28.05,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  65517000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  28.05,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  65517000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  28.41,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB7",
+                            "stage_name":  "fira_lifetime_min_lead",
+                            "sub_code":  72,
+                            "timestamp_us":  65474000,
+                            "detail":  2147483647
+                        },
+                        {
+                            "elapsed_s":  29.04,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  66525000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  29.04,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  66525000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  29.07,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  66525000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  29.519,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xC8",
+                            "stage_name":  "0xC8",
+                            "sub_code":  77,
+                            "timestamp_us":  66479000,
+                            "detail":  3056
+                        },
+                        {
+                            "elapsed_s":  29.97,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  1,
+                            "timestamp_us":  67533000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  29.97,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  1,
+                            "timestamp_us":  67533000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  29.971,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  1,
+                            "timestamp_us":  67533000,
+                            "detail":  0
+                        }
+                    ],
+    "stall_snapshots":  [
+
+                        ],
+    "baseline_diagnostics":  {
+                                 "2-0xCC":  2,
+                                 "3-dw3000_sys_status_hi":  0,
+                                 "4-dw3000_sys_status_hi":  0,
+                                 "5-fira_stall_recovery_count":  0,
+                                 "5-dw3000_sys_status_lo":  0,
+                                 "2-fira_last_block_index":  226,
+                                 "2-0xBA":  -1872706887,
+                                 "0-dw3000_late_tx_count":  0,
+                                 "2-fira_steady_fail_count":  205,
+                                 "5-dw3000_sys_status_hi":  0,
+                                 "2-0xCA":  832,
+                                 "2-dw3000_sys_status_hi":  0,
+                                 "4-dw3000_sys_status_lo":  0,
+                                 "2-0xCD":  261,
+                                 "0-dw3000_sys_status_lo":  0,
+                                 "0-dw3000_sys_status_hi":  0,
+                                 "4-fira_stall_recovery_count":  0,
+                                 "2-fira_stall_recovery_count":  67108864,
+                                 "3-dw3000_sys_status_lo":  0,
+                                 "2-interval_min_lead_us":  2147483647,
+                                 "2-0xC8":  3056,
+                                 "2-fira_steady_total":  210,
+                                 "2-0xCE":  33,
+                                 "2-0xCB":  0,
+                                 "2-dw3000_tx_count":  0,
+                                 "2-dw3000_late_tx_count":  0,
+                                 "2-0xCF":  65536,
+                                 "2-dw3000_sys_status_lo":  0,
+                                 "3-fira_stall_recovery_count":  0,
+                                 "0-fira_stall_recovery_count":  33554432,
+                                 "4-fira_steady_fail_count":  7390,
+                                 "2-fira_lifetime_min_lead":  2147483647
+                             },
+    "final_diagnostics":  {
+                              "2-0xCC":  2,
+                              "3-dw3000_sys_status_hi":  0,
+                              "4-dw3000_sys_status_hi":  0,
+                              "5-fira_stall_recovery_count":  0,
+                              "5-dw3000_sys_status_lo":  0,
+                              "2-fira_last_block_index":  323,
+                              "2-0xBA":  -1872706887,
+                              "0-dw3000_late_tx_count":  0,
+                              "2-fira_steady_fail_count":  300,
+                              "5-dw3000_sys_status_hi":  0,
+                              "2-0xCA":  832,
+                              "2-dw3000_sys_status_hi":  0,
+                              "4-dw3000_sys_status_lo":  0,
+                              "2-0xCD":  261,
+                              "0-dw3000_sys_status_lo":  0,
+                              "0-dw3000_sys_status_hi":  0,
+                              "4-fira_stall_recovery_count":  0,
+                              "2-fira_stall_recovery_count":  67108864,
+                              "3-dw3000_sys_status_lo":  0,
+                              "2-interval_min_lead_us":  2147483647,
+                              "2-0xC8":  3056,
+                              "2-fira_steady_total":  306,
+                              "2-0xCE":  33,
+                              "2-0xCB":  0,
+                              "2-dw3000_tx_count":  0,
+                              "2-dw3000_late_tx_count":  0,
+                              "2-0xCF":  65536,
+                              "2-dw3000_sys_status_lo":  0,
+                              "3-fira_stall_recovery_count":  0,
+                              "0-fira_stall_recovery_count":  0,
+                              "4-fira_steady_fail_count":  7390,
+                              "2-fira_lifetime_min_lead":  2147483647
+                          }
+}

@@ -1,0 +1,1127 @@
+{
+  "test": "6-node star benchmark",
+  "port": "COM16",
+  "timestamp": "2026-10-08_220623",
+  "duration_s": 30,
+  "active_duration_s": 27,
+  "imu_counts": {
+    "Node_5": 1626,
+    "Node_4": 0,
+    "Node_3": 0,
+    "Node_2": 0,
+    "Node_1": 1620,
+    "Node_0": 0
+  },
+  "node_status_latest": {
+    "Node_5": {
+      "node_index": 5,
+      "flags": 5,
+      "sync_epoch": 0,
+      "imu_samples_acquired": 17526,
+      "imu_queue_put_ok": 17526,
+      "imu_queue_dropped": 0,
+      "imu_queue_high_water": 1,
+      "ble_imu_notify_ok": 2901,
+      "ble_imu_notify_failed": 0,
+      "ble_uwb_notify_failed": 0,
+      "uwb_range_attempts": 0,
+      "uwb_range_valid": 0,
+      "uwb_range_invalid": 0
+    },
+    "Node_1": {
+      "node_index": 1,
+      "flags": 5,
+      "sync_epoch": 0,
+      "imu_samples_acquired": 37362,
+      "imu_queue_put_ok": 37362,
+      "imu_queue_dropped": 143,
+      "imu_queue_high_water": 16,
+      "ble_imu_notify_ok": 6149,
+      "ble_imu_notify_failed": 32,
+      "ble_uwb_notify_failed": 111,
+      "uwb_range_attempts": 15570,
+      "uwb_range_valid": 2425,
+      "uwb_range_invalid": 13145
+    }
+  },
+  "uwb_summary": {
+    "Pair_4": {
+      "pair_name": "PELVIS <-> RIGHT-ANKLE",
+      "valid_count": 135,
+      "invalid_count": 0,
+      "total_attempts": 135,
+      "success_pct": 100.0,
+      "rate_hz": 5.0,
+      "median_cm": 53,
+      "min_cm": 46,
+      "max_cm": 56,
+      "first_range_s": 0.054,
+      "status_breakdown": {}
+    },
+    "Pair_3": {
+      "pair_name": "PELVIS <-> LEFT-ANKLE",
+      "valid_count": 0,
+      "invalid_count": 134,
+      "total_attempts": 134,
+      "success_pct": 0.0,
+      "rate_hz": 0,
+      "median_cm": null,
+      "first_range_s": null,
+      "status_breakdown": {
+        "status_33": 134
+      }
+    },
+    "Pair_2": {
+      "pair_name": "PELVIS <-> RIGHT-WRIST",
+      "valid_count": 0,
+      "invalid_count": 134,
+      "total_attempts": 134,
+      "success_pct": 0.0,
+      "rate_hz": 0,
+      "median_cm": null,
+      "first_range_s": null,
+      "status_breakdown": {
+        "status_33": 134
+      }
+    },
+    "Pair_1": {
+      "pair_name": "PELVIS <-> LEFT-WRIST",
+      "valid_count": 0,
+      "invalid_count": 134,
+      "total_attempts": 134,
+      "success_pct": 0.0,
+      "rate_hz": 0,
+      "median_cm": null,
+      "first_range_s": null,
+      "status_breakdown": {
+        "status_33": 134
+      }
+    },
+    "Pair_0": {
+      "pair_name": "PELVIS <-> HEAD",
+      "valid_count": 0,
+      "invalid_count": 135,
+      "total_attempts": 135,
+      "success_pct": 0.0,
+      "rate_hz": 0,
+      "median_cm": null,
+      "first_range_s": null,
+      "status_breakdown": {
+        "status_33": 135
+      }
+    }
+  },
+  "first_range_elapsed": {
+    "Pair_4": 0.054,
+    "Pair_3": null,
+    "Pair_2": null,
+    "Pair_1": null,
+    "Pair_0": null
+  },
+  "first_pelvis_uptime_s": {
+    "Pair_4": 293.665,
+    "Pair_3": null,
+    "Pair_2": null,
+    "Pair_1": null,
+    "Pair_0": null
+  },
+  "first_controlee_uptime_s": {
+    "Pair_4": 0.004,
+    "Pair_3": null,
+    "Pair_2": null,
+    "Pair_1": null,
+    "Pair_0": null
+  },
+  "diagnostics": [
+    {
+      "elapsed_s": 3.175,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB5",
+      "stage_name": "fira_steady_total",
+      "sub_code": 164,
+      "timestamp_us": 263623000,
+      "detail": 1327
+    },
+    {
+      "elapsed_s": 3.647,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xCC",
+      "stage_name": "0xCC",
+      "sub_code": 166,
+      "timestamp_us": 592453000,
+      "detail": 22
+    },
+    {
+      "elapsed_s": 3.669,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 596656000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 3.775,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 266080000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 4.214,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB6",
+      "stage_name": "fira_last_block_index",
+      "sub_code": 169,
+      "timestamp_us": 264630000,
+      "detail": 2985
+    },
+    {
+      "elapsed_s": 4.667,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xCD",
+      "stage_name": "0xCD",
+      "sub_code": 171,
+      "timestamp_us": 593459000,
+      "detail": 2987
+    },
+    {
+      "elapsed_s": 4.669,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 597664000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 4.775,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 267087000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.235,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB7",
+      "stage_name": "fira_lifetime_min_lead",
+      "sub_code": 174,
+      "timestamp_us": 265636000,
+      "detail": 28416
+    },
+    {
+      "elapsed_s": 5.688,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 598672000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 5.689,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xCE",
+      "stage_name": "0xCE",
+      "sub_code": 176,
+      "timestamp_us": 594464000,
+      "detail": 33
+    },
+    {
+      "elapsed_s": 5.796,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 268095000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.214,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xC8",
+      "stage_name": "0xC8",
+      "sub_code": 179,
+      "timestamp_us": 266640000,
+      "detail": 3056
+    },
+    {
+      "elapsed_s": 6.787,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 599680000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 6.788,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xCF",
+      "stage_name": "0xCF",
+      "sub_code": 181,
+      "timestamp_us": 595471000,
+      "detail": 66798
+    },
+    {
+      "elapsed_s": 6.796,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 269102000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.234,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xC9",
+      "stage_name": "0xC9",
+      "sub_code": 184,
+      "timestamp_us": 267646000,
+      "detail": 1052
+    },
+    {
+      "elapsed_s": 7.748,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 600688000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 7.749,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB0",
+      "stage_name": "dw3000_tx_count",
+      "sub_code": 186,
+      "timestamp_us": 596477000,
+      "detail": 8334
+    },
+    {
+      "elapsed_s": 8.254,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCA",
+      "stage_name": "0xCA",
+      "sub_code": 189,
+      "timestamp_us": 268653000,
+      "detail": 680
+    },
+    {
+      "elapsed_s": 8.707,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 601695000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 8.749,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB1",
+      "stage_name": "interval_min_lead_us",
+      "sub_code": 191,
+      "timestamp_us": 597480000,
+      "detail": 40582
+    },
+    {
+      "elapsed_s": 8.817,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 271119000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.254,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCB",
+      "stage_name": "0xCB",
+      "sub_code": 194,
+      "timestamp_us": 269660000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.727,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 602702000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 9.767,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB2",
+      "stage_name": "dw3000_late_tx_count",
+      "sub_code": 197,
+      "timestamp_us": 598485000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.876,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 272127000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.274,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCC",
+      "stage_name": "0xCC",
+      "sub_code": 199,
+      "timestamp_us": 270665000,
+      "detail": 1662
+    },
+    {
+      "elapsed_s": 10.807,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 202,
+      "timestamp_us": 599492000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.874,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 273135000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 11.314,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCD",
+      "stage_name": "0xCD",
+      "sub_code": 204,
+      "timestamp_us": 271670000,
+      "detail": 2474
+    },
+    {
+      "elapsed_s": 11.747,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 604717000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 11.787,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB4",
+      "stage_name": "fira_steady_fail_count",
+      "sub_code": 207,
+      "timestamp_us": 600500000,
+      "detail": 3014
+    },
+    {
+      "elapsed_s": 11.836,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 274143000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 12.297,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCE",
+      "stage_name": "0xCE",
+      "sub_code": 209,
+      "timestamp_us": 272675000,
+      "detail": 33
+    },
+    {
+      "elapsed_s": 12.787,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 605725000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 12.856,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 275150000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 13.314,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCF",
+      "stage_name": "0xCF",
+      "sub_code": 215,
+      "timestamp_us": 273682000,
+      "detail": 65536
+    },
+    {
+      "elapsed_s": 13.728,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 606733000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 13.847,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB6",
+      "stage_name": "fira_last_block_index",
+      "sub_code": 217,
+      "timestamp_us": 602510000,
+      "detail": 3033
+    },
+    {
+      "elapsed_s": 13.856,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 276158000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 14.354,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB0",
+      "stage_name": "dw3000_tx_count",
+      "sub_code": 220,
+      "timestamp_us": 274688000,
+      "detail": 2758
+    },
+    {
+      "elapsed_s": 14.747,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 607741000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 14.807,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB7",
+      "stage_name": "fira_lifetime_min_lead",
+      "sub_code": 222,
+      "timestamp_us": 603516000,
+      "detail": 40582
+    },
+    {
+      "elapsed_s": 14.856,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 277166000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 15.334,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB1",
+      "stage_name": "interval_min_lead_us",
+      "sub_code": 225,
+      "timestamp_us": 275694000,
+      "detail": 28416
+    },
+    {
+      "elapsed_s": 15.748,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 608749000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 15.827,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xC8",
+      "stage_name": "0xC8",
+      "sub_code": 227,
+      "timestamp_us": 604521000,
+      "detail": 3164
+    },
+    {
+      "elapsed_s": 15.875,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 278174000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 16.354,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB2",
+      "stage_name": "dw3000_late_tx_count",
+      "sub_code": 230,
+      "timestamp_us": 276700000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 16.768,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 609757000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 16.867,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xC9",
+      "stage_name": "0xC9",
+      "sub_code": 232,
+      "timestamp_us": 605525000,
+      "detail": 976
+    },
+    {
+      "elapsed_s": 16.876,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 279182000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 17.374,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 235,
+      "timestamp_us": 277706000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 17.809,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 610765000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 17.827,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xCA",
+      "stage_name": "0xCA",
+      "sub_code": 237,
+      "timestamp_us": 606530000,
+      "detail": 616
+    },
+    {
+      "elapsed_s": 17.896,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 280190000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 18.374,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB4",
+      "stage_name": "fira_steady_fail_count",
+      "sub_code": 240,
+      "timestamp_us": 278714000,
+      "detail": 4
+    },
+    {
+      "elapsed_s": 18.769,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 611773000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 18.887,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xCB",
+      "stage_name": "0xCB",
+      "sub_code": 242,
+      "timestamp_us": 607535000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 18.896,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 281199000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 19.394,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB5",
+      "stage_name": "fira_steady_total",
+      "sub_code": 245,
+      "timestamp_us": 279719000,
+      "detail": 1408
+    },
+    {
+      "elapsed_s": 19.789,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 612782000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 19.847,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xCC",
+      "stage_name": "0xCC",
+      "sub_code": 247,
+      "timestamp_us": 608543000,
+      "detail": 22
+    },
+    {
+      "elapsed_s": 19.914,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 282207000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 20.437,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB6",
+      "stage_name": "fira_last_block_index",
+      "sub_code": 250,
+      "timestamp_us": 280725000,
+      "detail": 3066
+    },
+    {
+      "elapsed_s": 20.808,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 613790000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 20.887,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xCD",
+      "stage_name": "0xCD",
+      "sub_code": 252,
+      "timestamp_us": 609550000,
+      "detail": 3068
+    },
+    {
+      "elapsed_s": 20.916,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 283216000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 21.414,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB7",
+      "stage_name": "fira_lifetime_min_lead",
+      "sub_code": 255,
+      "timestamp_us": 281731000,
+      "detail": 28416
+    },
+    {
+      "elapsed_s": 21.829,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 614798000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 21.926,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xCE",
+      "stage_name": "0xCE",
+      "sub_code": 1,
+      "timestamp_us": 610556000,
+      "detail": 33
+    },
+    {
+      "elapsed_s": 21.936,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 284224000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 22.434,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xC8",
+      "stage_name": "0xC8",
+      "sub_code": 4,
+      "timestamp_us": 282737000,
+      "detail": 3056
+    },
+    {
+      "elapsed_s": 22.888,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 615806000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 22.889,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xCF",
+      "stage_name": "0xCF",
+      "sub_code": 6,
+      "timestamp_us": 611560000,
+      "detail": 66805
+    },
+    {
+      "elapsed_s": 22.955,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 285231000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 23.454,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xC9",
+      "stage_name": "0xC9",
+      "sub_code": 9,
+      "timestamp_us": 283744000,
+      "detail": 1052
+    },
+    {
+      "elapsed_s": 23.955,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 286238000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 24.008,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB0",
+      "stage_name": "dw3000_tx_count",
+      "sub_code": 11,
+      "timestamp_us": 612565000,
+      "detail": 8577
+    },
+    {
+      "elapsed_s": 24.514,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCA",
+      "stage_name": "0xCA",
+      "sub_code": 14,
+      "timestamp_us": 284750000,
+      "detail": 680
+    },
+    {
+      "elapsed_s": 25.015,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 287246000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 25.474,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCB",
+      "stage_name": "0xCB",
+      "sub_code": 19,
+      "timestamp_us": 285756000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 25.886,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 618830000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 26.034,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 288253000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 26.494,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCC",
+      "stage_name": "0xCC",
+      "sub_code": 24,
+      "timestamp_us": 286761000,
+      "detail": 1662
+    },
+    {
+      "elapsed_s": 26.955,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 289261000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 26.967,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 27,
+      "timestamp_us": 615582000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 27.517,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCD",
+      "stage_name": "0xCD",
+      "sub_code": 29,
+      "timestamp_us": 287767000,
+      "detail": 2474
+    },
+    {
+      "elapsed_s": 27.887,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 620846000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 27.955,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 290269000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 27.986,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB4",
+      "stage_name": "fira_steady_fail_count",
+      "sub_code": 32,
+      "timestamp_us": 616588000,
+      "detail": 3095
+    },
+    {
+      "elapsed_s": 28.514,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCE",
+      "stage_name": "0xCE",
+      "sub_code": 35,
+      "timestamp_us": 288773000,
+      "detail": 33
+    },
+    {
+      "elapsed_s": 28.848,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 621853000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 28.975,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 291277000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 28.987,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB5",
+      "stage_name": "fira_steady_total",
+      "sub_code": 37,
+      "timestamp_us": 617596000,
+      "detail": 3100
+    },
+    {
+      "elapsed_s": 29.514,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCF",
+      "stage_name": "0xCF",
+      "sub_code": 40,
+      "timestamp_us": 289778000,
+      "detail": 65536
+    },
+    {
+      "elapsed_s": 29.867,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 21,
+      "timestamp_us": 622861000,
+      "detail": 67108864
+    },
+    {
+      "elapsed_s": 29.975,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 292285000,
+      "detail": 0
+    }
+  ]
+}

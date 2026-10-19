@@ -1,0 +1,10 @@
+device NRF52833_XXAA
+si SWD
+speed 1000
+exec SetInitWorkRAMOnConnect = 1
+connect
+r
+loadfile C:\ncs\comp971_dissertation\hardware\outputs\diagnostics\dwm3001cdk_uwb_check\2026-09-26_single_node_probe_DWM-05\DWM-05-LEFT-ANKLE__dw3110_probe__760225018.hex
+r
+g
+q

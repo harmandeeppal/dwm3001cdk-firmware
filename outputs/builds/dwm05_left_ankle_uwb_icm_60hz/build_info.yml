@@ -1,0 +1,7 @@
+west:
+  command: C:\ncs\toolchains\dcbdc366a1\opt\bin\Scripts\west build -b nrf52833dk/nrf52833
+    -s hardware\firmware\dwm3001cdk_motion_node\zephyr -d hardware\outputs\builds\dwm05_left_ankle_uwb_icm_60hz
+    --pristine=always -- -DDTC_OVERLAY_FILE=C:/Users/harma/OneDrive - AUT University/AUT
+    - COMP971 Dissertation (60 points)/hardware/firmware/dwm3001cdk_motion_node/zephyr/nrf52833_dk.overlay
+  topdir: C:\ncs\v3.4.0
+  version: 1.5.0

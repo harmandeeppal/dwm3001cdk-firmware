@@ -1,0 +1,3935 @@
+{
+  "test": "6-node star benchmark",
+  "port": "COM16",
+  "timestamp": "2026-10-09_124338",
+  "duration_s": 15,
+  "active_duration_s": 14,
+  "imu_counts": {
+    "Node_5": 840,
+    "Node_4": 840,
+    "Node_3": 840,
+    "Node_2": 840,
+    "Node_1": 846,
+    "Node_0": 846
+  },
+  "node_status_latest": {
+    "Node_5": {
+      "node_index": 5,
+      "flags": 5,
+      "sync_epoch": 0,
+      "imu_samples_acquired": 477792,
+      "imu_queue_put_ok": 477792,
+      "imu_queue_dropped": 1,
+      "imu_queue_high_water": 16,
+      "ble_imu_notify_ok": 79624,
+      "ble_imu_notify_failed": 1,
+      "ble_uwb_notify_failed": 0,
+      "uwb_range_attempts": 0,
+      "uwb_range_valid": 0,
+      "uwb_range_invalid": 0
+    },
+    "Node_4": {
+      "node_index": 4,
+      "flags": 5,
+      "sync_epoch": 0,
+      "imu_samples_acquired": 477918,
+      "imu_queue_put_ok": 477918,
+      "imu_queue_dropped": 0,
+      "imu_queue_high_water": 16,
+      "ble_imu_notify_ok": 79645,
+      "ble_imu_notify_failed": 0,
+      "ble_uwb_notify_failed": 0,
+      "uwb_range_attempts": 0,
+      "uwb_range_valid": 0,
+      "uwb_range_invalid": 0
+    },
+    "Node_3": {
+      "node_index": 3,
+      "flags": 5,
+      "sync_epoch": 0,
+      "imu_samples_acquired": 477606,
+      "imu_queue_put_ok": 477606,
+      "imu_queue_dropped": 14,
+      "imu_queue_high_water": 16,
+      "ble_imu_notify_ok": 79579,
+      "ble_imu_notify_failed": 13,
+      "ble_uwb_notify_failed": 1,
+      "uwb_range_attempts": 0,
+      "uwb_range_valid": 0,
+      "uwb_range_invalid": 0
+    },
+    "Node_2": {
+      "node_index": 2,
+      "flags": 5,
+      "sync_epoch": 0,
+      "imu_samples_acquired": 477372,
+      "imu_queue_put_ok": 477372,
+      "imu_queue_dropped": 0,
+      "imu_queue_high_water": 10,
+      "ble_imu_notify_ok": 79546,
+      "ble_imu_notify_failed": 0,
+      "ble_uwb_notify_failed": 0,
+      "uwb_range_attempts": 0,
+      "uwb_range_valid": 0,
+      "uwb_range_invalid": 0
+    },
+    "Node_1": {
+      "node_index": 1,
+      "flags": 5,
+      "sync_epoch": 0,
+      "imu_samples_acquired": 1500,
+      "imu_queue_put_ok": 1500,
+      "imu_queue_dropped": 0,
+      "imu_queue_high_water": 2,
+      "ble_imu_notify_ok": 238,
+      "ble_imu_notify_failed": 0,
+      "ble_uwb_notify_failed": 0,
+      "uwb_range_attempts": 126,
+      "uwb_range_valid": 126,
+      "uwb_range_invalid": 0
+    },
+    "Node_0": {
+      "node_index": 0,
+      "flags": 5,
+      "sync_epoch": 0,
+      "imu_samples_acquired": 477258,
+      "imu_queue_put_ok": 477258,
+      "imu_queue_dropped": 0,
+      "imu_queue_high_water": 5,
+      "ble_imu_notify_ok": 79532,
+      "ble_imu_notify_failed": 0,
+      "ble_uwb_notify_failed": 0,
+      "uwb_range_attempts": 0,
+      "uwb_range_valid": 0,
+      "uwb_range_invalid": 0
+    }
+  },
+  "uwb_summary": {
+    "Pair_4": {
+      "pair_name": "PELVIS <-> RIGHT-ANKLE",
+      "valid_count": 0,
+      "invalid_count": 71,
+      "total_attempts": 71,
+      "expected_rounds": 70.0,
+      "true_yield_pct": 0.0,
+      "wire_success_pct": 0.0,
+      "rate_hz": 0,
+      "median_cm": null,
+      "first_range_s": null,
+      "status_breakdown": {
+        "status_33": 71
+      }
+    },
+    "Pair_3": {
+      "pair_name": "PELVIS <-> LEFT-ANKLE",
+      "valid_count": 0,
+      "invalid_count": 71,
+      "total_attempts": 71,
+      "expected_rounds": 70.0,
+      "true_yield_pct": 0.0,
+      "wire_success_pct": 0.0,
+      "rate_hz": 0,
+      "median_cm": null,
+      "first_range_s": null,
+      "status_breakdown": {
+        "status_33": 71
+      }
+    },
+    "Pair_2": {
+      "pair_name": "PELVIS <-> RIGHT-WRIST",
+      "valid_count": 0,
+      "invalid_count": 71,
+      "total_attempts": 71,
+      "expected_rounds": 70.0,
+      "true_yield_pct": 0.0,
+      "wire_success_pct": 0.0,
+      "rate_hz": 0,
+      "median_cm": null,
+      "first_range_s": null,
+      "status_breakdown": {
+        "status_33": 71
+      }
+    },
+    "Pair_1": {
+      "pair_name": "PELVIS <-> LEFT-WRIST",
+      "valid_count": 18,
+      "invalid_count": 53,
+      "total_attempts": 71,
+      "expected_rounds": 70.0,
+      "true_yield_pct": 25.7,
+      "wire_success_pct": 25.4,
+      "rate_hz": 1.29,
+      "median_cm": 37.0,
+      "min_cm": 33,
+      "max_cm": 44,
+      "first_range_s": 0.051,
+      "status_breakdown": {
+        "status_0": 18,
+        "status_33": 53
+      }
+    },
+    "Pair_0": {
+      "pair_name": "PELVIS <-> HEAD",
+      "valid_count": 71,
+      "invalid_count": 0,
+      "total_attempts": 71,
+      "expected_rounds": 70.0,
+      "true_yield_pct": 101.4,
+      "wire_success_pct": 100.0,
+      "rate_hz": 5.07,
+      "median_cm": 31,
+      "min_cm": 27,
+      "max_cm": 37,
+      "first_range_s": 0.051,
+      "status_breakdown": {
+        "status_0": 71
+      }
+    }
+  },
+  "first_range_elapsed": {
+    "Pair_4": null,
+    "Pair_3": null,
+    "Pair_2": null,
+    "Pair_1": 0.051,
+    "Pair_0": 0.051
+  },
+  "first_pelvis_uptime_s": {
+    "Pair_4": null,
+    "Pair_3": null,
+    "Pair_2": null,
+    "Pair_1": 81.522,
+    "Pair_0": 81.522
+  },
+  "first_controlee_uptime_s": {
+    "Pair_4": null,
+    "Pair_3": null,
+    "Pair_2": null,
+    "Pair_1": 0.289,
+    "Pair_0": 0.289
+  },
+  "star_range_blocks": [
+    {
+      "elapsed_s": 1.074,
+      "block_index": 59,
+      "pairs": [
+        {
+          "range_cm": 29,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 1.254,
+      "block_index": 60,
+      "pairs": [
+        {
+          "range_cm": 34,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 1.434,
+      "block_index": 61,
+      "pairs": [
+        {
+          "range_cm": 30,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 1.674,
+      "block_index": 62,
+      "pairs": [
+        {
+          "range_cm": 30,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 1.854,
+      "block_index": 63,
+      "pairs": [
+        {
+          "range_cm": 30,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 2.034,
+      "block_index": 64,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 2.274,
+      "block_index": 65,
+      "pairs": [
+        {
+          "range_cm": 30,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 2.454,
+      "block_index": 66,
+      "pairs": [
+        {
+          "range_cm": 30,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 2.636,
+      "block_index": 67,
+      "pairs": [
+        {
+          "range_cm": 32,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 2.816,
+      "block_index": 68,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 3.054,
+      "block_index": 69,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 3.236,
+      "block_index": 70,
+      "pairs": [
+        {
+          "range_cm": 29,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 3.474,
+      "block_index": 71,
+      "pairs": [
+        {
+          "range_cm": 29,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 3.654,
+      "block_index": 72,
+      "pairs": [
+        {
+          "range_cm": 33,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 3.836,
+      "block_index": 73,
+      "pairs": [
+        {
+          "range_cm": 28,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 4.073,
+      "block_index": 74,
+      "pairs": [
+        {
+          "range_cm": 30,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 4.313,
+      "block_index": 75,
+      "pairs": [
+        {
+          "range_cm": 33,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 4.434,
+      "block_index": 76,
+      "pairs": [
+        {
+          "range_cm": 33,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 4.677,
+      "block_index": 77,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 4.854,
+      "block_index": 78,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 5.094,
+      "block_index": 79,
+      "pairs": [
+        {
+          "range_cm": 33,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 5.274,
+      "block_index": 80,
+      "pairs": [
+        {
+          "range_cm": 29,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 5.453,
+      "block_index": 81,
+      "pairs": [
+        {
+          "range_cm": 29,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 5.694,
+      "block_index": 82,
+      "pairs": [
+        {
+          "range_cm": 29,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 5.874,
+      "block_index": 83,
+      "pairs": [
+        {
+          "range_cm": 29,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 6.055,
+      "block_index": 84,
+      "pairs": [
+        {
+          "range_cm": 32,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 6.293,
+      "block_index": 85,
+      "pairs": [
+        {
+          "range_cm": 30,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 6.354,
+      "block_index": 86,
+      "pairs": [
+        {
+          "range_cm": 37,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 6.593,
+      "block_index": 87,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 6.773,
+      "block_index": 88,
+      "pairs": [
+        {
+          "range_cm": 28,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 7.016,
+      "block_index": 89,
+      "pairs": [
+        {
+          "range_cm": 32,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 7.196,
+      "block_index": 90,
+      "pairs": [
+        {
+          "range_cm": 29,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 7.376,
+      "block_index": 91,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 7.616,
+      "block_index": 92,
+      "pairs": [
+        {
+          "range_cm": 30,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 7.796,
+      "block_index": 93,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 7.977,
+      "block_index": 94,
+      "pairs": [
+        {
+          "range_cm": 34,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 8.216,
+      "block_index": 95,
+      "pairs": [
+        {
+          "range_cm": 29,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 8.396,
+      "block_index": 96,
+      "pairs": [
+        {
+          "range_cm": 32,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 44,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 8.633,
+      "block_index": 97,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 37,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 8.934,
+      "block_index": 98,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 35,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 9.053,
+      "block_index": 99,
+      "pairs": [
+        {
+          "range_cm": 33,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 36,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 9.293,
+      "block_index": 100,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 33,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 9.416,
+      "block_index": 101,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 36,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 9.596,
+      "block_index": 102,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 37,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 9.833,
+      "block_index": 103,
+      "pairs": [
+        {
+          "range_cm": 32,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 39,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 10.016,
+      "block_index": 104,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 38,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 10.256,
+      "block_index": 105,
+      "pairs": [
+        {
+          "range_cm": 27,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 39,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 10.433,
+      "block_index": 106,
+      "pairs": [
+        {
+          "range_cm": 34,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 39,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 10.616,
+      "block_index": 107,
+      "pairs": [
+        {
+          "range_cm": 34,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 37,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 10.854,
+      "block_index": 108,
+      "pairs": [
+        {
+          "range_cm": 32,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 38,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 11.033,
+      "block_index": 109,
+      "pairs": [
+        {
+          "range_cm": 29,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 34,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 11.216,
+      "block_index": 110,
+      "pairs": [
+        {
+          "range_cm": 30,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 37,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 11.453,
+      "block_index": 111,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 40,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 11.694,
+      "block_index": 112,
+      "pairs": [
+        {
+          "range_cm": 34,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 38,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 11.873,
+      "block_index": 113,
+      "pairs": [
+        {
+          "range_cm": 32,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": 36,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 12.053,
+      "block_index": 114,
+      "pairs": [
+        {
+          "range_cm": 30,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 12.233,
+      "block_index": 115,
+      "pairs": [
+        {
+          "range_cm": 30,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 12.476,
+      "block_index": 116,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 12.713,
+      "block_index": 117,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 12.893,
+      "block_index": 118,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 13.073,
+      "block_index": 119,
+      "pairs": [
+        {
+          "range_cm": 27,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 13.253,
+      "block_index": 120,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 13.493,
+      "block_index": 121,
+      "pairs": [
+        {
+          "range_cm": 30,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 13.673,
+      "block_index": 122,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 13.853,
+      "block_index": 123,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 14.093,
+      "block_index": 124,
+      "pairs": [
+        {
+          "range_cm": 30,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 14.273,
+      "block_index": 125,
+      "pairs": [
+        {
+          "range_cm": 33,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 14.393,
+      "block_index": 126,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 14.573,
+      "block_index": 127,
+      "pairs": [
+        {
+          "range_cm": 29,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 14.813,
+      "block_index": 128,
+      "pairs": [
+        {
+          "range_cm": 31,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "elapsed_s": 14.996,
+      "block_index": 129,
+      "pairs": [
+        {
+          "range_cm": 32,
+          "status": 0,
+          "flags": 1
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 0
+        }
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "elapsed_s": 1.118,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xCF",
+      "stage_name": "0xCF",
+      "sub_code": 59,
+      "timestamp_us": 3596051704,
+      "detail": 65697
+    },
+    {
+      "elapsed_s": 1.189,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xCD",
+      "stage_name": "0xCD",
+      "sub_code": 60,
+      "timestamp_us": 3590117704,
+      "detail": 98
+    },
+    {
+      "elapsed_s": 1.194,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 7,
+      "timestamp_us": 12097000,
+      "detail": 33689562
+    },
+    {
+      "elapsed_s": 1.316,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xCB",
+      "stage_name": "0xCB",
+      "sub_code": 60,
+      "timestamp_us": 12149000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 1.383,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3652192704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 1.524,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCA",
+      "stage_name": "0xCA",
+      "sub_code": 61,
+      "timestamp_us": 3599334704,
+      "detail": 616
+    },
+    {
+      "elapsed_s": 1.586,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3655300704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 1.636,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3657356704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 1.666,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3646365704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 1.879,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xCA",
+      "stage_name": "0xCA",
+      "sub_code": 63,
+      "timestamp_us": 3601734704,
+      "detail": 580
+    },
+    {
+      "elapsed_s": 1.961,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3649286704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 2.131,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB0",
+      "stage_name": "dw3000_tx_count",
+      "sub_code": 64,
+      "timestamp_us": 3597058704,
+      "detail": 2684
+    },
+    {
+      "elapsed_s": 2.214,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 7,
+      "timestamp_us": 13104000,
+      "detail": 33689562
+    },
+    {
+      "elapsed_s": 2.329,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xCE",
+      "stage_name": "0xCE",
+      "sub_code": 65,
+      "timestamp_us": 3591121704,
+      "detail": 33
+    },
+    {
+      "elapsed_s": 2.334,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xCC",
+      "stage_name": "0xCC",
+      "sub_code": 65,
+      "timestamp_us": 13155000,
+      "detail": 2
+    },
+    {
+      "elapsed_s": 2.405,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3653201704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 2.546,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCB",
+      "stage_name": "0xCB",
+      "sub_code": 66,
+      "timestamp_us": 3600338704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 2.597,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3658364704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 2.604,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3656308704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 2.627,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3647374704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 2.89,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3650294704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 2.896,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xCB",
+      "stage_name": "0xCB",
+      "sub_code": 68,
+      "timestamp_us": 3602739704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 3.154,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB1",
+      "stage_name": "interval_min_lead_us",
+      "sub_code": 69,
+      "timestamp_us": 3598064704,
+      "detail": -462
+    },
+    {
+      "elapsed_s": 3.226,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xCF",
+      "stage_name": "0xCF",
+      "sub_code": 70,
+      "timestamp_us": 3592127704,
+      "detail": 65599
+    },
+    {
+      "elapsed_s": 3.413,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xCD",
+      "stage_name": "0xCD",
+      "sub_code": 70,
+      "timestamp_us": 14160000,
+      "detail": -1
+    },
+    {
+      "elapsed_s": 3.511,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3654209704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 3.617,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3659372704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 3.626,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3657316704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 3.706,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3648382704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 3.909,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3651301704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 3.976,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xCC",
+      "stage_name": "0xCC",
+      "sub_code": 73,
+      "timestamp_us": 3603746704,
+      "detail": 5154
+    },
+    {
+      "elapsed_s": 4.171,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB2",
+      "stage_name": "dw3000_late_tx_count",
+      "sub_code": 74,
+      "timestamp_us": 3599070704,
+      "detail": 1
+    },
+    {
+      "elapsed_s": 4.246,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB0",
+      "stage_name": "dw3000_tx_count",
+      "sub_code": 75,
+      "timestamp_us": 3593134704,
+      "detail": 34993
+    },
+    {
+      "elapsed_s": 4.253,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 7,
+      "timestamp_us": 15119000,
+      "detail": 33689562
+    },
+    {
+      "elapsed_s": 4.373,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xCE",
+      "stage_name": "0xCE",
+      "sub_code": 75,
+      "timestamp_us": 15166000,
+      "detail": -1
+    },
+    {
+      "elapsed_s": 4.413,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3655217704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 4.583,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCD",
+      "stage_name": "0xCD",
+      "sub_code": 76,
+      "timestamp_us": 3602353704,
+      "detail": 76
+    },
+    {
+      "elapsed_s": 4.585,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3658325704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 4.636,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3660379704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 4.846,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3649390704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 4.93,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3652309704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 4.939,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xCD",
+      "stage_name": "0xCD",
+      "sub_code": 78,
+      "timestamp_us": 3604754704,
+      "detail": 78
+    },
+    {
+      "elapsed_s": 5.161,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 80,
+      "timestamp_us": 3600075704,
+      "detail": 73
+    },
+    {
+      "elapsed_s": 5.266,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB1",
+      "stage_name": "interval_min_lead_us",
+      "sub_code": 80,
+      "timestamp_us": 3594140704,
+      "detail": 122540
+    },
+    {
+      "elapsed_s": 5.273,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 7,
+      "timestamp_us": 16127000,
+      "detail": 33689562
+    },
+    {
+      "elapsed_s": 5.393,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xCF",
+      "stage_name": "0xCF",
+      "sub_code": 80,
+      "timestamp_us": 16172000,
+      "detail": 65537
+    },
+    {
+      "elapsed_s": 5.433,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3656225704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.546,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCE",
+      "stage_name": "0xCE",
+      "sub_code": 81,
+      "timestamp_us": 3603359704,
+      "detail": 38
+    },
+    {
+      "elapsed_s": 5.598,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3661386704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.605,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3659333704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.627,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3650398704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.92,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3653317704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.956,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xCE",
+      "stage_name": "0xCE",
+      "sub_code": 83,
+      "timestamp_us": 3605759704,
+      "detail": 38
+    },
+    {
+      "elapsed_s": 6.181,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB4",
+      "stage_name": "fira_steady_fail_count",
+      "sub_code": 85,
+      "timestamp_us": 3601082704,
+      "detail": 35845
+    },
+    {
+      "elapsed_s": 6.235,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 7,
+      "timestamp_us": 17135000,
+      "detail": 33689562
+    },
+    {
+      "elapsed_s": 6.286,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB2",
+      "stage_name": "dw3000_late_tx_count",
+      "sub_code": 85,
+      "timestamp_us": 3595146704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.355,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB0",
+      "stage_name": "dw3000_tx_count",
+      "sub_code": 86,
+      "timestamp_us": 17178000,
+      "detail": 261
+    },
+    {
+      "elapsed_s": 6.423,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3657233704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.563,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCF",
+      "stage_name": "0xCF",
+      "sub_code": 86,
+      "timestamp_us": 3604362704,
+      "detail": 65962
+    },
+    {
+      "elapsed_s": 6.648,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3651406704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.676,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3662394704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.683,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3660341704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.94,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3654325704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.976,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xCF",
+      "stage_name": "0xCF",
+      "sub_code": 88,
+      "timestamp_us": 3606763704,
+      "detail": 65795
+    },
+    {
+      "elapsed_s": 7.201,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB5",
+      "stage_name": "fira_steady_total",
+      "sub_code": 90,
+      "timestamp_us": 3602089704,
+      "detail": 37160
+    },
+    {
+      "elapsed_s": 7.246,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 90,
+      "timestamp_us": 3596149704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.255,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 7,
+      "timestamp_us": 18143000,
+      "detail": 33689562
+    },
+    {
+      "elapsed_s": 7.471,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3658241704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.646,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB0",
+      "stage_name": "dw3000_tx_count",
+      "sub_code": 92,
+      "timestamp_us": 3605368704,
+      "detail": 4381
+    },
+    {
+      "elapsed_s": 7.668,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3652414704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.758,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3663401704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.93,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3655334704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.936,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB0",
+      "stage_name": "dw3000_tx_count",
+      "sub_code": 93,
+      "timestamp_us": 3607768704,
+      "detail": 2959
+    },
+    {
+      "elapsed_s": 8.198,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xE2",
+      "stage_name": "0xE2",
+      "sub_code": 0,
+      "timestamp_us": 3599682704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 8.222,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB6",
+      "stage_name": "fira_last_block_index",
+      "sub_code": 95,
+      "timestamp_us": 3603095704,
+      "detail": 95
+    },
+    {
+      "elapsed_s": 8.266,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB4",
+      "stage_name": "fira_steady_fail_count",
+      "sub_code": 95,
+      "timestamp_us": 3597156704,
+      "detail": 21948
+    },
+    {
+      "elapsed_s": 8.275,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 7,
+      "timestamp_us": 19151000,
+      "detail": 33689562
+    },
+    {
+      "elapsed_s": 8.318,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xC8",
+      "stage_name": "0xC8",
+      "sub_code": 9,
+      "timestamp_us": 3599783704,
+      "detail": 3056
+    },
+    {
+      "elapsed_s": 8.493,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3659249704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 8.513,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB2",
+      "stage_name": "dw3000_late_tx_count",
+      "sub_code": 96,
+      "timestamp_us": 19188000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 8.603,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB1",
+      "stage_name": "interval_min_lead_us",
+      "sub_code": 97,
+      "timestamp_us": 3606376704,
+      "detail": 13984
+    },
+    {
+      "elapsed_s": 8.688,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3653422704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 8.716,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3664409704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 8.723,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3662357704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.008,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3656341704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.018,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB1",
+      "stage_name": "interval_min_lead_us",
+      "sub_code": 98,
+      "timestamp_us": 3608775704,
+      "detail": -7762
+    },
+    {
+      "elapsed_s": 9.211,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB7",
+      "stage_name": "fira_lifetime_min_lead",
+      "sub_code": 100,
+      "timestamp_us": 3604101704,
+      "detail": -462
+    },
+    {
+      "elapsed_s": 9.288,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB5",
+      "stage_name": "fira_steady_total",
+      "sub_code": 100,
+      "timestamp_us": 3598160704,
+      "detail": 39345
+    },
+    {
+      "elapsed_s": 9.309,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xC9",
+      "stage_name": "0xC9",
+      "sub_code": 100,
+      "timestamp_us": 3600787704,
+      "detail": 940
+    },
+    {
+      "elapsed_s": 9.453,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3660257704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.473,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 101,
+      "timestamp_us": 20194000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.617,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3665417704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.623,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB2",
+      "stage_name": "dw3000_late_tx_count",
+      "sub_code": 102,
+      "timestamp_us": 3607382704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.708,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3654430704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.745,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3663365704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.97,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3657348704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.979,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB2",
+      "stage_name": "dw3000_late_tx_count",
+      "sub_code": 103,
+      "timestamp_us": 3609780704,
+      "detail": 2
+    },
+    {
+      "elapsed_s": 10.234,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xC8",
+      "stage_name": "0xC8",
+      "sub_code": 105,
+      "timestamp_us": 3605106704,
+      "detail": 3056
+    },
+    {
+      "elapsed_s": 10.298,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xCA",
+      "stage_name": "0xCA",
+      "sub_code": 105,
+      "timestamp_us": 3601794704,
+      "detail": 616
+    },
+    {
+      "elapsed_s": 10.309,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB6",
+      "stage_name": "fira_last_block_index",
+      "sub_code": 105,
+      "timestamp_us": 3599166704,
+      "detail": 105
+    },
+    {
+      "elapsed_s": 10.315,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 7,
+      "timestamp_us": 21167000,
+      "detail": 33689562
+    },
+    {
+      "elapsed_s": 10.435,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB4",
+      "stage_name": "fira_steady_fail_count",
+      "sub_code": 106,
+      "timestamp_us": 21201000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.473,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3661265704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.638,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3666426704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.646,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 107,
+      "timestamp_us": 3608385704,
+      "detail": 7
+    },
+    {
+      "elapsed_s": 10.705,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3664373704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.988,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3658355704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 11.056,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 108,
+      "timestamp_us": 3610784704,
+      "detail": 16
+    },
+    {
+      "elapsed_s": 11.254,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xC9",
+      "stage_name": "0xC9",
+      "sub_code": 110,
+      "timestamp_us": 3606113704,
+      "detail": 940
+    },
+    {
+      "elapsed_s": 11.275,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 7,
+      "timestamp_us": 22175000,
+      "detail": 33689562
+    },
+    {
+      "elapsed_s": 11.318,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xCB",
+      "stage_name": "0xCB",
+      "sub_code": 110,
+      "timestamp_us": 3602802704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 11.326,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB7",
+      "stage_name": "fira_lifetime_min_lead",
+      "sub_code": 110,
+      "timestamp_us": 3600172704,
+      "detail": 122540
+    },
+    {
+      "elapsed_s": 11.454,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB5",
+      "stage_name": "fira_steady_total",
+      "sub_code": 111,
+      "timestamp_us": 22206000,
+      "detail": 102
+    },
+    {
+      "elapsed_s": 11.463,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3662273704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 11.658,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3667434704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 11.663,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB4",
+      "stage_name": "fira_steady_fail_count",
+      "sub_code": 112,
+      "timestamp_us": 3609391704,
+      "detail": 37018
+    },
+    {
+      "elapsed_s": 11.666,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3665381704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 11.746,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3656446704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 11.981,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3659363704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 12.016,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB4",
+      "stage_name": "fira_steady_fail_count",
+      "sub_code": 114,
+      "timestamp_us": 3611790704,
+      "detail": 36814
+    },
+    {
+      "elapsed_s": 12.273,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xCA",
+      "stage_name": "0xCA",
+      "sub_code": 115,
+      "timestamp_us": 3607119704,
+      "detail": 616
+    },
+    {
+      "elapsed_s": 12.295,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 7,
+      "timestamp_us": 23183000,
+      "detail": 33689562
+    },
+    {
+      "elapsed_s": 12.338,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xCC",
+      "stage_name": "0xCC",
+      "sub_code": 113,
+      "timestamp_us": 3603809704,
+      "detail": 5197
+    },
+    {
+      "elapsed_s": 12.406,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xC8",
+      "stage_name": "0xC8",
+      "sub_code": 115,
+      "timestamp_us": 3601180704,
+      "detail": 3164
+    },
+    {
+      "elapsed_s": 12.476,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB6",
+      "stage_name": "fira_last_block_index",
+      "sub_code": 116,
+      "timestamp_us": 23212000,
+      "detail": 116
+    },
+    {
+      "elapsed_s": 12.483,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3663281704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 12.687,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB5",
+      "stage_name": "fira_steady_total",
+      "sub_code": 117,
+      "timestamp_us": 3610399704,
+      "detail": 39195
+    },
+    {
+      "elapsed_s": 12.745,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3666389704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 12.766,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3657454704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 12.97,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3660370704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 13.036,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB5",
+      "stage_name": "fira_steady_total",
+      "sub_code": 119,
+      "timestamp_us": 3612798704,
+      "detail": 38270
+    },
+    {
+      "elapsed_s": 13.256,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 7,
+      "timestamp_us": 24192000,
+      "detail": 33689562
+    },
+    {
+      "elapsed_s": 13.261,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xCB",
+      "stage_name": "0xCB",
+      "sub_code": 120,
+      "timestamp_us": 3608123704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 13.361,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xCD",
+      "stage_name": "0xCD",
+      "sub_code": 113,
+      "timestamp_us": 3604815704,
+      "detail": 98
+    },
+    {
+      "elapsed_s": 13.366,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xC9",
+      "stage_name": "0xC9",
+      "sub_code": 120,
+      "timestamp_us": 3602188704,
+      "detail": 940
+    },
+    {
+      "elapsed_s": 13.494,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB7",
+      "stage_name": "fira_lifetime_min_lead",
+      "sub_code": 121,
+      "timestamp_us": 24217000,
+      "detail": 18148
+    },
+    {
+      "elapsed_s": 13.503,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3664288704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 13.646,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB6",
+      "stage_name": "fira_last_block_index",
+      "sub_code": 122,
+      "timestamp_us": 3611406704,
+      "detail": 122
+    },
+    {
+      "elapsed_s": 13.705,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3667397704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 13.727,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3658463704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 13.99,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3661378704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 13.996,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB6",
+      "stage_name": "fira_last_block_index",
+      "sub_code": 124,
+      "timestamp_us": 3613805704,
+      "detail": 124
+    },
+    {
+      "elapsed_s": 14.276,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 7,
+      "timestamp_us": 25199000,
+      "detail": 33689562
+    },
+    {
+      "elapsed_s": 14.281,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xCC",
+      "stage_name": "0xCC",
+      "sub_code": 125,
+      "timestamp_us": 3609129704,
+      "detail": 5180
+    },
+    {
+      "elapsed_s": 14.378,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xCE",
+      "stage_name": "0xCE",
+      "sub_code": 113,
+      "timestamp_us": 3605820704,
+      "detail": 33
+    },
+    {
+      "elapsed_s": 14.386,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xCA",
+      "stage_name": "0xCA",
+      "sub_code": 125,
+      "timestamp_us": 3603193704,
+      "detail": 616
+    },
+    {
+      "elapsed_s": 14.493,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3665297704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 14.513,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xC8",
+      "stage_name": "0xC8",
+      "sub_code": 126,
+      "timestamp_us": 25223000,
+      "detail": 3056
+    },
+    {
+      "elapsed_s": 14.666,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB7",
+      "stage_name": "fira_lifetime_min_lead",
+      "sub_code": 127,
+      "timestamp_us": 3612412704,
+      "detail": 13984
+    },
+    {
+      "elapsed_s": 14.716,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3670458704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 14.725,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3668405704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 14.747,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 3659470704,
+      "detail": 0
+    }
+  ]
+}

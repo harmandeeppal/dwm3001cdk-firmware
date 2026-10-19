@@ -1,0 +1,785 @@
+﻿{
+    "experiment_phase":  "Phase B-Prime: Repeatability \u0026 Placement (Battery Only)",
+    "run_type":  "smoke",
+    "stated_antenna_distance_cm":  100,
+    "battery_info":  "LiPo 3.7V",
+    "battery_voltage_start_v":  0,
+    "battery_voltage_end_v":  0,
+    "total_duration_s":  30,
+    "discard_settling_s":  5,
+    "active_measurement_s":  25,
+    "time_to_first_valid_range_s":  0.067,
+    "discarded_samples_during_settling":  35,
+    "valid_samples":  126,
+    "invalid_attempts":  0,
+    "delivery_rate":  1,
+    "statistics":  {
+                       "minimum_cm":  33,
+                       "median_cm":  38,
+                       "mad_cm":  1,
+                       "robust_spread_cm":  1.48,
+                       "mean_cm":  37.94,
+                       "standard_deviation_cm":  2.33,
+                       "maximum_cm":  44,
+                       "outliers_gt_10cm":  0,
+                       "outlier_fraction_gt_10cm":  0
+                   },
+    "samples":  [
+                    {
+                        "elapsed_s":  5.061,
+                        "pelvis_timestamp_us":  2588043000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  5.261,
+                        "pelvis_timestamp_us":  2588245000,
+                        "range_cm":  35,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  5.481,
+                        "pelvis_timestamp_us":  2588447000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  5.661,
+                        "pelvis_timestamp_us":  2588649000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  5.88,
+                        "pelvis_timestamp_us":  2588849000,
+                        "range_cm":  35,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  6.081,
+                        "pelvis_timestamp_us":  2589049000,
+                        "range_cm":  35,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  6.281,
+                        "pelvis_timestamp_us":  2589250000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  6.5,
+                        "pelvis_timestamp_us":  2589452000,
+                        "range_cm":  40,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  6.681,
+                        "pelvis_timestamp_us":  2589653000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  6.881,
+                        "pelvis_timestamp_us":  2589854000,
+                        "range_cm":  34,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  7.08,
+                        "pelvis_timestamp_us":  2590055000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  7.281,
+                        "pelvis_timestamp_us":  2590255000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  7.48,
+                        "pelvis_timestamp_us":  2590455000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  7.703,
+                        "pelvis_timestamp_us":  2590657000,
+                        "range_cm":  33,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  7.803,
+                        "pelvis_timestamp_us":  2590758000,
+                        "range_cm":  33,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  8.001,
+                        "pelvis_timestamp_us":  2590960000,
+                        "range_cm":  34,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  8.201,
+                        "pelvis_timestamp_us":  2591162000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  8.422,
+                        "pelvis_timestamp_us":  2591364000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  8.66,
+                        "pelvis_timestamp_us":  2591564000,
+                        "range_cm":  40,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  8.8,
+                        "pelvis_timestamp_us":  2591765000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  9.024,
+                        "pelvis_timestamp_us":  2591967000,
+                        "range_cm":  33,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  9.22,
+                        "pelvis_timestamp_us":  2592168000,
+                        "range_cm":  34,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  9.441,
+                        "pelvis_timestamp_us":  2592370000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  9.621,
+                        "pelvis_timestamp_us":  2592572000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  9.822,
+                        "pelvis_timestamp_us":  2592772000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  10.02,
+                        "pelvis_timestamp_us":  2592972000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  10.221,
+                        "pelvis_timestamp_us":  2593174000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  10.462,
+                        "pelvis_timestamp_us":  2593376000,
+                        "range_cm":  35,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  10.641,
+                        "pelvis_timestamp_us":  2593578000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  10.84,
+                        "pelvis_timestamp_us":  2593780000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  11.04,
+                        "pelvis_timestamp_us":  2593980000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  11.24,
+                        "pelvis_timestamp_us":  2594180000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  11.44,
+                        "pelvis_timestamp_us":  2594382000,
+                        "range_cm":  35,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  11.64,
+                        "pelvis_timestamp_us":  2594584000,
+                        "range_cm":  33,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  11.841,
+                        "pelvis_timestamp_us":  2594786000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  12.06,
+                        "pelvis_timestamp_us":  2594988000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  12.261,
+                        "pelvis_timestamp_us":  2595188000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  12.46,
+                        "pelvis_timestamp_us":  2595388000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  12.661,
+                        "pelvis_timestamp_us":  2595590000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  12.861,
+                        "pelvis_timestamp_us":  2595792000,
+                        "range_cm":  33,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  13.06,
+                        "pelvis_timestamp_us":  2595994000,
+                        "range_cm":  35,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  13.261,
+                        "pelvis_timestamp_us":  2596196000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  13.48,
+                        "pelvis_timestamp_us":  2596396000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  13.7,
+                        "pelvis_timestamp_us":  2596596000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  13.88,
+                        "pelvis_timestamp_us":  2596798000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  14.081,
+                        "pelvis_timestamp_us":  2597000000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  14.28,
+                        "pelvis_timestamp_us":  2597201000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  14.48,
+                        "pelvis_timestamp_us":  2597403000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  14.681,
+                        "pelvis_timestamp_us":  2597603000,
+                        "range_cm":  34,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  14.881,
+                        "pelvis_timestamp_us":  2597803000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  15.14,
+                        "pelvis_timestamp_us":  2598005000,
+                        "range_cm":  40,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  15.201,
+                        "pelvis_timestamp_us":  2598106000,
+                        "range_cm":  40,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  15.4,
+                        "pelvis_timestamp_us":  2598308000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  15.603,
+                        "pelvis_timestamp_us":  2598510000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  15.8,
+                        "pelvis_timestamp_us":  2598712000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  16,
+                        "pelvis_timestamp_us":  2598912000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  16.223,
+                        "pelvis_timestamp_us":  2599113000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  16.403,
+                        "pelvis_timestamp_us":  2599315000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  16.62,
+                        "pelvis_timestamp_us":  2599516000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  16.82,
+                        "pelvis_timestamp_us":  2599718000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  17.021,
+                        "pelvis_timestamp_us":  2599920000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  17.22,
+                        "pelvis_timestamp_us":  2600120000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  17.421,
+                        "pelvis_timestamp_us":  2600321000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  17.66,
+                        "pelvis_timestamp_us":  2600523000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  17.84,
+                        "pelvis_timestamp_us":  2600725000,
+                        "range_cm":  40,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  18.043,
+                        "pelvis_timestamp_us":  2600927000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  18.24,
+                        "pelvis_timestamp_us":  2601128000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  18.44,
+                        "pelvis_timestamp_us":  2601328000,
+                        "range_cm":  35,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  18.641,
+                        "pelvis_timestamp_us":  2601528000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  18.84,
+                        "pelvis_timestamp_us":  2601730000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  19.04,
+                        "pelvis_timestamp_us":  2601932000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  19.24,
+                        "pelvis_timestamp_us":  2602134000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  19.48,
+                        "pelvis_timestamp_us":  2602336000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  19.679,
+                        "pelvis_timestamp_us":  2602536000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  19.86,
+                        "pelvis_timestamp_us":  2602736000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  20.06,
+                        "pelvis_timestamp_us":  2602938000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  20.259,
+                        "pelvis_timestamp_us":  2603140000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  20.46,
+                        "pelvis_timestamp_us":  2603342000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  20.66,
+                        "pelvis_timestamp_us":  2603544000,
+                        "range_cm":  40,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  20.9,
+                        "pelvis_timestamp_us":  2603744000,
+                        "range_cm":  43,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  21.08,
+                        "pelvis_timestamp_us":  2603944000,
+                        "range_cm":  40,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  21.28,
+                        "pelvis_timestamp_us":  2604146000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  21.48,
+                        "pelvis_timestamp_us":  2604348000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  21.68,
+                        "pelvis_timestamp_us":  2604549000,
+                        "range_cm":  44,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  21.88,
+                        "pelvis_timestamp_us":  2604751000,
+                        "range_cm":  42,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  22.08,
+                        "pelvis_timestamp_us":  2604951000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  22.28,
+                        "pelvis_timestamp_us":  2605151000,
+                        "range_cm":  42,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  22.5,
+                        "pelvis_timestamp_us":  2605353000,
+                        "range_cm":  41,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  22.599,
+                        "pelvis_timestamp_us":  2605454000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  22.8,
+                        "pelvis_timestamp_us":  2605656000,
+                        "range_cm":  43,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  23,
+                        "pelvis_timestamp_us":  2605858000,
+                        "range_cm":  40,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  23.2,
+                        "pelvis_timestamp_us":  2606060000,
+                        "range_cm":  43,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  23.422,
+                        "pelvis_timestamp_us":  2606260000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  23.6,
+                        "pelvis_timestamp_us":  2606461000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  23.82,
+                        "pelvis_timestamp_us":  2606663000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  24.02,
+                        "pelvis_timestamp_us":  2606864000,
+                        "range_cm":  40,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  24.221,
+                        "pelvis_timestamp_us":  2607066000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  24.42,
+                        "pelvis_timestamp_us":  2607268000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  24.62,
+                        "pelvis_timestamp_us":  2607468000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  24.861,
+                        "pelvis_timestamp_us":  2607669000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  25.02,
+                        "pelvis_timestamp_us":  2607871000,
+                        "range_cm":  40,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  25.24,
+                        "pelvis_timestamp_us":  2608073000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  25.44,
+                        "pelvis_timestamp_us":  2608275000,
+                        "range_cm":  41,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  25.64,
+                        "pelvis_timestamp_us":  2608476000,
+                        "range_cm":  36,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  25.84,
+                        "pelvis_timestamp_us":  2608676000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  26.04,
+                        "pelvis_timestamp_us":  2608876000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  26.24,
+                        "pelvis_timestamp_us":  2609078000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  26.44,
+                        "pelvis_timestamp_us":  2609280000,
+                        "range_cm":  41,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  26.661,
+                        "pelvis_timestamp_us":  2609482000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  26.86,
+                        "pelvis_timestamp_us":  2609684000,
+                        "range_cm":  41,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  27.06,
+                        "pelvis_timestamp_us":  2609884000,
+                        "range_cm":  42,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  27.26,
+                        "pelvis_timestamp_us":  2610084000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  27.46,
+                        "pelvis_timestamp_us":  2610286000,
+                        "range_cm":  38,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  27.66,
+                        "pelvis_timestamp_us":  2610488000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  27.86,
+                        "pelvis_timestamp_us":  2610690000,
+                        "range_cm":  37,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  28.099,
+                        "pelvis_timestamp_us":  2610892000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  28.28,
+                        "pelvis_timestamp_us":  2611092000,
+                        "range_cm":  40,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  28.479,
+                        "pelvis_timestamp_us":  2611292000,
+                        "range_cm":  43,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  28.68,
+                        "pelvis_timestamp_us":  2611494000,
+                        "range_cm":  41,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  28.9,
+                        "pelvis_timestamp_us":  2611696000,
+                        "range_cm":  42,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  29.08,
+                        "pelvis_timestamp_us":  2611897000,
+                        "range_cm":  40,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  29.28,
+                        "pelvis_timestamp_us":  2612099000,
+                        "range_cm":  42,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  29.479,
+                        "pelvis_timestamp_us":  2612299000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  29.68,
+                        "pelvis_timestamp_us":  2612499000,
+                        "range_cm":  39,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  29.902,
+                        "pelvis_timestamp_us":  2612701000,
+                        "range_cm":  40,
+                        "flags":  "0x0001"
+                    },
+                    {
+                        "elapsed_s":  30.001,
+                        "pelvis_timestamp_us":  2612802000,
+                        "range_cm":  40,
+                        "flags":  "0x0001"
+                    }
+                ]
+}

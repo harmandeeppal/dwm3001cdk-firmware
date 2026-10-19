@@ -1,0 +1,12 @@
+SelectEmuBySN 760224787
+device NRF52833_XXAA
+si SWD
+speed 4000
+connect
+h
+savebin pelvis_current_uci_flash_a.bin, 0x00000000, 0x00080000
+savebin pelvis_current_uci_flash_b.bin, 0x00000000, 0x00080000
+savebin pelvis_current_uci_uicr.bin, 0x10001000, 0x00001000
+r
+g
+q

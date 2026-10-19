@@ -1,0 +1,7 @@
+SelectEmuBySN 760225805
+device NRF52833_XXAA
+si SWD
+speed 4000
+connect
+savebin C:/COMP971_QORVO_SDK_1_1_1/BuildOutput/COMP971/artifacts/official_fira_two_node_pilot/head_responder_v2_postflash_0x00000000_0x00053fff.bin, 0x00000000, 0x00054000
+q

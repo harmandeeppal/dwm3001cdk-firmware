@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+env/
+venv/
+
+# Large archives and uncompressed telemetry dumps exceeding GitHub's 100 MB limit
+# (Full raw .bin telemetry captures are permanently tracked under outputs/records/acquisition/)
+official_docs/*.zip
+outputs/records/acquisition/*_decoded/imu.ndjson
+outputs/records/validation_step28*/*.jsonl
+
+# Build & Compilation Artifacts
+.pio/
+build/
+CMakeFiles/
+CMakeCache.txt
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp

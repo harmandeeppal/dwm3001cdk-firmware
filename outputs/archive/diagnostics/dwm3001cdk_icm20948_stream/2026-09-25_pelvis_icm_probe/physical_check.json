@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "checked_at_local": "2026-09-25",
+  "target": {
+    "device_id": "DWM-02",
+    "permanent_name": "DWM-02-PELVIS",
+    "jlink_serial": "760224787"
+  },
+  "checks": [
+    {
+      "name": "J-Link enumeration",
+      "result": "passed",
+      "evidence": "J-Link serial 760224787 enumerated with VTref 3.300 V."
+    },
+    {
+      "name": "minimal flash read",
+      "result": "passed_once",
+      "evidence": "Four words at flash address 0x00000000 were readable, showing an existing application."
+    },
+    {
+      "name": "complete pre-flash backup",
+      "result": "passed_after_power_cycle",
+      "evidence": "A complete 512 KiB backup succeeded after power cycling. SHA-256: fd536fc1c517f2a450a94e2b652cca53a590313d6955e499e8d0febd9a282364."
+    },
+    {
+      "name": "ICM-20948 identity and stream",
+      "result": "not_tested",
+      "evidence": "Diagnostic firmware was deliberately not flashed without a verified restore image."
+    },
+    {
+      "name": "passive existing CDC UART observation",
+      "result": "no_valid_telemetry_observed",
+      "evidence": "J-Link serial 760224787 exposed COM6. A ten-second passive read at 115200 baud received one NUL byte only; it contained no readable startup line, ICM record, or telemetry frame."
+    },
+    {
+      "name": "temporary ICM diagnostic programming",
+      "result": "not_programmed",
+      "evidence": "Two target-specific J-Link attempts stopped before download with 'Failed to preserve target RAM @ 0x20000000-0x2001FFFF'. One attempt used the documented work-RAM initialization setting. The official Nordic nrfutil device programmer independently failed before programming because the SWD debug-port ID register was invalid. The flash vector remained equal to the verified original backup after all attempts."
+    }
+  ],
+  "safety_decision": "Do not erase or flash the board until SWD stability is restored and a complete backup is verified.",
+  "non_claims": [
+    "The external ICM power LED does not establish I2C communication.",
+    "No ICM WHO_AM_I value or telemetry record has been observed."
+  ]
+}

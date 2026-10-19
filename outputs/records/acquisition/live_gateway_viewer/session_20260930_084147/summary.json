@@ -1,0 +1,674 @@
+﻿{
+    "format":  "COMP971 live gateway viewer session summary v1",
+    "started_utc":  "2026-09-30T08:41:47.8654353Z",
+    "ended_utc":  "2026-09-30T08:42:47.9097662Z",
+    "duration_seconds":  60.023,
+    "gateway_port":  "COM16",
+    "gateway_baud":  115200,
+    "known_distance_check":  {
+                                 "pair_index":  5,
+                                 "pair":  "PELVIS \u003c-\u003e LEFT-WRIST",
+                                 "known_distance_cm":  100,
+                                 "statistics_for_valid_samples":  {
+                                                                      "valid_samples":  119,
+                                                                      "mean_bias_cm":  59.98,
+                                                                      "mean_absolute_error_cm":  60.08,
+                                                                      "within_5cm_percent":  0.84,
+                                                                      "within_10cm_percent":  1.68
+                                                                  }
+                             },
+    "note":  "Per-pair report success uses valid/invalid UWB result records received by the gateway; it is not the full radio-attempt success rate. Failure-stage events may repeat within an exchange and are not unique attempts. Use wearable health counters for attempt/invalid/timeout totals.",
+    "imu_nodes":  [
+                      {
+                          "node":  "HEAD",
+                          "samples_received":  0,
+                          "observed_rate_hz":  null,
+                          "sequence_gaps_seen_by_viewer":  0,
+                          "duplicate_sequences":  0,
+                          "sequence_gap_percent_between_observed_samples":  null,
+                          "resets_or_out_of_order":  0,
+                          "last_sequence":  null,
+                          "raw_register_statistics":  {
+                                                          "accelerometer_x":  {
+                                                                                  "count":  0,
+                                                                                  "min":  null,
+                                                                                  "mean":  null,
+                                                                                  "sd":  null,
+                                                                                  "max":  null
+                                                                              },
+                                                          "accelerometer_y":  {
+                                                                                  "count":  0,
+                                                                                  "min":  null,
+                                                                                  "mean":  null,
+                                                                                  "sd":  null,
+                                                                                  "max":  null
+                                                                              },
+                                                          "accelerometer_z":  {
+                                                                                  "count":  0,
+                                                                                  "min":  null,
+                                                                                  "mean":  null,
+                                                                                  "sd":  null,
+                                                                                  "max":  null
+                                                                              },
+                                                          "gyroscope_x":  {
+                                                                              "count":  0,
+                                                                              "min":  null,
+                                                                              "mean":  null,
+                                                                              "sd":  null,
+                                                                              "max":  null
+                                                                          },
+                                                          "gyroscope_y":  {
+                                                                              "count":  0,
+                                                                              "min":  null,
+                                                                              "mean":  null,
+                                                                              "sd":  null,
+                                                                              "max":  null
+                                                                          },
+                                                          "gyroscope_z":  {
+                                                                              "count":  0,
+                                                                              "min":  null,
+                                                                              "mean":  null,
+                                                                              "sd":  null,
+                                                                              "max":  null
+                                                                          }
+                                                      },
+                          "health_counter_changes":  null
+                      },
+                      {
+                          "node":  "PELVIS",
+                          "samples_received":  3591,
+                          "observed_rate_hz":  60.1,
+                          "sequence_gaps_seen_by_viewer":  25,
+                          "duplicate_sequences":  0,
+                          "sequence_gap_percent_between_observed_samples":  0.691,
+                          "resets_or_out_of_order":  0,
+                          "last_sequence":  8684,
+                          "raw_register_statistics":  {
+                                                          "accelerometer_x":  {
+                                                                                  "count":  3591,
+                                                                                  "min":  -528,
+                                                                                  "mean":  -144.18,
+                                                                                  "sd":  115.29,
+                                                                                  "max":  336
+                                                                              },
+                                                          "accelerometer_y":  {
+                                                                                  "count":  3591,
+                                                                                  "min":  -856,
+                                                                                  "mean":  -445.59,
+                                                                                  "sd":  110.52,
+                                                                                  "max":  -80
+                                                                              },
+                                                          "accelerometer_z":  {
+                                                                                  "count":  3591,
+                                                                                  "min":  15920,
+                                                                                  "mean":  16289.76,
+                                                                                  "sd":  111.16,
+                                                                                  "max":  16648
+                                                                              },
+                                                          "gyroscope_x":  {
+                                                                              "count":  3591,
+                                                                              "min":  -592,
+                                                                              "mean":  -92.08,
+                                                                              "sd":  160.7,
+                                                                              "max":  461
+                                                                          },
+                                                          "gyroscope_y":  {
+                                                                              "count":  3591,
+                                                                              "min":  -543,
+                                                                              "mean":  42.99,
+                                                                              "sd":  169.86,
+                                                                              "max":  619
+                                                                          },
+                                                          "gyroscope_z":  {
+                                                                              "count":  3591,
+                                                                              "min":  -556,
+                                                                              "mean":  53.69,
+                                                                              "sd":  184.83,
+                                                                              "max":  795
+                                                                          }
+                                                      },
+                          "health_counter_changes":  {
+                                                         "imu_queue_drops":  25,
+                                                         "imu_ble_notify_failures":  0,
+                                                         "uwb_ble_notify_failures":  0,
+                                                         "uwb_attempts":  2804,
+                                                         "uwb_valid":  2802,
+                                                         "uwb_invalid":  2,
+                                                         "uwb_timeouts":  0,
+                                                         "uwb_invalid_percent_of_attempts":  0.07
+                                                     }
+                      },
+                      {
+                          "node":  "LEFT-WRIST",
+                          "samples_received":  3015,
+                          "observed_rate_hz":  60.1,
+                          "sequence_gaps_seen_by_viewer":  601,
+                          "duplicate_sequences":  0,
+                          "sequence_gap_percent_between_observed_samples":  16.621,
+                          "resets_or_out_of_order":  0,
+                          "last_sequence":  8847,
+                          "raw_register_statistics":  {
+                                                          "accelerometer_x":  {
+                                                                                  "count":  3015,
+                                                                                  "min":  -544,
+                                                                                  "mean":  -197.24,
+                                                                                  "sd":  105.07,
+                                                                                  "max":  144
+                                                                              },
+                                                          "accelerometer_y":  {
+                                                                                  "count":  3015,
+                                                                                  "min":  -512,
+                                                                                  "mean":  -149.34,
+                                                                                  "sd":  105.07,
+                                                                                  "max":  232
+                                                                              },
+                                                          "accelerometer_z":  {
+                                                                                  "count":  3015,
+                                                                                  "min":  16240,
+                                                                                  "mean":  16576.31,
+                                                                                  "sd":  102.17,
+                                                                                  "max":  16904
+                                                                              },
+                                                          "gyroscope_x":  {
+                                                                              "count":  3015,
+                                                                              "min":  -420,
+                                                                              "mean":  121.32,
+                                                                              "sd":  138.52,
+                                                                              "max":  629
+                                                                          },
+                                                          "gyroscope_y":  {
+                                                                              "count":  3015,
+                                                                              "min":  -621,
+                                                                              "mean":  -32.32,
+                                                                              "sd":  144.98,
+                                                                              "max":  578
+                                                                          },
+                                                          "gyroscope_z":  {
+                                                                              "count":  3015,
+                                                                              "min":  -798,
+                                                                              "mean":  -22.66,
+                                                                              "sd":  199.69,
+                                                                              "max":  710
+                                                                          }
+                                                      },
+                          "health_counter_changes":  {
+                                                         "imu_queue_drops":  16,
+                                                         "imu_ble_notify_failures":  24,
+                                                         "uwb_ble_notify_failures":  0,
+                                                         "uwb_attempts":  0,
+                                                         "uwb_valid":  0,
+                                                         "uwb_invalid":  0,
+                                                         "uwb_timeouts":  0,
+                                                         "uwb_invalid_percent_of_attempts":  null
+                                                     }
+                      },
+                      {
+                          "node":  "RIGHT-WRIST",
+                          "samples_received":  0,
+                          "observed_rate_hz":  null,
+                          "sequence_gaps_seen_by_viewer":  0,
+                          "duplicate_sequences":  0,
+                          "sequence_gap_percent_between_observed_samples":  null,
+                          "resets_or_out_of_order":  0,
+                          "last_sequence":  null,
+                          "raw_register_statistics":  {
+                                                          "accelerometer_x":  {
+                                                                                  "count":  0,
+                                                                                  "min":  null,
+                                                                                  "mean":  null,
+                                                                                  "sd":  null,
+                                                                                  "max":  null
+                                                                              },
+                                                          "accelerometer_y":  {
+                                                                                  "count":  0,
+                                                                                  "min":  null,
+                                                                                  "mean":  null,
+                                                                                  "sd":  null,
+                                                                                  "max":  null
+                                                                              },
+                                                          "accelerometer_z":  {
+                                                                                  "count":  0,
+                                                                                  "min":  null,
+                                                                                  "mean":  null,
+                                                                                  "sd":  null,
+                                                                                  "max":  null
+                                                                              },
+                                                          "gyroscope_x":  {
+                                                                              "count":  0,
+                                                                              "min":  null,
+                                                                              "mean":  null,
+                                                                              "sd":  null,
+                                                                              "max":  null
+                                                                          },
+                                                          "gyroscope_y":  {
+                                                                              "count":  0,
+                                                                              "min":  null,
+                                                                              "mean":  null,
+                                                                              "sd":  null,
+                                                                              "max":  null
+                                                                          },
+                                                          "gyroscope_z":  {
+                                                                              "count":  0,
+                                                                              "min":  null,
+                                                                              "mean":  null,
+                                                                              "sd":  null,
+                                                                              "max":  null
+                                                                          }
+                                                      },
+                          "health_counter_changes":  null
+                      },
+                      {
+                          "node":  "LEFT-ANKLE",
+                          "samples_received":  0,
+                          "observed_rate_hz":  null,
+                          "sequence_gaps_seen_by_viewer":  0,
+                          "duplicate_sequences":  0,
+                          "sequence_gap_percent_between_observed_samples":  null,
+                          "resets_or_out_of_order":  0,
+                          "last_sequence":  null,
+                          "raw_register_statistics":  {
+                                                          "accelerometer_x":  {
+                                                                                  "count":  0,
+                                                                                  "min":  null,
+                                                                                  "mean":  null,
+                                                                                  "sd":  null,
+                                                                                  "max":  null
+                                                                              },
+                                                          "accelerometer_y":  {
+                                                                                  "count":  0,
+                                                                                  "min":  null,
+                                                                                  "mean":  null,
+                                                                                  "sd":  null,
+                                                                                  "max":  null
+                                                                              },
+                                                          "accelerometer_z":  {
+                                                                                  "count":  0,
+                                                                                  "min":  null,
+                                                                                  "mean":  null,
+                                                                                  "sd":  null,
+                                                                                  "max":  null
+                                                                              },
+                                                          "gyroscope_x":  {
+                                                                              "count":  0,
+                                                                              "min":  null,
+                                                                              "mean":  null,
+                                                                              "sd":  null,
+                                                                              "max":  null
+                                                                          },
+                                                          "gyroscope_y":  {
+                                                                              "count":  0,
+                                                                              "min":  null,
+                                                                              "mean":  null,
+                                                                              "sd":  null,
+                                                                              "max":  null
+                                                                          },
+                                                          "gyroscope_z":  {
+                                                                              "count":  0,
+                                                                              "min":  null,
+                                                                              "mean":  null,
+                                                                              "sd":  null,
+                                                                              "max":  null
+                                                                          }
+                                                      },
+                          "health_counter_changes":  null
+                      },
+                      {
+                          "node":  "RIGHT-ANKLE",
+                          "samples_received":  0,
+                          "observed_rate_hz":  null,
+                          "sequence_gaps_seen_by_viewer":  0,
+                          "duplicate_sequences":  0,
+                          "sequence_gap_percent_between_observed_samples":  null,
+                          "resets_or_out_of_order":  0,
+                          "last_sequence":  null,
+                          "raw_register_statistics":  {
+                                                          "accelerometer_x":  {
+                                                                                  "count":  0,
+                                                                                  "min":  null,
+                                                                                  "mean":  null,
+                                                                                  "sd":  null,
+                                                                                  "max":  null
+                                                                              },
+                                                          "accelerometer_y":  {
+                                                                                  "count":  0,
+                                                                                  "min":  null,
+                                                                                  "mean":  null,
+                                                                                  "sd":  null,
+                                                                                  "max":  null
+                                                                              },
+                                                          "accelerometer_z":  {
+                                                                                  "count":  0,
+                                                                                  "min":  null,
+                                                                                  "mean":  null,
+                                                                                  "sd":  null,
+                                                                                  "max":  null
+                                                                              },
+                                                          "gyroscope_x":  {
+                                                                              "count":  0,
+                                                                              "min":  null,
+                                                                              "mean":  null,
+                                                                              "sd":  null,
+                                                                              "max":  null
+                                                                          },
+                                                          "gyroscope_y":  {
+                                                                              "count":  0,
+                                                                              "min":  null,
+                                                                              "mean":  null,
+                                                                              "sd":  null,
+                                                                              "max":  null
+                                                                          },
+                                                          "gyroscope_z":  {
+                                                                              "count":  0,
+                                                                              "min":  null,
+                                                                              "mean":  null,
+                                                                              "sd":  null,
+                                                                              "max":  null
+                                                                          }
+                                                      },
+                          "health_counter_changes":  null
+                      }
+                  ],
+    "uwb_pairs":  [
+                      {
+                          "pair_index":  0,
+                          "pair":  "HEAD \u003c-\u003e PELVIS",
+                          "valid_reports":  0,
+                          "invalid_reports":  0,
+                          "report_success_percent":  null,
+                          "reports_per_second":  0,
+                          "range_statistics":  {
+                                                   "count":  0,
+                                                   "min_cm":  null,
+                                                   "median_cm":  null,
+                                                   "mean_cm":  null,
+                                                   "sd_cm":  null,
+                                                   "max_cm":  null
+                                               },
+                          "failure_diagnostic_events_by_stage":  {
+
+                                                                 }
+                      },
+                      {
+                          "pair_index":  1,
+                          "pair":  "HEAD \u003c-\u003e LEFT-WRIST",
+                          "valid_reports":  0,
+                          "invalid_reports":  0,
+                          "report_success_percent":  null,
+                          "reports_per_second":  0,
+                          "range_statistics":  {
+                                                   "count":  0,
+                                                   "min_cm":  null,
+                                                   "median_cm":  null,
+                                                   "mean_cm":  null,
+                                                   "sd_cm":  null,
+                                                   "max_cm":  null
+                                               },
+                          "failure_diagnostic_events_by_stage":  {
+
+                                                                 }
+                      },
+                      {
+                          "pair_index":  2,
+                          "pair":  "HEAD \u003c-\u003e RIGHT-WRIST",
+                          "valid_reports":  0,
+                          "invalid_reports":  0,
+                          "report_success_percent":  null,
+                          "reports_per_second":  0,
+                          "range_statistics":  {
+                                                   "count":  0,
+                                                   "min_cm":  null,
+                                                   "median_cm":  null,
+                                                   "mean_cm":  null,
+                                                   "sd_cm":  null,
+                                                   "max_cm":  null
+                                               },
+                          "failure_diagnostic_events_by_stage":  {
+
+                                                                 }
+                      },
+                      {
+                          "pair_index":  3,
+                          "pair":  "HEAD \u003c-\u003e LEFT-ANKLE",
+                          "valid_reports":  0,
+                          "invalid_reports":  0,
+                          "report_success_percent":  null,
+                          "reports_per_second":  0,
+                          "range_statistics":  {
+                                                   "count":  0,
+                                                   "min_cm":  null,
+                                                   "median_cm":  null,
+                                                   "mean_cm":  null,
+                                                   "sd_cm":  null,
+                                                   "max_cm":  null
+                                               },
+                          "failure_diagnostic_events_by_stage":  {
+
+                                                                 }
+                      },
+                      {
+                          "pair_index":  4,
+                          "pair":  "HEAD \u003c-\u003e RIGHT-ANKLE",
+                          "valid_reports":  0,
+                          "invalid_reports":  0,
+                          "report_success_percent":  null,
+                          "reports_per_second":  0,
+                          "range_statistics":  {
+                                                   "count":  0,
+                                                   "min_cm":  null,
+                                                   "median_cm":  null,
+                                                   "mean_cm":  null,
+                                                   "sd_cm":  null,
+                                                   "max_cm":  null
+                                               },
+                          "failure_diagnostic_events_by_stage":  {
+
+                                                                 }
+                      },
+                      {
+                          "pair_index":  5,
+                          "pair":  "PELVIS \u003c-\u003e LEFT-WRIST",
+                          "valid_reports":  119,
+                          "invalid_reports":  0,
+                          "report_success_percent":  100,
+                          "reports_per_second":  1.983,
+                          "range_statistics":  {
+                                                   "count":  119,
+                                                   "min_cm":  94,
+                                                   "median_cm":  164,
+                                                   "mean_cm":  159.98,
+                                                   "sd_cm":  24.49,
+                                                   "max_cm":  194
+                                               },
+                          "failure_diagnostic_events_by_stage":  {
+                                                                     "factory_otp_ch5_prf64_read_only":  12,
+                                                                     "response_wait_failed":  2
+                                                                 }
+                      },
+                      {
+                          "pair_index":  6,
+                          "pair":  "PELVIS \u003c-\u003e RIGHT-WRIST",
+                          "valid_reports":  0,
+                          "invalid_reports":  0,
+                          "report_success_percent":  null,
+                          "reports_per_second":  0,
+                          "range_statistics":  {
+                                                   "count":  0,
+                                                   "min_cm":  null,
+                                                   "median_cm":  null,
+                                                   "mean_cm":  null,
+                                                   "sd_cm":  null,
+                                                   "max_cm":  null
+                                               },
+                          "failure_diagnostic_events_by_stage":  {
+
+                                                                 }
+                      },
+                      {
+                          "pair_index":  7,
+                          "pair":  "PELVIS \u003c-\u003e LEFT-ANKLE",
+                          "valid_reports":  0,
+                          "invalid_reports":  0,
+                          "report_success_percent":  null,
+                          "reports_per_second":  0,
+                          "range_statistics":  {
+                                                   "count":  0,
+                                                   "min_cm":  null,
+                                                   "median_cm":  null,
+                                                   "mean_cm":  null,
+                                                   "sd_cm":  null,
+                                                   "max_cm":  null
+                                               },
+                          "failure_diagnostic_events_by_stage":  {
+
+                                                                 }
+                      },
+                      {
+                          "pair_index":  8,
+                          "pair":  "PELVIS \u003c-\u003e RIGHT-ANKLE",
+                          "valid_reports":  0,
+                          "invalid_reports":  0,
+                          "report_success_percent":  null,
+                          "reports_per_second":  0,
+                          "range_statistics":  {
+                                                   "count":  0,
+                                                   "min_cm":  null,
+                                                   "median_cm":  null,
+                                                   "mean_cm":  null,
+                                                   "sd_cm":  null,
+                                                   "max_cm":  null
+                                               },
+                          "failure_diagnostic_events_by_stage":  {
+
+                                                                 }
+                      },
+                      {
+                          "pair_index":  9,
+                          "pair":  "LEFT-WRIST \u003c-\u003e RIGHT-WRIST",
+                          "valid_reports":  0,
+                          "invalid_reports":  0,
+                          "report_success_percent":  null,
+                          "reports_per_second":  0,
+                          "range_statistics":  {
+                                                   "count":  0,
+                                                   "min_cm":  null,
+                                                   "median_cm":  null,
+                                                   "mean_cm":  null,
+                                                   "sd_cm":  null,
+                                                   "max_cm":  null
+                                               },
+                          "failure_diagnostic_events_by_stage":  {
+
+                                                                 }
+                      },
+                      {
+                          "pair_index":  10,
+                          "pair":  "LEFT-WRIST \u003c-\u003e LEFT-ANKLE",
+                          "valid_reports":  0,
+                          "invalid_reports":  0,
+                          "report_success_percent":  null,
+                          "reports_per_second":  0,
+                          "range_statistics":  {
+                                                   "count":  0,
+                                                   "min_cm":  null,
+                                                   "median_cm":  null,
+                                                   "mean_cm":  null,
+                                                   "sd_cm":  null,
+                                                   "max_cm":  null
+                                               },
+                          "failure_diagnostic_events_by_stage":  {
+
+                                                                 }
+                      },
+                      {
+                          "pair_index":  11,
+                          "pair":  "LEFT-WRIST \u003c-\u003e RIGHT-ANKLE",
+                          "valid_reports":  0,
+                          "invalid_reports":  0,
+                          "report_success_percent":  null,
+                          "reports_per_second":  0,
+                          "range_statistics":  {
+                                                   "count":  0,
+                                                   "min_cm":  null,
+                                                   "median_cm":  null,
+                                                   "mean_cm":  null,
+                                                   "sd_cm":  null,
+                                                   "max_cm":  null
+                                               },
+                          "failure_diagnostic_events_by_stage":  {
+
+                                                                 }
+                      },
+                      {
+                          "pair_index":  12,
+                          "pair":  "RIGHT-WRIST \u003c-\u003e LEFT-ANKLE",
+                          "valid_reports":  0,
+                          "invalid_reports":  0,
+                          "report_success_percent":  null,
+                          "reports_per_second":  0,
+                          "range_statistics":  {
+                                                   "count":  0,
+                                                   "min_cm":  null,
+                                                   "median_cm":  null,
+                                                   "mean_cm":  null,
+                                                   "sd_cm":  null,
+                                                   "max_cm":  null
+                                               },
+                          "failure_diagnostic_events_by_stage":  {
+
+                                                                 }
+                      },
+                      {
+                          "pair_index":  13,
+                          "pair":  "RIGHT-WRIST \u003c-\u003e RIGHT-ANKLE",
+                          "valid_reports":  0,
+                          "invalid_reports":  0,
+                          "report_success_percent":  null,
+                          "reports_per_second":  0,
+                          "range_statistics":  {
+                                                   "count":  0,
+                                                   "min_cm":  null,
+                                                   "median_cm":  null,
+                                                   "mean_cm":  null,
+                                                   "sd_cm":  null,
+                                                   "max_cm":  null
+                                               },
+                          "failure_diagnostic_events_by_stage":  {
+
+                                                                 }
+                      },
+                      {
+                          "pair_index":  14,
+                          "pair":  "LEFT-ANKLE \u003c-\u003e RIGHT-ANKLE",
+                          "valid_reports":  0,
+                          "invalid_reports":  0,
+                          "report_success_percent":  null,
+                          "reports_per_second":  0,
+                          "range_statistics":  {
+                                                   "count":  0,
+                                                   "min_cm":  null,
+                                                   "median_cm":  null,
+                                                   "mean_cm":  null,
+                                                   "sd_cm":  null,
+                                                   "max_cm":  null
+                                               },
+                          "failure_diagnostic_events_by_stage":  {
+
+                                                                 }
+                      }
+                  ],
+    "gateway_health":  {
+                           "latest_totals_since_dongle_restart":  {
+                                                                      "packets":  1471,
+                                                                      "malformed_packets":  0,
+                                                                      "sequence_gaps":  37,
+                                                                      "usb_drops":  790561,
+                                                                      "usb_queue_high_water":  256
+                                                                  },
+                           "viewer_window_deltas":  {
+                                                        "packets":  559,
+                                                        "malformed_packets":  0,
+                                                        "sequence_gaps":  30,
+                                                        "usb_drops":  0
+                                                    }
+                       }
+}

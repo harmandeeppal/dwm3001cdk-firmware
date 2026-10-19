@@ -1,0 +1,77 @@
+{
+  "captured_at_utc": "2026-09-28T00:53:24.040133+00:00",
+  "source": "DWM-02-PELVIS",
+  "peer": "THREE-NODE-UWB-3MS-ALL-TEST",
+  "port": "COM6",
+  "baud": 460800,
+  "duration_s": 15.0,
+  "sample_count": 0,
+  "range_report_count": 0,
+  "nonpositive_range_count": 3,
+  "nonpositive_ranges_cm": [
+    -1,
+    -1,
+    -1
+  ],
+  "boot_names": [],
+  "bad_frame_count": 0,
+  "icm_sample_count": 2696,
+  "icm_sample_counts_by_node": {
+    "0": 899,
+    "1": 898,
+    "2": 899
+  },
+  "icm_sequence_stats_by_node": {
+    "0": {
+      "first_sequence": 245521,
+      "last_sequence": 246419,
+      "missing_sequence_count": 0
+    },
+    "1": {
+      "first_sequence": 454,
+      "last_sequence": 1351,
+      "missing_sequence_count": 0
+    },
+    "2": {
+      "first_sequence": 5958,
+      "last_sequence": 6856,
+      "missing_sequence_count": 0
+    }
+  },
+  "mesh_pair_report_count": 638,
+  "mesh_nonpositive_counts": {
+    "0": 3
+  },
+  "mesh_debug_counts": {},
+  "mesh_debug_detail_counts": {},
+  "antenna_delay_calibrated": false,
+  "latest_icm_raw": {
+    "source_node": 2,
+    "sequence": 6856,
+    "timestamp_ms": 115040,
+    "ax": -32,
+    "ay": -320,
+    "az": 16544,
+    "gx": 120,
+    "gy": -11,
+    "gz": -80,
+    "temperature": 1200
+  },
+  "mesh_latest_ranges_cm": {
+    "0": {
+      "first_node": 0,
+      "second_node": 1,
+      "range_cm": 8
+    },
+    "1": {
+      "first_node": 0,
+      "second_node": 2,
+      "range_cm": 26
+    },
+    "5": {
+      "first_node": 1,
+      "second_node": 2,
+      "range_cm": 15
+    }
+  }
+}

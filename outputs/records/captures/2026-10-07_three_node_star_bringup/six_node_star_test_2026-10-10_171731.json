@@ -1,0 +1,3521 @@
+{
+  "test": "6-node star benchmark",
+  "port": "COM16",
+  "timestamp": "2026-10-10_171731",
+  "duration_s": 15,
+  "active_duration_s": 10,
+  "complete_matrix_rounds": 0,
+  "complete_matrix_yield_pct": 0.0,
+  "complete_matrix_wire_pct": 0.0,
+  "imu_counts": {
+    "Node_5": 606,
+    "Node_4": 576,
+    "Node_3": 570,
+    "Node_2": 588,
+    "Node_1": 600,
+    "Node_0": 552
+  },
+  "node_status_latest": {
+    "Node_5": {
+      "node_index": 5,
+      "flags": 5,
+      "sync_epoch": 0,
+      "imu_samples_acquired": 1347120,
+      "imu_queue_put_ok": 1347120,
+      "imu_queue_dropped": 119,
+      "imu_queue_high_water": 48,
+      "ble_imu_notify_ok": 224400,
+      "ble_imu_notify_failed": 100,
+      "ble_uwb_notify_failed": 19,
+      "uwb_range_attempts": 0,
+      "uwb_range_valid": 0,
+      "uwb_range_invalid": 0
+    },
+    "Node_4": {
+      "node_index": 4,
+      "flags": 5,
+      "sync_epoch": 0,
+      "imu_samples_acquired": 656538,
+      "imu_queue_put_ok": 656538,
+      "imu_queue_dropped": 0,
+      "imu_queue_high_water": 41,
+      "ble_imu_notify_ok": 109409,
+      "ble_imu_notify_failed": 0,
+      "ble_uwb_notify_failed": 0,
+      "uwb_range_attempts": 0,
+      "uwb_range_valid": 0,
+      "uwb_range_invalid": 0
+    },
+    "Node_3": {
+      "node_index": 3,
+      "flags": 5,
+      "sync_epoch": 0,
+      "imu_samples_acquired": 1347456,
+      "imu_queue_put_ok": 1347456,
+      "imu_queue_dropped": 352,
+      "imu_queue_high_water": 48,
+      "ble_imu_notify_ok": 224251,
+      "ble_imu_notify_failed": 317,
+      "ble_uwb_notify_failed": 35,
+      "uwb_range_attempts": 0,
+      "uwb_range_valid": 0,
+      "uwb_range_invalid": 0
+    },
+    "Node_2": {
+      "node_index": 2,
+      "flags": 5,
+      "sync_epoch": 0,
+      "imu_samples_acquired": 900,
+      "imu_queue_put_ok": 900,
+      "imu_queue_dropped": 0,
+      "imu_queue_high_water": 0,
+      "ble_imu_notify_ok": 133,
+      "ble_imu_notify_failed": 0,
+      "ble_uwb_notify_failed": 0,
+      "uwb_range_attempts": 0,
+      "uwb_range_valid": 0,
+      "uwb_range_invalid": 0
+    },
+    "Node_1": {
+      "node_index": 1,
+      "flags": 5,
+      "sync_epoch": 0,
+      "imu_samples_acquired": 4044,
+      "imu_queue_put_ok": 4044,
+      "imu_queue_dropped": 0,
+      "imu_queue_high_water": 1,
+      "ble_imu_notify_ok": 628,
+      "ble_imu_notify_failed": 0,
+      "ble_uwb_notify_failed": 0,
+      "uwb_range_attempts": 338,
+      "uwb_range_valid": 338,
+      "uwb_range_invalid": 0
+    },
+    "Node_0": {
+      "node_index": 0,
+      "flags": 5,
+      "sync_epoch": 0,
+      "imu_samples_acquired": 443940,
+      "imu_queue_put_ok": 443940,
+      "imu_queue_dropped": 0,
+      "imu_queue_high_water": 16,
+      "ble_imu_notify_ok": 73935,
+      "ble_imu_notify_failed": 0,
+      "ble_uwb_notify_failed": 0,
+      "uwb_range_attempts": 0,
+      "uwb_range_valid": 0,
+      "uwb_range_invalid": 0
+    }
+  },
+  "uwb_summary": {
+    "Pair_4": {
+      "pair_name": "PELVIS <-> RIGHT-ANKLE",
+      "valid_count": 0,
+      "invalid_count": 50,
+      "total_attempts": 50,
+      "expected_rounds": 50.0,
+      "true_yield_pct": 0.0,
+      "wire_success_pct": 0.0,
+      "rate_hz": 0,
+      "median_cm": null,
+      "first_range_s": null,
+      "status_breakdown": {
+        "status_33": 50
+      },
+      "max_contiguous_dropout_rounds": 50,
+      "max_contiguous_dropout_s": 10.0
+    },
+    "Pair_3": {
+      "pair_name": "PELVIS <-> LEFT-ANKLE",
+      "valid_count": 50,
+      "invalid_count": 0,
+      "total_attempts": 50,
+      "expected_rounds": 50.0,
+      "true_yield_pct": 100.0,
+      "wire_success_pct": 100.0,
+      "rate_hz": 5.0,
+      "median_cm": 42.0,
+      "min_cm": 34,
+      "max_cm": 48,
+      "first_range_s": 0.048,
+      "status_breakdown": {
+        "status_0": 50
+      },
+      "max_contiguous_dropout_rounds": 0,
+      "max_contiguous_dropout_s": 0.0
+    },
+    "Pair_2": {
+      "pair_name": "PELVIS <-> RIGHT-WRIST",
+      "valid_count": 0,
+      "invalid_count": 50,
+      "total_attempts": 50,
+      "expected_rounds": 50.0,
+      "true_yield_pct": 0.0,
+      "wire_success_pct": 0.0,
+      "rate_hz": 0,
+      "median_cm": null,
+      "first_range_s": null,
+      "status_breakdown": {
+        "status_33": 50
+      },
+      "max_contiguous_dropout_rounds": 50,
+      "max_contiguous_dropout_s": 10.0
+    },
+    "Pair_1": {
+      "pair_name": "PELVIS <-> LEFT-WRIST",
+      "valid_count": 0,
+      "invalid_count": 50,
+      "total_attempts": 50,
+      "expected_rounds": 50.0,
+      "true_yield_pct": 0.0,
+      "wire_success_pct": 0.0,
+      "rate_hz": 0,
+      "median_cm": null,
+      "first_range_s": null,
+      "status_breakdown": {
+        "status_33": 50
+      },
+      "max_contiguous_dropout_rounds": 50,
+      "max_contiguous_dropout_s": 10.0
+    },
+    "Pair_0": {
+      "pair_name": "PELVIS <-> HEAD",
+      "valid_count": 50,
+      "invalid_count": 0,
+      "total_attempts": 50,
+      "expected_rounds": 50.0,
+      "true_yield_pct": 100.0,
+      "wire_success_pct": 100.0,
+      "rate_hz": 5.0,
+      "median_cm": 53.0,
+      "min_cm": 50,
+      "max_cm": 58,
+      "first_range_s": 0.048,
+      "status_breakdown": {
+        "status_0": 50
+      },
+      "max_contiguous_dropout_rounds": 0,
+      "max_contiguous_dropout_s": 0.0
+    }
+  },
+  "first_range_elapsed": {
+    "Pair_4": 0.048,
+    "Pair_3": 0.048,
+    "Pair_2": 0.21,
+    "Pair_1": null,
+    "Pair_0": 0.048
+  },
+  "first_pelvis_uptime_s": {
+    "Pair_4": 72.795,
+    "Pair_3": 72.795,
+    "Pair_2": 52.935,
+    "Pair_1": null,
+    "Pair_0": 72.795
+  },
+  "first_controlee_uptime_s": {
+    "Pair_4": "N/A",
+    "Pair_3": "N/A",
+    "Pair_2": 1.115,
+    "Pair_1": null,
+    "Pair_0": 0.212
+  },
+  "star_range_blocks": [
+    {
+      "elapsed_s": 5.129,
+      "block_index": 291,
+      "pairs": [
+        {
+          "range_cm": 52,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 34,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 5.339,
+      "block_index": 292,
+      "pairs": [
+        {
+          "range_cm": 54,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 45,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 5.549,
+      "block_index": 293,
+      "pairs": [
+        {
+          "range_cm": 53,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 42,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 5.639,
+      "block_index": 294,
+      "pairs": [
+        {
+          "range_cm": 56,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 43,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 5.847,
+      "block_index": 295,
+      "pairs": [
+        {
+          "range_cm": 50,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 43,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 6.057,
+      "block_index": 296,
+      "pairs": [
+        {
+          "range_cm": 55,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 42,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 6.357,
+      "block_index": 297,
+      "pairs": [
+        {
+          "range_cm": 52,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 40,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 6.448,
+      "block_index": 298,
+      "pairs": [
+        {
+          "range_cm": 52,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 41,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 6.657,
+      "block_index": 299,
+      "pairs": [
+        {
+          "range_cm": 52,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 47,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 6.867,
+      "block_index": 300,
+      "pairs": [
+        {
+          "range_cm": 52,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 43,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 7.077,
+      "block_index": 301,
+      "pairs": [
+        {
+          "range_cm": 51,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 45,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 7.257,
+      "block_index": 302,
+      "pairs": [
+        {
+          "range_cm": 53,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 44,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 7.469,
+      "block_index": 303,
+      "pairs": [
+        {
+          "range_cm": 53,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 41,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 7.677,
+      "block_index": 304,
+      "pairs": [
+        {
+          "range_cm": 50,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 45,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 7.857,
+      "block_index": 305,
+      "pairs": [
+        {
+          "range_cm": 57,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 42,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 8.067,
+      "block_index": 306,
+      "pairs": [
+        {
+          "range_cm": 55,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 37,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 8.277,
+      "block_index": 307,
+      "pairs": [
+        {
+          "range_cm": 54,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 44,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 8.487,
+      "block_index": 308,
+      "pairs": [
+        {
+          "range_cm": 53,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 36,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 8.667,
+      "block_index": 309,
+      "pairs": [
+        {
+          "range_cm": 53,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 46,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 8.907,
+      "block_index": 310,
+      "pairs": [
+        {
+          "range_cm": 54,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 41,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 9.087,
+      "block_index": 311,
+      "pairs": [
+        {
+          "range_cm": 54,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 46,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 9.297,
+      "block_index": 312,
+      "pairs": [
+        {
+          "range_cm": 55,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 41,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 9.477,
+      "block_index": 313,
+      "pairs": [
+        {
+          "range_cm": 55,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 44,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 9.687,
+      "block_index": 314,
+      "pairs": [
+        {
+          "range_cm": 51,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 43,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 9.897,
+      "block_index": 315,
+      "pairs": [
+        {
+          "range_cm": 51,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 44,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 10.137,
+      "block_index": 316,
+      "pairs": [
+        {
+          "range_cm": 54,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 46,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 10.287,
+      "block_index": 317,
+      "pairs": [
+        {
+          "range_cm": 50,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 42,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 10.497,
+      "block_index": 318,
+      "pairs": [
+        {
+          "range_cm": 51,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 42,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 10.707,
+      "block_index": 319,
+      "pairs": [
+        {
+          "range_cm": 53,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 39,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 10.916,
+      "block_index": 320,
+      "pairs": [
+        {
+          "range_cm": 58,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 41,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 11.157,
+      "block_index": 321,
+      "pairs": [
+        {
+          "range_cm": 52,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 42,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 11.306,
+      "block_index": 322,
+      "pairs": [
+        {
+          "range_cm": 51,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 47,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 11.516,
+      "block_index": 323,
+      "pairs": [
+        {
+          "range_cm": 54,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 40,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 11.74,
+      "block_index": 324,
+      "pairs": [
+        {
+          "range_cm": 52,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 41,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 11.906,
+      "block_index": 325,
+      "pairs": [
+        {
+          "range_cm": 52,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 39,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 12.116,
+      "block_index": 326,
+      "pairs": [
+        {
+          "range_cm": 52,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 39,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 12.326,
+      "block_index": 327,
+      "pairs": [
+        {
+          "range_cm": 56,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 39,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 12.536,
+      "block_index": 328,
+      "pairs": [
+        {
+          "range_cm": 54,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 41,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 12.716,
+      "block_index": 329,
+      "pairs": [
+        {
+          "range_cm": 53,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 41,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 12.929,
+      "block_index": 330,
+      "pairs": [
+        {
+          "range_cm": 55,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 48,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 13.139,
+      "block_index": 331,
+      "pairs": [
+        {
+          "range_cm": 56,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 40,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 13.346,
+      "block_index": 332,
+      "pairs": [
+        {
+          "range_cm": 53,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 39,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 13.439,
+      "block_index": 333,
+      "pairs": [
+        {
+          "range_cm": 51,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 43,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 13.646,
+      "block_index": 334,
+      "pairs": [
+        {
+          "range_cm": 55,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 37,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 13.857,
+      "block_index": 335,
+      "pairs": [
+        {
+          "range_cm": 54,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 43,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 14.066,
+      "block_index": 336,
+      "pairs": [
+        {
+          "range_cm": 53,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 42,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 14.337,
+      "block_index": 337,
+      "pairs": [
+        {
+          "range_cm": 54,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 42,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 14.459,
+      "block_index": 338,
+      "pairs": [
+        {
+          "range_cm": 52,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 41,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 14.696,
+      "block_index": 339,
+      "pairs": [
+        {
+          "range_cm": 54,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 43,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "elapsed_s": 14.877,
+      "block_index": 340,
+      "pairs": [
+        {
+          "range_cm": 54,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        },
+        {
+          "range_cm": 48,
+          "status": 0,
+          "flags": 3
+        },
+        {
+          "range_cm": -1,
+          "status": 33,
+          "flags": 2
+        }
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "elapsed_s": 5.152,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 2,
+      "timestamp_us": 3096081704,
+      "detail": 33554432
+    },
+    {
+      "elapsed_s": 5.152,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 2,
+      "timestamp_us": 3096081704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.187,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 24,
+      "timestamp_us": 58457000,
+      "detail": 67307501
+    },
+    {
+      "elapsed_s": 5.189,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 24,
+      "timestamp_us": 58457000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.189,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 24,
+      "timestamp_us": 58457000,
+      "detail": 256
+    },
+    {
+      "elapsed_s": 5.201,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 2,
+      "timestamp_us": 3096081704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.255,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 2343434408,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.257,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 2343434408,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.257,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 2343434408,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.406,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 973886520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.464,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 973886520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.465,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 973886520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.549,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB0",
+      "stage_name": "dw3000_tx_count",
+      "sub_code": 37,
+      "timestamp_us": 58399000,
+      "detail": 882
+    },
+    {
+      "elapsed_s": 5.632,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCA",
+      "stage_name": "0xCA",
+      "sub_code": 182,
+      "timestamp_us": 810301520,
+      "detail": 616
+    },
+    {
+      "elapsed_s": 5.646,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 13,
+      "timestamp_us": 816361520,
+      "detail": 493
+    },
+    {
+      "elapsed_s": 5.81,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 968221520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.839,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 968221520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.84,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 968221520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 5.854,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xBA",
+      "stage_name": "0xBA",
+      "sub_code": 38,
+      "timestamp_us": 2267168408,
+      "detail": -1872706887
+    },
+    {
+      "elapsed_s": 5.862,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xBA",
+      "stage_name": "0xBA",
+      "sub_code": 38,
+      "timestamp_us": 3044819704,
+      "detail": -1872706887
+    },
+    {
+      "elapsed_s": 6.296,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 24,
+      "timestamp_us": 59466000,
+      "detail": 67307501
+    },
+    {
+      "elapsed_s": 6.326,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 24,
+      "timestamp_us": 59466000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.327,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 24,
+      "timestamp_us": 59466000,
+      "detail": 256
+    },
+    {
+      "elapsed_s": 6.396,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 2344441408,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.454,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 2344441408,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.455,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 2344441408,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.463,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 2,
+      "timestamp_us": 3097088704,
+      "detail": 33554432
+    },
+    {
+      "elapsed_s": 6.463,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 2,
+      "timestamp_us": 3097088704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.464,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 2,
+      "timestamp_us": 3097088704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.539,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB1",
+      "stage_name": "interval_min_lead_us",
+      "sub_code": 42,
+      "timestamp_us": 59404000,
+      "detail": 72174
+    },
+    {
+      "elapsed_s": 6.651,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xCB",
+      "stage_name": "0xCB",
+      "sub_code": 182,
+      "timestamp_us": 811306520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.771,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 969229520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.771,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 969229520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.799,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 969229520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.853,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 2,
+      "timestamp_us": 8067000,
+      "detail": 33554432
+    },
+    {
+      "elapsed_s": 6.853,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 2,
+      "timestamp_us": 8067000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.854,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 2,
+      "timestamp_us": 8067000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 6.934,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB0",
+      "stage_name": "dw3000_tx_count",
+      "sub_code": 44,
+      "timestamp_us": 2268175408,
+      "detail": 99444
+    },
+    {
+      "elapsed_s": 7.198,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 24,
+      "timestamp_us": 60474000,
+      "detail": 67307501
+    },
+    {
+      "elapsed_s": 7.198,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 24,
+      "timestamp_us": 60474000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.199,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 24,
+      "timestamp_us": 60474000,
+      "detail": 256
+    },
+    {
+      "elapsed_s": 7.295,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 2345449408,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.296,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 2345449408,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.414,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 2345449408,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.445,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 975901520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.446,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 975901520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.446,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 975901520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.646,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB2",
+      "stage_name": "dw3000_late_tx_count",
+      "sub_code": 47,
+      "timestamp_us": 60410000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.791,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 970236520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.791,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 970236520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.819,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 970236520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.874,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 2,
+      "timestamp_us": 9075000,
+      "detail": 33554432
+    },
+    {
+      "elapsed_s": 7.931,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 2,
+      "timestamp_us": 9075000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 7.932,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 2,
+      "timestamp_us": 9075000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 8.136,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB1",
+      "stage_name": "interval_min_lead_us",
+      "sub_code": 49,
+      "timestamp_us": 2269179408,
+      "detail": -8146
+    },
+    {
+      "elapsed_s": 8.219,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 24,
+      "timestamp_us": 61482000,
+      "detail": 67307501
+    },
+    {
+      "elapsed_s": 8.246,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 24,
+      "timestamp_us": 61482000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 8.247,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 24,
+      "timestamp_us": 61482000,
+      "detail": 256
+    },
+    {
+      "elapsed_s": 8.576,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 52,
+      "timestamp_us": 61416000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 8.804,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB2",
+      "stage_name": "dw3000_late_tx_count",
+      "sub_code": 53,
+      "timestamp_us": 3047837704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 8.811,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 971244520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 8.899,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 971244520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 8.9,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 971244520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 8.914,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB2",
+      "stage_name": "dw3000_late_tx_count",
+      "sub_code": 54,
+      "timestamp_us": 2270183408,
+      "detail": 7
+    },
+    {
+      "elapsed_s": 9.011,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 2,
+      "timestamp_us": 10083000,
+      "detail": 33554432
+    },
+    {
+      "elapsed_s": 9.012,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 2,
+      "timestamp_us": 10083000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.013,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 2,
+      "timestamp_us": 10083000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.163,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 2,
+      "timestamp_us": 3100111704,
+      "detail": 33554432
+    },
+    {
+      "elapsed_s": 9.163,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 2,
+      "timestamp_us": 3100111704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.164,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 2,
+      "timestamp_us": 3100111704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.208,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 24,
+      "timestamp_us": 62489000,
+      "detail": 67307501
+    },
+    {
+      "elapsed_s": 9.209,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 24,
+      "timestamp_us": 62489000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.209,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 24,
+      "timestamp_us": 62489000,
+      "detail": 256
+    },
+    {
+      "elapsed_s": 9.336,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 2347465408,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.336,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 2347465408,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.336,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 2347465408,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.365,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 977917520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.366,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 977917520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.366,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 977917520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.596,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB4",
+      "stage_name": "fira_steady_fail_count",
+      "sub_code": 57,
+      "timestamp_us": 62423000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.831,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 972251520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.831,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 972251520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.833,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 972251520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.913,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 2,
+      "timestamp_us": 11091000,
+      "detail": 33554432
+    },
+    {
+      "elapsed_s": 9.913,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 2,
+      "timestamp_us": 11091000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.914,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 2,
+      "timestamp_us": 11091000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 9.934,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 59,
+      "timestamp_us": 2271190408,
+      "detail": 57
+    },
+    {
+      "elapsed_s": 10.183,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 2,
+      "timestamp_us": 3101118704,
+      "detail": 33554432
+    },
+    {
+      "elapsed_s": 10.183,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 2,
+      "timestamp_us": 3101118704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.184,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 2,
+      "timestamp_us": 3101118704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.227,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 24,
+      "timestamp_us": 63496000,
+      "detail": 67307501
+    },
+    {
+      "elapsed_s": 10.229,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 24,
+      "timestamp_us": 63496000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.256,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 24,
+      "timestamp_us": 63496000,
+      "detail": 256
+    },
+    {
+      "elapsed_s": 10.354,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 2348473408,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.354,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 2348473408,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.355,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 2348473408,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.444,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 978925520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.444,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 978925520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.445,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 978925520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.616,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB5",
+      "stage_name": "fira_steady_total",
+      "sub_code": 62,
+      "timestamp_us": 63429000,
+      "detail": 309
+    },
+    {
+      "elapsed_s": 10.85,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 973259520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.85,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 973259520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.851,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 973259520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.873,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 2,
+      "timestamp_us": 12100000,
+      "detail": 33554432
+    },
+    {
+      "elapsed_s": 10.873,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 2,
+      "timestamp_us": 12100000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.874,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 2,
+      "timestamp_us": 12100000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 10.896,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB4",
+      "stage_name": "fira_steady_fail_count",
+      "sub_code": 64,
+      "timestamp_us": 2272198408,
+      "detail": 1287
+    },
+    {
+      "elapsed_s": 10.901,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB4",
+      "stage_name": "fira_steady_fail_count",
+      "sub_code": 63,
+      "timestamp_us": 3049851704,
+      "detail": 1020
+    },
+    {
+      "elapsed_s": 11.143,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 2,
+      "timestamp_us": 3102126704,
+      "detail": 33554432
+    },
+    {
+      "elapsed_s": 11.143,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 2,
+      "timestamp_us": 3102126704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 11.143,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 2,
+      "timestamp_us": 3102126704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 11.405,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 979933520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 11.464,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 979933520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 11.464,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 979933520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 11.606,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB6",
+      "stage_name": "fira_last_block_index",
+      "sub_code": 67,
+      "timestamp_us": 64433000,
+      "detail": 323
+    },
+    {
+      "elapsed_s": 11.81,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 974267520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 11.81,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 974267520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 11.811,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 974267520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 11.864,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB5",
+      "stage_name": "fira_steady_total",
+      "sub_code": 69,
+      "timestamp_us": 3050859704,
+      "detail": 36703
+    },
+    {
+      "elapsed_s": 11.914,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB5",
+      "stage_name": "fira_steady_total",
+      "sub_code": 69,
+      "timestamp_us": 2273204408,
+      "detail": 50706
+    },
+    {
+      "elapsed_s": 12.161,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 2,
+      "timestamp_us": 3103134704,
+      "detail": 33554432
+    },
+    {
+      "elapsed_s": 12.162,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 2,
+      "timestamp_us": 3103134704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 12.163,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 2,
+      "timestamp_us": 3103134704,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 12.266,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 24,
+      "timestamp_us": 65510000,
+      "detail": 67307501
+    },
+    {
+      "elapsed_s": 12.267,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 24,
+      "timestamp_us": 65510000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 12.267,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 24,
+      "timestamp_us": 65510000,
+      "detail": 256
+    },
+    {
+      "elapsed_s": 12.425,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 980941520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 12.425,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 980941520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 12.426,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 980941520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 12.629,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB7",
+      "stage_name": "fira_lifetime_min_lead",
+      "sub_code": 72,
+      "timestamp_us": 65438000,
+      "detail": 72174
+    },
+    {
+      "elapsed_s": 12.891,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 975275520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 12.891,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 975275520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 12.892,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 975275520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 12.941,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB6",
+      "stage_name": "fira_last_block_index",
+      "sub_code": 74,
+      "timestamp_us": 3051866704,
+      "detail": 330
+    },
+    {
+      "elapsed_s": 12.972,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 2,
+      "timestamp_us": 14116000,
+      "detail": 33554432
+    },
+    {
+      "elapsed_s": 12.973,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 2,
+      "timestamp_us": 14116000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 12.973,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 2,
+      "timestamp_us": 14116000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 13.117,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB6",
+      "stage_name": "fira_last_block_index",
+      "sub_code": 74,
+      "timestamp_us": 2274209408,
+      "detail": 330
+    },
+    {
+      "elapsed_s": 13.257,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 24,
+      "timestamp_us": 66517000,
+      "detail": 67307501
+    },
+    {
+      "elapsed_s": 13.257,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 24,
+      "timestamp_us": 66517000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 13.258,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 24,
+      "timestamp_us": 66517000,
+      "detail": 256
+    },
+    {
+      "elapsed_s": 13.385,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 981950520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 13.387,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 981950520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 13.387,
+      "source_node": 3,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 981950520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 13.648,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xC8",
+      "stage_name": "0xC8",
+      "sub_code": 78,
+      "timestamp_us": 66446000,
+      "detail": 3164
+    },
+    {
+      "elapsed_s": 13.879,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 976283520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 13.88,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 976283520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 13.88,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 976283520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 13.902,
+      "source_node": 0,
+      "pair_index": 0,
+      "stage_code": "0xB7",
+      "stage_name": "fira_lifetime_min_lead",
+      "sub_code": 79,
+      "timestamp_us": 3052870704,
+      "detail": 100182
+    },
+    {
+      "elapsed_s": 13.957,
+      "source_node": 4,
+      "pair_index": 0,
+      "stage_code": "0xB7",
+      "stage_name": "fira_lifetime_min_lead",
+      "sub_code": 79,
+      "timestamp_us": 2275212408,
+      "detail": -8146
+    },
+    {
+      "elapsed_s": 14.172,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 2,
+      "timestamp_us": 15124000,
+      "detail": 33554432
+    },
+    {
+      "elapsed_s": 14.172,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 2,
+      "timestamp_us": 15124000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 14.173,
+      "source_node": 2,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 2,
+      "timestamp_us": 15124000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 14.339,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 24,
+      "timestamp_us": 67525000,
+      "detail": 67307501
+    },
+    {
+      "elapsed_s": 14.366,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 24,
+      "timestamp_us": 67525000,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 14.698,
+      "source_node": 1,
+      "pair_index": 0,
+      "stage_code": "0xC9",
+      "stage_name": "0xC9",
+      "sub_code": 83,
+      "timestamp_us": 67452000,
+      "detail": 1052
+    },
+    {
+      "elapsed_s": 14.931,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB3",
+      "stage_name": "fira_stall_recovery_count",
+      "sub_code": 1,
+      "timestamp_us": 977291520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 14.931,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB8",
+      "stage_name": "dw3000_sys_status_lo",
+      "sub_code": 1,
+      "timestamp_us": 977291520,
+      "detail": 0
+    },
+    {
+      "elapsed_s": 14.931,
+      "source_node": 5,
+      "pair_index": 0,
+      "stage_code": "0xB9",
+      "stage_name": "dw3000_sys_status_hi",
+      "sub_code": 1,
+      "timestamp_us": 977291520,
+      "detail": 0
+    }
+  ],
+  "stall_snapshots": [
+    {
+      "elapsed_s": 3.972,
+      "node_index": 2,
+      "node_name": "LEFT-WRIST",
+      "boot_count": 2,
+      "reset_reason": "0x02",
+      "stage": 0,
+      "stall_duration_ms": 0,
+      "last_block_index": 265,
+      "min_lead_dtu": 2147483647,
+      "min_lead_us": 8603700.5,
+      "min_lead_ms": 8603.7005,
+      "late_tx_count": 0,
+      "last_cb_block": 265,
+      "last_cb_status": 0,
+      "last_cb_lead_ms": 1
+    }
+  ],
+  "baseline_diagnostics": {
+    "1-0xC9": 1052,
+    "1-fira_lifetime_min_lead": 72174,
+    "5-fira_stall_recovery_count": 0,
+    "4-fira_steady_fail_count": 1287,
+    "3-interval_min_lead_us": -45346,
+    "4-fira_last_block_index": 330,
+    "1-dw3000_tx_count": 882,
+    "4-fira_stall_recovery_count": 0,
+    "4-dw3000_sys_status_hi": 0,
+    "3-dw3000_sys_status_lo": 0,
+    "2-fira_stall_recovery_count": 33554432,
+    "4-0xCD": 2789,
+    "2-dw3000_sys_status_hi": 0,
+    "0-fira_lifetime_min_lead": 100182,
+    "0-dw3000_sys_status_hi": 0,
+    "5-0xC8": 3164,
+    "1-0xBA": -1872706887,
+    "4-0xBA": -1872706887,
+    "5-0xC9": 940,
+    "1-interval_min_lead_us": 72174,
+    "1-fira_steady_fail_count": 0,
+    "0-dw3000_sys_status_lo": 0,
+    "3-dw3000_late_tx_count": 70,
+    "2-dw3000_late_tx_count": 0,
+    "5-dw3000_sys_status_hi": 0,
+    "2-fira_steady_total": 5,
+    "0-fira_stall_recovery_count": 33554432,
+    "1-fira_steady_total": 309,
+    "0-fira_steady_fail_count": 1020,
+    "5-0xCB": 0,
+    "1-0xCF": 65536,
+    "2-prog_session_started": 0,
+    "1-fira_last_block_index": 323,
+    "4-fira_lifetime_min_lead": -8146,
+    "0-0xCD": 1101,
+    "5-fira_steady_total": 90096,
+    "0-fira_steady_total": 36703,
+    "4-0xCE": 32,
+    "4-dw3000_tx_count": 99444,
+    "4-dw3000_late_tx_count": 7,
+    "3-dw3000_sys_status_hi": 0,
+    "3-fira_stall_recovery_count": 0,
+    "1-dw3000_late_tx_count": 0,
+    "5-dw3000_sys_status_lo": 0,
+    "1-fira_stall_recovery_count": 67307498,
+    "3-0xBA": -1872706887,
+    "5-0xE2": 0,
+    "2-interval_min_lead_us": 4896,
+    "1-0xCE": -1,
+    "1-dw3000_sys_status_lo": 0,
+    "5-0xCA": 616,
+    "2-fira_steady_fail_count": 0,
+    "5-fira_last_block_index": 182,
+    "3-dw3000_tx_count": 112063,
+    "1-dw3000_sys_status_hi": 256,
+    "0-0xCE": 33,
+    "2-dw3000_sys_status_lo": 0,
+    "4-interval_min_lead_us": -8146,
+    "0-fira_last_block_index": 330,
+    "4-fira_steady_total": 50706,
+    "4-0xCF": 67730,
+    "5-fira_lifetime_min_lead": -43386,
+    "4-dw3000_sys_status_lo": 0,
+    "0-0xBA": -1872706887,
+    "0-dw3000_late_tx_count": 0,
+    "1-0xC8": 3164
+  },
+  "final_diagnostics": {
+    "1-0xC9": 1052,
+    "1-fira_lifetime_min_lead": 72174,
+    "5-fira_stall_recovery_count": 0,
+    "4-fira_steady_fail_count": 1287,
+    "3-interval_min_lead_us": -45346,
+    "4-fira_last_block_index": 330,
+    "1-dw3000_tx_count": 882,
+    "4-fira_stall_recovery_count": 0,
+    "4-dw3000_sys_status_hi": 0,
+    "3-dw3000_sys_status_lo": 0,
+    "2-fira_stall_recovery_count": 33554432,
+    "4-0xCD": 2789,
+    "2-dw3000_sys_status_hi": 0,
+    "0-fira_lifetime_min_lead": 100182,
+    "0-dw3000_sys_status_hi": 0,
+    "5-0xC8": 3164,
+    "1-0xBA": -1872706887,
+    "4-0xBA": -1872706887,
+    "5-0xC9": 940,
+    "1-interval_min_lead_us": 72174,
+    "1-fira_steady_fail_count": 0,
+    "0-dw3000_sys_status_lo": 0,
+    "3-dw3000_late_tx_count": 70,
+    "2-dw3000_late_tx_count": 0,
+    "5-dw3000_sys_status_hi": 0,
+    "2-fira_steady_total": 5,
+    "0-fira_stall_recovery_count": 33554432,
+    "1-fira_steady_total": 309,
+    "0-fira_steady_fail_count": 1020,
+    "5-0xCB": 0,
+    "1-0xCF": 65536,
+    "2-prog_session_started": 0,
+    "1-fira_last_block_index": 323,
+    "4-fira_lifetime_min_lead": -8146,
+    "0-0xCD": 1101,
+    "5-fira_steady_total": 90096,
+    "0-fira_steady_total": 36703,
+    "4-0xCE": 32,
+    "4-dw3000_tx_count": 99444,
+    "4-dw3000_late_tx_count": 7,
+    "3-dw3000_sys_status_hi": 0,
+    "3-fira_stall_recovery_count": 0,
+    "1-dw3000_late_tx_count": 0,
+    "5-dw3000_sys_status_lo": 0,
+    "1-fira_stall_recovery_count": 67307501,
+    "3-0xBA": -1872706887,
+    "5-0xE2": 0,
+    "2-interval_min_lead_us": 4896,
+    "1-0xCE": -1,
+    "1-dw3000_sys_status_lo": 0,
+    "5-0xCA": 616,
+    "2-fira_steady_fail_count": 0,
+    "5-fira_last_block_index": 182,
+    "3-dw3000_tx_count": 112063,
+    "1-dw3000_sys_status_hi": 256,
+    "0-0xCE": 33,
+    "2-dw3000_sys_status_lo": 0,
+    "4-interval_min_lead_us": -8146,
+    "0-fira_last_block_index": 330,
+    "4-fira_steady_total": 50706,
+    "4-0xCF": 67730,
+    "5-fira_lifetime_min_lead": -43386,
+    "4-dw3000_sys_status_lo": 0,
+    "0-0xBA": -1872706887,
+    "0-dw3000_late_tx_count": 0,
+    "1-0xC8": 3164
+  }
+}

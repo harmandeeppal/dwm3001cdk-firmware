@@ -1,0 +1,46 @@
+{
+  "format": "COMP971 gateway USB framed binary protocol v1",
+  "source": "hardware\\outputs\\records\\acquisition\\gateway_smoke_v5_postboot.bin",
+  "raw_bytes": 116826,
+  "imu_records": 2478,
+  "uwb_records": 103,
+  "node_status_records": 41,
+  "gateway_status_records": 21,
+  "uwb_diagnostic_records": 40,
+  "uwb_diagnostic_events_by_stage": {
+    "connect_block_index": 4,
+    "connect_count_and_queue_depth": 3,
+    "disconnect_and_flush_counts": 3,
+    "dw3000_late_tx_count": 2,
+    "dw3000_tx_count": 2,
+    "fail_ring_last_block": 4,
+    "fail_ring_last_status": 3,
+    "fira_last_block_index": 2,
+    "fira_lifetime_min_lead": 2,
+    "fira_stall_recovery_count": 2,
+    "fira_steady_fail_count": 2,
+    "fira_steady_total": 2,
+    "imu_task_free_stack_bytes": 2,
+    "interval_min_lead": 2,
+    "status_task_free_stack_bytes": 3,
+    "uwb_task_free_stack_bytes": 2
+  },
+  "invalid_frames": 0,
+  "bytes_not_in_valid_frames": 0,
+  "imu_records_by_node": {
+    "0": 1242,
+    "1": 1236,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "sequence_gaps_by_node": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

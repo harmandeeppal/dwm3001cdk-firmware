@@ -1,0 +1,10 @@
+SelectEmuBySN 760225868
+device NRF52833_XXAA
+si SWD
+speed 4000
+connect
+halt
+loadfile C:/COMP971_QORVO_SDK_1_1_1/OfficialBinaries/DWM3001CDK-UCI-FreeRTOS_QM33SDK-1.1.1_prebuilt.hex
+r
+g
+q

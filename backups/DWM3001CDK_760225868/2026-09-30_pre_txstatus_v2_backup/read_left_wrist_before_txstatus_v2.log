@@ -1,0 +1,211 @@
+T38E4 000:002.447   SEGGER J-Link V9.72 Log File
+T38E4 000:002.624   DLL Compiled: Aug 26 2026 14:38:37
+T38E4 000:002.645   Logging started @ 2026-09-30 03:56
+T38E4 000:002.689   Process: C:\Program Files\SEGGER\JLink_V972\JLink.exe
+T38E4 000:002.710 - 2.704ms 
+T38E4 000:002.900 JLINK_EMU_SelectByUSBSN(SerialNo = 760225868)
+T38E4 000:006.966 - 4.065ms returns 0x00
+T38E4 000:007.084 JLINK_SetWarnOutHandler(...)
+T38E4 000:007.104 - 0.020ms 
+T38E4 000:007.137 JLINK_ExecCommand("SuppressGUI = 1", ...). 
+T38E4 000:007.156 - 0.019ms returns 0x00
+T38E4 000:007.424 JLINK_OpenEx(...)
+T38E4 000:012.257   Firmware: J-Link OB-STM32F072-128KB-CortexM compiled Jun 25 2026 10:39:21
+T38E4 000:012.897   Firmware: J-Link OB-STM32F072-128KB-CortexM compiled Jun 25 2026 10:39:21
+T38E4 000:013.021   Decompressing FW timestamp took 95 us
+T38E4 000:028.050   Hardware: V1.00
+T38E4 000:028.085   S/N: 760225868
+T38E4 000:028.093   OEM: SEGGER
+T38E4 000:028.100   Feature(s): None
+T38E4 000:028.631   Bootloader: 2016 Feb 10
+T38E4 000:029.082   USB speed mode: Full speed (12 MBit/s)
+T38E4 000:029.447   TELNET listener socket opened on port 19021
+T38E4 000:029.613 - 22.186ms returns "O.K."
+T38E4 000:029.637 JLINK_SetFlashProgProgressCallback(...)
+T38E4 000:029.642 - 0.005ms 
+T38E4 000:029.650 JLINK_GetFirmwareString(...)
+T38E4 000:029.656 - 0.005ms 
+T38E4 000:029.663 JLINK_GetHardwareVersion()
+T38E4 000:029.668 - 0.004ms returns 10000
+T38E4 000:029.680 JLINK_GetHWInfoEx(...)
+T38E4 000:029.990 - 0.309ms returns 0
+T38E4 000:030.008 JLINK_GetSN()
+T38E4 000:030.014 - 0.007ms returns 760225868
+T38E4 000:030.024 JLINK_GetAvailableLicense()
+T38E4 000:031.196 - 1.171ms returns 0x00
+T38E4 000:031.207 JLINK_GetOEMString(...)
+T38E4 000:031.466 JLINK_EMU_GetCurrConnectionInfo()
+T38E4 000:031.618 - 0.401ms returns 0
+T38E4 000:031.632 JLINK_EMU_HasCapEx(0x00000026)
+T38E4 000:031.638 - 0.005ms returns 0
+T38E4 000:031.644 JLINK_GetEmuCaps()
+T38E4 000:031.649 - 0.004ms returns 0xB8EA5A33
+T38E4 000:031.654 JLINK_GetEmuCaps()
+T38E4 000:031.659 - 0.004ms returns 0xB8EA5A33
+T38E4 000:031.665 JLINK_GetHWStatus(...)
+T38E4 000:031.784 - 0.119ms returns 0
+T38E4 000:031.793 JLINK_EMU_HasCapEx(0x00000044)
+T38E4 000:031.798 - 0.004ms returns 0
+T38E4 000:031.817 JLINK_TIF_GetAvailable(...)
+T38E4 000:031.938 - 0.121ms 
+T38E4 000:031.960 JLINK_DEVICE_GetIndex(sDeviceName = NRF52833_XXAA)
+T38E4 000:045.491 - 13.530ms returns 4858
+T38E4 000:045.517 JLINK_ExecCommand("device=NRF52833_XXAA", ...). 
+T38E4 000:046.293   Device "NRF52833_XXAA" selected.
+T38E4 000:047.477 - 1.960ms returns 0x00
+T38E4 000:047.493 JLINK_EnableLog(...)
+T38E4 000:047.498 - 0.005ms 
+T38E4 000:047.513 JLINK_GetEmuCaps()
+T38E4 000:047.518 - 0.005ms returns 0xB8EA5A33
+T38E4 000:047.524 JLINK_TIF_GetAvailable(...)
+T38E4 000:047.755 - 0.231ms 
+T38E4 000:047.767 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T38E4 000:048.243 - 0.476ms returns 0x00
+T38E4 000:048.259 JLINK_IsConnected()
+T38E4 000:048.265 - 0.005ms returns FALSE
+T38E4 000:048.273 JLINK_SetSpeed(4000)
+T38E4 000:048.338 - 0.066ms 
+T38E4 000:048.349 JLINK_Connect()
+T38E4 000:048.525   InitTarget() start
+T38E4 000:048.537    J-Link Script File: Executing InitTarget()
+T38E4 000:050.932   InitTarget() end - Took 2.39ms
+T38E4 000:051.561   Found SW-DP with ID 0x2BA01477
+T38E4 000:053.942   DPIDR: 0x2BA01477
+T38E4 000:053.956   CoreSight SoC-400 or earlier
+T38E4 000:053.965   Scanning AP map to find all available APs
+T38E4 000:054.956   AP[2]: Stopped AP scan as end of AP map has been reached
+T38E4 000:054.975   AP[0]: AHB-AP (IDR: 0x24770011, ADDR: 0x00000000)
+T38E4 000:054.983   AP[1]: JTAG-AP (IDR: 0x02880000, ADDR: 0x01000000)
+T38E4 000:054.992   Iterating through AP map to find AHB-AP to use
+T38E4 000:056.053   AP[0]: Core found
+T38E4 000:056.066   AP[0]: AHB-AP ROM base: 0xE00FF000
+T38E4 000:056.608   CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+T38E4 000:056.631   Found Cortex-M4 r0p1, Little endian.
+T38E4 000:057.026   -- Max. mem block: 0x00001BC8
+T38E4 000:057.639   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T38E4 000:058.129   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T38E4 000:058.583   CPU_ReadMem(4 bytes @ 0xE0002000)
+T38E4 000:058.996   FPUnit: 6 code (BP) slots and 2 literal slots
+T38E4 000:059.013   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T38E4 000:059.405   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T38E4 000:059.877   CPU_ReadMem(4 bytes @ 0xE0001000)
+T38E4 000:060.314   CPU_WriteMem(4 bytes @ 0xE0001000)
+T38E4 000:060.735   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T38E4 000:061.181   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T38E4 000:061.610   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T38E4 000:062.050   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T38E4 000:062.475   CoreSight components:
+T38E4 000:062.489   ROMTbl[0] @ E00FF000
+T38E4 000:062.498   CPU_ReadMem(64 bytes @ 0xE00FF000)
+T38E4 000:063.449   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T38E4 000:064.165   [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+T38E4 000:064.178   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T38E4 000:064.901   [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+T38E4 000:064.914   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T38E4 000:065.609   [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+T38E4 000:065.623   CPU_ReadMem(32 bytes @ 0xE0000FE0)
+T38E4 000:066.281   [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+T38E4 000:066.294   CPU_ReadMem(32 bytes @ 0xE0040FE0)
+T38E4 000:066.966   [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+T38E4 000:066.980   CPU_ReadMem(32 bytes @ 0xE0041FE0)
+T38E4 000:067.670   [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+T38E4 000:067.713 - 19.363ms returns 0x00
+T38E4 000:067.736 JLINK_GetIdData(pIdData)
+T38E4 000:067.971   pIdData->ScanLen=4
+T38E4 000:067.982   pIdData->NumDevices=1
+T38E4 000:067.991   pIdData->aId[0]=0x2BA01477
+T38E4 000:067.999   pIdData->aIrRead[0]=0
+T38E4 000:068.007   pIdData->aScanLen[0]=0
+T38E4 000:068.015   pIdData->aScanRead[0]=0
+T38E4 000:068.031 - 0.294ms 
+T38E4 000:068.093 JLINK_GetMemZones(...)
+T38E4 000:068.101 - 0.007ms returns 1
+T38E4 000:068.111 JLINK_HasError()
+T38E4 000:068.123 JLINK_CORE_GetFound()
+T38E4 000:068.129 - 0.006ms returns 0xE0000FF
+T38E4 000:068.147 JLINK_Halt()
+T38E4 000:072.534 - 4.386ms returns 0x00
+T38E4 000:072.563 JLINK_GetDeviceFamily
+T38E4 000:072.574 - 0.011ms returns 14
+T38E4 000:072.586 JLINK_CORE_GetFound()
+T38E4 000:072.597 - 0.010ms returns 0xE0000FF
+T38E4 000:072.622 JLINK_GetDebugInfo(0x01 = Unknown)
+T38E4 000:072.634   Value=0x00000001
+T38E4 000:072.650 - 0.028ms returns 0
+T38E4 000:072.668 JLINK_ReadRegs(NumRegs = 28)
+T38E4 000:072.715   CPU_ReadMem(4 bytes @ 0xE0001004)
+T38E4 000:073.216   
+  R0 (0)         = 0x20002E44           R1 (1)         = 0x00                 R2 (2)         = 0x00                 R3 (3)         = 0x00              
+  R4 (4)         = 0x40                 R5 (5)         = 0x21565              R6 (6)         = 0x20002E44           R7 (7)         = 0x00              
+  R8 (8)         = 0x00                 R9 (9)         = 0x08                 R10 (10)       = 0x00                 R11 (11)       = 0x00              
+  R12 (12)       = 0x32D72B00           R13 (SP) (13)  = 0x200059E0           MSP (17)       = 0x20005800           PSP (18)       = 0x200059E0        
+  R14 (14)       = 0x21579              R15 (PC) (15)  = 0x1DE6E              XPSR (16)      = 0x41000000           APSR (21)      = 0x40000000        
+  EPSR (22)      = 0x1000000            IPSR (23)      = 0x00                 CFBP (20)      = 0x2004000            CONTROL (27)   = 0x2000000         
+  FAULTMASK (26) = 0x00                 BASEPRI (25)   = 0x4000               PRIMASK (24)   = 0x00                 CycleCnt (65)  = 0x7972B           
+T38E4 000:073.251 - 0.583ms returns 0x00
+T38E4 000:073.284 JLINK_ReadRegs(NumRegs = 33)
+T38E4 000:080.450   
+  FPS0 (33)  = 0x00                 FPS1 (34)  = 0x00                 FPS2 (35)  = 0x00                 FPS3 (36)  = 0x00              
+  FPS4 (37)  = 0x00                 FPS5 (38)  = 0x00                 FPS6 (39)  = 0x00                 FPS7 (40)  = 0x00              
+  FPS8 (41)  = 0x00                 FPS9 (42)  = 0x00                 FPS10 (43) = 0x00                 FPS11 (44) = 0x00              
+  FPS12 (45) = 0x00                 FPS13 (46) = 0x3F866666           FPS14 (47) = 0x42303333           FPS15 (48) = 0x2C              
+  FPS16 (49) = 0x00                 FPS17 (50) = 0x00                 FPS18 (51) = 0x00                 FPS19 (52) = 0x00              
+  FPS20 (53) = 0x00                 FPS21 (54) = 0x00                 FPS22 (55) = 0x00                 FPS23 (56) = 0x00              
+  FPS24 (57) = 0x00                 FPS25 (58) = 0x00                 FPS26 (59) = 0x00                 FPS27 (60) = 0x00              
+  FPS28 (61) = 0x00                 FPS29 (62) = 0x00                 FPS30 (63) = 0x00                 FPS31 (64) = 0x00              
+  FPSCR (32) = 0x00              
+T38E4 000:080.571 - 7.286ms returns 0x00
+T38E4 000:081.239 JLINK_ReadMemEx_64(0x00000000, 0x80000 Bytes, ...)
+T38E4 000:081.299   CPU_ReadMem(524288 bytes @ 0x00000000)
+T38E4 004:495.757    -- Updating C cache (524288 bytes @ 0x00000000)
+T38E4 004:495.880    -- Read from C cache (524288 bytes @ 0x00000000)
+T38E4 004:498.096   Data:  00 7A 00 20 35 33 01 00 47 DE 01 00 21 33 01 00 ...
+T38E4 004:498.105 - 4416.867ms returns 524288 (0x80000)
+T38E4 004:499.019 JLINK_ReadMemEx_64(0x10001000, 0x1000 Bytes, ...)
+T38E4 004:499.053   CPU_ReadMem(4096 bytes @ 0x10001000)
+T38E4 004:533.693    -- Updating C cache (4096 bytes @ 0x10001000)
+T38E4 004:533.726    -- Read from C cache (4096 bytes @ 0x10001000)
+T38E4 004:533.760   Data:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF ...
+T38E4 004:533.771 - 34.752ms returns 4096 (0x1000)
+T38E4 004:534.410 JLINK_ReadMemEx_64(0x10000000, 0x1000 Bytes, ...)
+T38E4 004:534.436   CPU_ReadMem(4096 bytes @ 0x10000000)
+T38E4 004:569.119   Data:  AA 55 AA 55 AA 55 AA 55 FF FF FF FF FF FF FF FF ...
+T38E4 004:569.147 - 34.737ms returns 4096 (0x1000)
+T38E4 004:569.836 JLINK_ReadMemEx_64(0x00000000, 0x80000 Bytes, ...)
+T38E4 004:570.009    -- Read from C cache (524288 bytes @ 0x00000000)
+T38E4 004:572.194   Data:  00 7A 00 20 35 33 01 00 47 DE 01 00 21 33 01 00 ...
+T38E4 004:572.205 - 2.368ms returns 524288 (0x80000)
+T38E4 004:573.001 JLINK_ReadMemEx_64(0x10001000, 0x1000 Bytes, ...)
+T38E4 004:573.031    -- Read from C cache (4096 bytes @ 0x10001000)
+T38E4 004:573.085   Data:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF ...
+T38E4 004:573.103 - 0.101ms returns 4096 (0x1000)
+T38E4 004:573.382 JLINK_SetResetDelay(0)
+T38E4 004:573.399 - 0.017ms 
+T38E4 004:573.410 JLINK_Reset()
+T38E4 004:573.451   JLINK_GetResetTypeDesc
+T38E4 004:573.460   - 0.009ms 
+T38E4 004:573.471   Reset type: NORMAL (https://kb.segger.com/J-Link_Reset_Strategies)
+T38E4 004:573.492   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T38E4 004:574.055   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T38E4 004:574.541   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T38E4 004:574.998   Reset: Reset device via AIRCR.SYSRESETREQ.
+T38E4 004:575.019   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T38E4 004:628.620   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T38E4 004:629.036   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T38E4 004:629.835   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T38E4 004:636.359   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T38E4 004:641.235   CPU_WriteMem(4 bytes @ 0xE0002000)
+T38E4 004:641.725   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T38E4 004:642.159   CPU_ReadMem(4 bytes @ 0xE0001000)
+T38E4 004:642.573 - 69.162ms 
+T38E4 004:642.629 JLINK_GoEx(MaxEmulInsts = 0, Flags = 0x01)
+T38E4 004:642.642   CPU_ReadMem(4 bytes @ 0xE0001000)
+T38E4 004:643.037   CPU_WriteMem(4 bytes @ 0xE0001004)
+T38E4 004:644.141   Memory map 'after startup completion point' is active
+T38E4 004:644.153 - 1.523ms 
+T38E4 004:644.167 JLINK_IsOpen()
+T38E4 004:644.172 - 0.005ms returns 0x01
+T38E4 004:646.369 JLINK_Close()
+T38E4 004:663.337 - 16.965ms
+T38E4 004:669.514   
+T38E4 004:669.545   Closed

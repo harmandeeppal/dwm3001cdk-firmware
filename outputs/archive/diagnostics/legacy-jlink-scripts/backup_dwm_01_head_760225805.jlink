@@ -1,0 +1,7 @@
+device NRF52833_XXAA
+si SWD
+speed 100
+connect
+savebin C:\ncs\comp971_dissertation\hardware_backups\DWM3001CDK_760225805\2026-09-25_preflash_blank\flash_00000000_00080000.bin, 0x00000000, 0x00080000
+savebin C:\ncs\comp971_dissertation\hardware_backups\DWM3001CDK_760225805\2026-09-25_preflash_blank\uicr_10001000_00001000.bin, 0x10001000, 0x00001000
+q

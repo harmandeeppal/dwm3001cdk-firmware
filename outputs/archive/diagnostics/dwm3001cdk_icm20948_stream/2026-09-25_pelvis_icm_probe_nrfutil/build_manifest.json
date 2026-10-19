@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "artifact_type": "compiled_firmware_not_flashed",
+  "firmware_image": "dwm3001cdk_icm20948_stream",
+  "profile_id": "single_node_icm20948_stream_v1",
+  "target": {
+    "device_id": "DWM-02",
+    "permanent_name": "DWM-02-PELVIS",
+    "jlink_serial": "760224787"
+  },
+  "build": {
+    "board": "decawave_dwm3001cdk",
+    "toolchain": "Nordic nRF Connect SDK v3.4.0 / Zephyr 4.4.0",
+    "binary": "DWM-02-PELVIS__icm20948_stream_nrfutil__760224787.hex",
+    "binary_sha256": "b5b61eaf3a4b539a5432a01bd3910760465e1ca2fa31cd027dbdd1f9f5f0ad88",
+    "generated_configuration_sha256": "133f6ca5668f18774ab907434fd447be67fe6b65ac77826437bd8e911348a6c1"
+  },
+  "programming": {
+    "operation": "nrfutil_operation.json",
+    "preview_status": "passed",
+    "execution_status": "not_programmed",
+    "failure": "Official Nordic nrfutil failed before programming: invalid SWD debug-port identification register; bit 0 read as 0 instead of 1.",
+    "integrity_check": "Original flash vector remained 20003000,00005A21,000097D3,000059F5, matching the verified backup."
+  }
+}

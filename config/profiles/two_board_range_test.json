@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "profile_id": "two_board_range_test_v1",
+  "enabled": false,
+  "description": "Archived 2026-08-30 two-board single-sided two-way-ranging test. Its DWM-01/DWM-02 roles and calibration records remain historical evidence only after J-Link 760225018 was reassigned to DWM-05-LEFT-ANKLE; it must not be launched as the current hardware profile.",
+  "role_assignments": {
+    "initiator": "DWM-01",
+    "responder": "DWM-02"
+  },
+  "connection_policy": {
+    "laptop_connected_device": "DWM-01",
+    "standalone_powered_device": "DWM-02",
+    "discover_by": "jlink_serial",
+    "serial_baud": 115200
+  },
+  "uwb": {
+    "channel": 5,
+    "data_rate": "6.8_Mbps",
+    "preamble_symbols": 128,
+    "response_delay_uus": 1000,
+    "antenna_delay": {
+      "DWM-01": {
+        "tx": 16378,
+        "rx": 16378
+      },
+      "DWM-02": {
+        "tx": 16378,
+        "rx": 16378
+      }
+    },
+    "antenna_delay_calibrated": true,
+    "calibration_status": "symmetric_pair_offset_validated_at_50_75_150cm",
+    "calibration_validation": {
+      "distances_cm": [50, 75, 150],
+      "maximum_absolute_median_error_cm": 2,
+      "maximum_raw_standard_deviation_cm": 4.53,
+      "offset_accuracy_passed": true,
+      "raw_noise_status": "near_4cm_target_use_timestamped_filtering_in_60hz_fusion",
+      "summary_file": "../../outputs/archive/firmware-iterations/2026-08-30_two_board_range_test/calibration_summary_balanced16378.json"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "test_date": "2026-08-30",
+  "test_name": "DWM3001CDK J10 to ICM-20948 WHO_AM_I check",
+  "repository_head_before_test": "78ae9a0f578db3759aef62db7e883b7247de3bb6",
+  "source_directory": "firmware/dwm3001cdk_icm20948_check",
+  "pre_flash_backup": "../../../../../hardware_backups/DWM3001CDK_760225018/2026-08-30_preflash_backup/backup_manifest.json",
+  "hardware": {
+    "board": "DWM3001CDK",
+    "target": "nRF52833_xxAA",
+    "jlink_serial_number": "760225018",
+    "jlink_cdc_uart": "COM9",
+    "jlink_version": "9.72"
+  },
+  "toolchain": {
+    "nrf_connect_sdk": "v3.4.0",
+    "zephyr": "4.4.0",
+    "west": "1.5.0",
+    "board_target": "decawave_dwm3001cdk/nrf52833"
+  },
+  "firmware": {
+    "flash_used_bytes": 23388,
+    "ram_used_bytes": 4672,
+    "linked_start_address": "0x00000000",
+    "zephyr_elf_sha256": "76DD0286E42A67DF426D547DE945CA640BCBACA680EAB1776CE83A301AD5FDD7",
+    "zephyr_hex_sha256": "48273D4387966219666075DEFE240DB23E442D6F64BE118FAE9A7C093E727360",
+    "zephyr_bin_sha256": "FB707A4BF82100B6746ECDDAD1D48F8CBDC92172C592C7604D458CDABCACD53A"
+  },
+  "i2c_contract": {
+    "controller": "i2c0",
+    "frequency_hz": 100000,
+    "sda": "J10 pin 3 / nRF P0.26",
+    "scl": "J10 pin 5 / nRF P0.23",
+    "addresses_tested": [
+      "0x69",
+      "0x68"
+    ],
+    "who_am_i_register": "0x00",
+    "expected_value": "0xEA"
+  },
+  "execution": {
+    "build_status": "passed",
+    "flash_status": "passed",
+    "uart_status": "passed",
+    "icm20948_identity_status": "failed_no_acknowledgement",
+    "observed_error": -5,
+    "serial_capture": "serial_capture_COM9_115200.txt"
+  },
+  "conclusion": "The SDK, build, J-Link flash, nRF52833 boot, UART console, and configured I2C controller all operate. The ICM-20948 did not acknowledge either valid address, so the remaining fault is on the sensor-side power, physical wiring, connector orientation, or sensor board."
+}

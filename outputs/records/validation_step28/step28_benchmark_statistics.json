@@ -1,0 +1,104 @@
+{
+  "imu_statistics": {
+    "0": {
+      "node_name": "head",
+      "received_samples": 105882,
+      "first_sequence": 47016,
+      "last_sequence": 155021,
+      "span_sequences": 108006,
+      "duplicate_samples": 0,
+      "sequence_jumps": 106,
+      "missing_samples": 2124,
+      "detected_mcu_resets": 0
+    },
+    "1": {
+      "node_name": "pelvis",
+      "received_samples": 106868,
+      "first_sequence": 22903,
+      "last_sequence": 19277,
+      "span_sequences": "multiboot",
+      "duplicate_samples": 36302,
+      "sequence_jumps": 2,
+      "missing_samples": 381,
+      "detected_mcu_resets": 2
+    },
+    "2": {
+      "node_name": "left_wrist",
+      "received_samples": 107586,
+      "first_sequence": 53514,
+      "last_sequence": 161513,
+      "span_sequences": 108000,
+      "duplicate_samples": 6,
+      "sequence_jumps": 4,
+      "missing_samples": 420,
+      "detected_mcu_resets": 0
+    },
+    "3": {
+      "node_name": "right_wrist",
+      "received_samples": 107080,
+      "first_sequence": 46752,
+      "last_sequence": 154757,
+      "span_sequences": 108006,
+      "duplicate_samples": 0,
+      "sequence_jumps": 28,
+      "missing_samples": 926,
+      "detected_mcu_resets": 0
+    },
+    "4": {
+      "node_name": "left_ankle",
+      "received_samples": 107602,
+      "first_sequence": 46542,
+      "last_sequence": 154547,
+      "span_sequences": 108006,
+      "duplicate_samples": 0,
+      "sequence_jumps": 3,
+      "missing_samples": 404,
+      "detected_mcu_resets": 0
+    },
+    "5": {
+      "node_name": "right_ankle",
+      "received_samples": 105906,
+      "first_sequence": 46404,
+      "last_sequence": 154379,
+      "span_sequences": 107976,
+      "duplicate_samples": 0,
+      "sequence_jumps": 142,
+      "missing_samples": 2070,
+      "detected_mcu_resets": 0
+    }
+  },
+  "uwb_statistics": {
+    "received_blocks": 8871,
+    "evaluated_slots_total": 44355,
+    "valid_measurements_total": 35389,
+    "aggregate_validity_percent": 79.79,
+    "per_link": {
+      "pelvis_head": {
+        "valid_count": 8829,
+        "total_opportunities": 8871,
+        "validity_percent": 99.53
+      },
+      "pelvis_left_wrist": {
+        "valid_count": 6411,
+        "total_opportunities": 8871,
+        "validity_percent": 72.27
+      },
+      "pelvis_right_wrist": {
+        "valid_count": 5530,
+        "total_opportunities": 8871,
+        "validity_percent": 62.34
+      },
+      "pelvis_left_ankle": {
+        "valid_count": 6103,
+        "total_opportunities": 8871,
+        "validity_percent": 68.8
+      },
+      "pelvis_right_ankle": {
+        "valid_count": 8516,
+        "total_opportunities": 8871,
+        "validity_percent": 96.0
+      }
+    }
+  },
+  "stall_snapshots_count": 6
+}

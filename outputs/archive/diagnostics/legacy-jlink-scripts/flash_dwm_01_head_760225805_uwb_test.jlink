@@ -1,0 +1,10 @@
+device NRF52833_XXAA
+si SWD
+speed 100
+exec SetInitWorkRAMOnConnect = 1
+connect
+r
+loadfile C:\ncs\comp971_dissertation\hardware\outputs\dwm3001cdk_motion_node\2026-08-30_two_board_range_test\DWM-01-HEAD__range-initiator__760225018.hex
+r
+g
+q

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "artifact_type": "compiled_firmware_not_flashed",
+  "firmware_image": "dwm3001cdk_icm20948_stream",
+  "profile_id": "single_node_icm20948_stream_v1",
+  "target": {
+    "device_id": "DWM-01",
+    "permanent_name": "DWM-01-HEAD",
+    "jlink_serial": "760225805",
+    "identity_source": "../../../../config/device_registry.json"
+  },
+  "build": {
+    "board": "decawave_dwm3001cdk",
+    "toolchain": "Nordic nRF Connect SDK v3.4.0 / Zephyr 4.4.0",
+    "binary": "DWM-01-HEAD__icm20948_stream__760225805.hex",
+    "binary_sha256": "f9ace19827107dd6083e2b47c4ba5a70c0781594f62e2ff27ef29e7d3e42261c",
+    "generated_configuration_sha256": "8d34cca852aa54f2cf419eb1049f42e0cd0eec9f85c22e6d0f7c5337e51a3e41"
+  },
+  "verification": {
+    "configuration_validation": "passed",
+    "firmware_compilation": "passed",
+    "preflash_backup": "not_started_target_not_connectable",
+    "flash_status": "not_flashed",
+    "hardware_telemetry_status": "not_tested"
+  },
+  "limitations": [
+    "ICM power LED is not evidence of I2C identity or telemetry.",
+    "The serial COM port is not treated as permanent device identity."
+  ]
+}

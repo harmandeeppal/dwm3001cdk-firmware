@@ -1,0 +1,14 @@
+SelectEmuBySN 760224787
+device NRF52833_XXAA
+si SWD
+speed 4000
+connect
+halt
+savebin hardware/backups/DWM3001CDK_760224787/2026-09-30_pre_txstatus_diagnostic_backup/pelvis_flash_read1.bin, 0x00000000, 0x00080000
+savebin hardware/backups/DWM3001CDK_760224787/2026-09-30_pre_txstatus_diagnostic_backup/pelvis_uicr_read1.bin, 0x10001000, 0x00001000
+savebin hardware/backups/DWM3001CDK_760224787/2026-09-30_pre_txstatus_diagnostic_backup/pelvis_ficr_identity.bin, 0x10000000, 0x00001000
+savebin hardware/backups/DWM3001CDK_760224787/2026-09-30_pre_txstatus_diagnostic_backup/pelvis_flash_read2.bin, 0x00000000, 0x00080000
+savebin hardware/backups/DWM3001CDK_760224787/2026-09-30_pre_txstatus_diagnostic_backup/pelvis_uicr_read2.bin, 0x10001000, 0x00001000
+r
+g
+q

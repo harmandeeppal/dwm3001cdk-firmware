@@ -1,0 +1,8 @@
+SelectEmuBySN 760224787
+device NRF52833_XXAA
+si SWD
+speed 500
+connect
+savebin DWM-02-PELVIS_760224787_preflash_code.bin, 0x00000000, 0x80000
+savebin DWM-02-PELVIS_760224787_preflash_uicr.bin, 0x10001000, 0x1000
+q

@@ -1,0 +1,12 @@
+*** Booting nRF Connect SDK v3.4.0-99553055607b ***
+*** Using Zephyr OS v4.4.0-bf801e4e3d19 ***
+
+========================================
+DWM3001CDK J10 -> ICM-20948 check
+SDA=P0.26, SCL=P0.23, bus=100 kHz
+Expected WHO_AM_I: 0xEA
+========================================
+I2C0 is ready. Testing 0x69, then 0x68.
+Device at 0x69 returned WHO_AM_I=0xEA.
+SUCCESS: ICM-20948 detected at address 0x69.
+Green D9 is on. The wiring and I2C identity check passed.

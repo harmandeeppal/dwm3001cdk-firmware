@@ -1,0 +1,45 @@
+{
+  "format": "COMP971 gateway USB framed binary protocol v1",
+  "source": "hardware\\outputs\\records\\acquisition\\gateway_raw_2026-10-05_212614.bin",
+  "raw_bytes": 17816227,
+  "imu_records": 384600,
+  "uwb_records": 16220,
+  "node_status_records": 3176,
+  "gateway_status_records": 3600,
+  "uwb_diagnostic_records": 2987,
+  "uwb_diagnostic_events_by_stage": {
+    "dw3000_last_tx_diff": 174,
+    "dw3000_last_tx_status": 186,
+    "dw3000_tx_count": 172,
+    "err_helper_open": 189,
+    "err_mac_init": 190,
+    "err_measurement": 191,
+    "err_scheduler": 185,
+    "fira_last_block_index": 189,
+    "fira_lifetime_min_lead": 179,
+    "fira_stall_recovery_count": 188,
+    "fira_steady_fail_count": 177,
+    "fira_steady_total": 197,
+    "responder_reported_invalid_range": 2,
+    "task_stack_free_bytes": 184,
+    "unknown": 584
+  },
+  "invalid_frames": 0,
+  "bytes_not_in_valid_frames": 1,
+  "imu_records_by_node": {
+    "0": 193152,
+    "1": 191448,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "sequence_gaps_by_node": {
+    "0": 21450,
+    "1": 23244,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

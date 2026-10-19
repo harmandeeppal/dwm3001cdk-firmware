@@ -1,0 +1,2874 @@
+﻿{
+    "test":  "3-node star bring-up",
+    "port":  "COM16",
+    "timestamp":  "2026-10-07_230118",
+    "duration_s":  10,
+    "active_duration_s":  8,
+    "imu_counts":  {
+                       "Node_2":  480,
+                       "Node_1":  480,
+                       "Node_0":  480
+                   },
+    "uwb_summary":  {
+                        "Pair_1":  {
+                                       "pair_name":  "PELVIS \u003c-\u003e LEFT-WRIST",
+                                       "count":  0,
+                                       "rate_hz":  0,
+                                       "median_cm":  null,
+                                       "first_range_s":  null
+                                   },
+                        "Pair_0":  {
+                                       "pair_name":  "PELVIS \u003c-\u003e HEAD",
+                                       "count":  0,
+                                       "rate_hz":  0,
+                                       "median_cm":  null,
+                                       "first_range_s":  null
+                                   }
+                    },
+    "first_range_elapsed":  {
+                                "Pair_1":  null,
+                                "Pair_0":  null
+                            },
+    "diagnostics":  [
+                        {
+                            "elapsed_s":  2.01,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  570320000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.036,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xCE",
+                            "stage_name":  "0xCE",
+                            "sub_code":  0,
+                            "timestamp_us":  852681000,
+                            "detail":  -1
+                        },
+                        {
+                            "elapsed_s":  2.036,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  852681000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.095,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  858781000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  2.103,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  627505000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.104,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  631991000,
+                            "detail":  234881024
+                        },
+                        {
+                            "elapsed_s":  2.11,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  570422000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.138,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  852782000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.164,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  627606000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.21,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  6,
+                            "timestamp_us":  574542000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  2.23,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  570522000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.255,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  852883000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.262,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  627707000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.31,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  570621000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.363,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  627808000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.376,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  852983000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.41,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  570721000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.458,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  853084000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.462,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  627909000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.51,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB6",
+                            "stage_name":  "fira_last_block_index",
+                            "sub_code":  0,
+                            "timestamp_us":  570821000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  2.53,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  570821000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.556,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  853186000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.563,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  628010000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.61,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  570922000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.676,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  853286000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.703,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  628111000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.71,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  571023000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.755,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  853385000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.81,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  571124000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.823,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xCF",
+                            "stage_name":  "0xCF",
+                            "sub_code":  0,
+                            "timestamp_us":  628212000,
+                            "detail":  65536
+                        },
+                        {
+                            "elapsed_s":  2.824,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  628214000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.855,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  853485000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.884,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  628313000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.93,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  571225000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.976,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  853585000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  2.983,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  628412000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.011,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  571326000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.055,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xCF",
+                            "stage_name":  "0xCF",
+                            "sub_code":  0,
+                            "timestamp_us":  853686000,
+                            "detail":  65536
+                        },
+                        {
+                            "elapsed_s":  3.056,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  853686000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.103,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  628513000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.11,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  571427000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.117,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  859789000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  3.176,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  853787000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.183,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  632999000,
+                            "detail":  234881024
+                        },
+                        {
+                            "elapsed_s":  3.183,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  628614000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.191,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  6,
+                            "timestamp_us":  575550000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  3.211,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  571528000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.276,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  853888000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.283,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  628715000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.33,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  571630000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.355,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  853989000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.385,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  628816000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.43,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  571730000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.455,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  854090000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.53,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB7",
+                            "stage_name":  "0xB7",
+                            "sub_code":  0,
+                            "timestamp_us":  571829000,
+                            "detail":  2147483647
+                        },
+                        {
+                            "elapsed_s":  3.542,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  628917000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.55,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  571829000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.575,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  854191000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.583,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  629018000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.631,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  571929000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.655,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  854292000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.682,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  629119000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.721,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  572029000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.77,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  854395000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.783,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB0",
+                            "stage_name":  "dw3000_tx_count",
+                            "sub_code":  0,
+                            "timestamp_us":  629220000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  3.783,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  629220000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.818,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  572130000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.886,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  854494000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.92,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  629322000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.92,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  572231000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  3.985,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  854593000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.003,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  629422000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.019,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  572332000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.069,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB0",
+                            "stage_name":  "dw3000_tx_count",
+                            "sub_code":  0,
+                            "timestamp_us":  854693000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  4.069,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  854693000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.118,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  572433000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.134,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  860797000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  4.134,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  629521000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.17,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  854793000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.202,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  634007000,
+                            "detail":  234881024
+                        },
+                        {
+                            "elapsed_s":  4.202,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  629621000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.202,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  6,
+                            "timestamp_us":  576558000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  4.251,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  572534000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.286,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  854894000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.302,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  629722000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.327,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  572635000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.37,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  854995000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.402,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  629823000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.419,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  572736000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.474,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  855096000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.501,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  629924000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.519,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xC8",
+                            "stage_name":  "0xC8",
+                            "sub_code":  0,
+                            "timestamp_us":  572837000,
+                            "detail":  4980
+                        },
+                        {
+                            "elapsed_s":  4.569,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  572839000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.616,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  855197000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.617,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  630025000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.633,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  572938000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.674,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  855298000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.719,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  630126000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.75,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  573037000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.767,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  855399000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.802,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB1",
+                            "stage_name":  "interval_min_lead_us",
+                            "sub_code":  0,
+                            "timestamp_us":  630227000,
+                            "detail":  2147483647
+                        },
+                        {
+                            "elapsed_s":  4.803,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  630227000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.871,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  573137000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.885,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  855500000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.902,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  630328000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.969,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  573237000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  4.969,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  855602000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.051,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  573338000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.066,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  630431000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.068,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB1",
+                            "stage_name":  "interval_min_lead_us",
+                            "sub_code":  0,
+                            "timestamp_us":  855701000,
+                            "detail":  2147483647
+                        },
+                        {
+                            "elapsed_s":  5.068,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  855702000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.119,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  630530000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.151,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  861805000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  5.151,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  635015000,
+                            "detail":  234881024
+                        },
+                        {
+                            "elapsed_s":  5.168,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  573439000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.186,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  855801000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.219,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  6,
+                            "timestamp_us":  577566000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  5.252,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  630630000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.269,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  855901000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.286,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  573540000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.351,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  573641000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.366,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  630729000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.384,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  856001000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.466,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  630829000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.47,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  573742000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.495,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  856102000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.551,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xC9",
+                            "stage_name":  "0xC9",
+                            "sub_code":  0,
+                            "timestamp_us":  573843000,
+                            "detail":  976
+                        },
+                        {
+                            "elapsed_s":  5.569,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  573843000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.616,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  856203000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.618,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  630929000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.643,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  631030000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.69,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  573944000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.695,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  856304000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.718,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  631130000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.749,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  574046000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.795,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  856405000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.844,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB2",
+                            "stage_name":  "dw3000_late_tx_count",
+                            "sub_code":  0,
+                            "timestamp_us":  631231000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  5.844,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  631231000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.85,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  574146000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.916,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  856506000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.925,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  631332000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.952,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  574246000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  5.995,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  856607000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.07,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  574345000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.095,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB2",
+                            "stage_name":  "dw3000_late_tx_count",
+                            "sub_code":  0,
+                            "timestamp_us":  856708000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.096,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  856708000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.103,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  631433000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.123,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  631534000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.156,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  862813000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  6.171,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  574445000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.203,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  636023000,
+                            "detail":  234881024
+                        },
+                        {
+                            "elapsed_s":  6.216,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  856810000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.225,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  631635000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.23,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  6,
+                            "timestamp_us":  578574000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  6.253,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  574546000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.295,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  856910000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.345,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  631736000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.37,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  574647000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.416,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  857009000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.425,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  631838000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.491,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  574748000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.516,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  857109000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.522,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  631937000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.57,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xCA",
+                            "stage_name":  "0xCA",
+                            "sub_code":  0,
+                            "timestamp_us":  574849000,
+                            "detail":  872
+                        },
+                        {
+                            "elapsed_s":  6.59,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  574849000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.595,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  857209000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.623,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  632037000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.67,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  574950000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.695,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  857310000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.722,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  632137000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.77,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  575051000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.815,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  857411000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.825,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  0,
+                            "timestamp_us":  632238000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.842,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  632238000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.871,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  575152000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.923,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  632339000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.935,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  857512000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  6.97,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  575254000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.015,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  857613000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.043,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  632440000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.07,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  575354000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.135,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  0,
+                            "timestamp_us":  857714000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.135,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  857714000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.166,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  632541000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.17,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  575454000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.175,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  863821000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  7.184,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  637031000,
+                            "detail":  234881024
+                        },
+                        {
+                            "elapsed_s":  7.235,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  857815000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.243,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  632642000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.251,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  6,
+                            "timestamp_us":  579582000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  7.273,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  575553000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.315,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  857916000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.342,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  632743000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.37,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  575653000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.418,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  858019000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.443,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  632844000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.491,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  575753000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.538,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  858118000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.543,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  632946000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.57,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xCB",
+                            "stage_name":  "0xCB",
+                            "sub_code":  0,
+                            "timestamp_us":  575854000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.57,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  575854000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.618,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  858217000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.643,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  633046000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.67,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  575955000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.718,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  858317000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.752,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  633145000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.769,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  576056000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.852,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  858417000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.852,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB4",
+                            "stage_name":  "fira_steady_fail_count",
+                            "sub_code":  0,
+                            "timestamp_us":  633245000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.868,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  576157000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.883,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  633245000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.919,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  858518000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.935,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  633345000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  7.984,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  576258000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.036,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  858619000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.04,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  633446000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.09,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  576359000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.135,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB4",
+                            "stage_name":  "fira_steady_fail_count",
+                            "sub_code":  0,
+                            "timestamp_us":  858720000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.135,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  633547000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.152,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  858720000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.152,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  864830000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  8.152,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  638039000,
+                            "detail":  234881024
+                        },
+                        {
+                            "elapsed_s":  8.209,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  576460000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.219,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  6,
+                            "timestamp_us":  580590000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  8.235,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  633648000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.252,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  858821000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.289,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  576562000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.335,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  858922000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.34,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  633749000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.39,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  576662000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.435,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  859023000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.482,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  633850000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.49,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  576761000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.574,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  859124000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.585,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  633951000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.589,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xCC",
+                            "stage_name":  "0xCC",
+                            "sub_code":  0,
+                            "timestamp_us":  576861000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.589,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  576861000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.635,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  859226000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.652,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  634052000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.691,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  576961000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.735,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  859326000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.783,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  634154000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.785,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  577062000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.855,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  859425000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.886,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB5",
+                            "stage_name":  "fira_steady_total",
+                            "sub_code":  0,
+                            "timestamp_us":  634253000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.89,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  577163000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.936,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  859525000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.936,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  634254000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.958,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  634353000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  8.99,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  577264000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.036,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  859625000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.083,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  634453000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.092,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  577365000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.152,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB5",
+                            "stage_name":  "fira_steady_total",
+                            "sub_code":  0,
+                            "timestamp_us":  859726000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  9.152,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  859726000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.152,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  865838000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  9.152,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  634553000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.152,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  639046000,
+                            "detail":  234881024
+                        },
+                        {
+                            "elapsed_s":  9.185,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  577466000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.252,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  6,
+                            "timestamp_us":  581598000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  9.29,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  859827000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.302,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  634654000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.302,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  577567000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.336,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  859928000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.352,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  634755000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.402,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  577668000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.455,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  860029000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.483,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  634856000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.502,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  577770000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.535,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  860130000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.552,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  634957000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.604,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xCD",
+                            "stage_name":  "0xCD",
+                            "sub_code":  0,
+                            "timestamp_us":  577869000,
+                            "detail":  -1
+                        },
+                        {
+                            "elapsed_s":  9.604,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  577870000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.657,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  860231000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.659,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  635058000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.707,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  577969000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.755,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  860332000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.763,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  635159000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.81,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  578069000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.875,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  860434000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.882,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB6",
+                            "stage_name":  "fira_last_block_index",
+                            "sub_code":  0,
+                            "timestamp_us":  635260000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  9.882,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  635260000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.91,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  578169000,
+                            "detail":  37
+                        },
+                        {
+                            "elapsed_s":  9.955,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xE3",
+                            "stage_name":  "0xE3",
+                            "sub_code":  0,
+                            "timestamp_us":  860534000,
+                            "detail":  37
+                        }
+                    ]
+}

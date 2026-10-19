@@ -1,0 +1,10 @@
+SelectEmuBySN 760225805
+device NRF52833_XXAA
+si SWD
+speed 4000
+connect
+h
+savebin head_postflash_icm60_0x00000000_0x00029fff.bin, 0x00000000, 0x0002A000
+r
+g
+q

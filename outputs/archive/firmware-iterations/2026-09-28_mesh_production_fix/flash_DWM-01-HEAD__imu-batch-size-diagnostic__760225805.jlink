@@ -1,0 +1,9 @@
+SelectEmuBySN 760225805
+device NRF52833_XXAA
+si SWD
+speed 500
+connect
+loadfile DWM-01-HEAD__imu-batch-size-diagnostic__760225805.hex
+r
+g
+q

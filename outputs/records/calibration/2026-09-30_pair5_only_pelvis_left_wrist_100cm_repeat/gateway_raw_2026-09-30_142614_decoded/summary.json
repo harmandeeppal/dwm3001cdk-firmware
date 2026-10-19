@@ -1,0 +1,35 @@
+{
+  "format": "COMP971 gateway USB framed binary protocol v1",
+  "source": "hardware\\outputs\\records\\calibration\\2026-09-30_pair5_only_pelvis_left_wrist_100cm_repeat\\gateway_raw_2026-09-30_142614.bin",
+  "raw_bytes": 419004,
+  "imu_records": 7155,
+  "uwb_records": 113,
+  "node_status_records": 114,
+  "gateway_status_records": 59,
+  "uwb_diagnostic_records": 3049,
+  "uwb_diagnostic_events_by_stage": {
+    "coordinator_result_timeout": 4,
+    "final_tx_failed": 512,
+    "responder_final_not_received": 514,
+    "responder_response_tx_failed": 758,
+    "response_wait_failed": 1261
+  },
+  "invalid_frames": 0,
+  "bytes_not_in_valid_frames": 30,
+  "imu_records_by_node": {
+    "0": 0,
+    "1": 3573,
+    "2": 3582,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "sequence_gaps_by_node": {
+    "0": 0,
+    "1": 25,
+    "2": 19,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

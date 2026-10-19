@@ -1,0 +1,47 @@
+{
+  "format": "COMP971 gateway USB framed binary protocol v1",
+  "source": "hardware\\outputs\\records\\acquisition\\disconnect_stress_60cycles.bin",
+  "raw_bytes": 320820,
+  "imu_records": 6798,
+  "uwb_records": 285,
+  "node_status_records": 113,
+  "gateway_status_records": 60,
+  "uwb_diagnostic_records": 114,
+  "uwb_diagnostic_events_by_stage": {
+    "connect_block_index": 6,
+    "connect_count_and_queue_depth": 6,
+    "disconnect_and_flush_counts": 6,
+    "dw3000_late_tx_count": 6,
+    "dw3000_tx_count": 6,
+    "fail_ring_last_block": 6,
+    "fail_ring_last_status": 6,
+    "fira_last_block_index": 8,
+    "fira_lifetime_min_lead": 8,
+    "fira_stall_recovery_count": 8,
+    "fira_steady_fail_count": 8,
+    "fira_steady_total": 8,
+    "imu_task_free_stack_bytes": 8,
+    "interval_min_lead": 6,
+    "prog_session_started": 2,
+    "status_task_free_stack_bytes": 8,
+    "uwb_task_free_stack_bytes": 8
+  },
+  "invalid_frames": 0,
+  "bytes_not_in_valid_frames": 0,
+  "imu_records_by_node": {
+    "0": 3432,
+    "1": 3366,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "sequence_gaps_by_node": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

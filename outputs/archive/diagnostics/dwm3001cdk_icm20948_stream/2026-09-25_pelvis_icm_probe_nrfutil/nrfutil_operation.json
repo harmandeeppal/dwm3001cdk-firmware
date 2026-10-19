@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "tool": "nrfutil device program",
+  "profile_id": "single_node_icm20948_stream_v1",
+  "configuration_sha256": "133f6ca5668f18774ab907434fd447be67fe6b65ac77826437bd8e911348a6c1",
+  "target": {
+    "device_id": "DWM-02",
+    "permanent_name": "DWM-02-PELVIS",
+    "jlink_serial": "760224787"
+  },
+  "firmware_image": "C:\\Users\\harma\\OneDrive - AUT University\\AUT - COMP971 Dissertation (60 points)\\hardware\\outputs\\diagnostics\\dwm3001cdk_icm20948_stream\\2026-09-25_pelvis_icm_probe_nrfutil\\DWM-02-PELVIS__icm20948_stream_nrfutil__760224787.hex",
+  "programming": {
+    "backend": "nrfutil_device",
+    "interface": "SWD",
+    "swd_clock_khz": 1000,
+    "device_family": "nrf52",
+    "flash_options": {
+      "chip_erase_mode": "ERASE_RANGES_TOUCHED_BY_FIRMWARE",
+      "verify": "VERIFY_READ",
+      "reset": "RESET_PIN"
+    }
+  }
+}

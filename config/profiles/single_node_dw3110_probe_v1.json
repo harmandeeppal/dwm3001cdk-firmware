@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "profile_id": "single_node_dw3110_probe_v1",
+  "enabled": false,
+  "implementation_status": "implemented_pending_physical_verification",
+  "firmware_image": "dwm3001cdk_dw3110_probe",
+  "description": "Non-radio-transmitting, one-board DW3110 identity/SPI health probe. The selected target must be supplied explicitly and resolved through device_registry.json; this profile does not verify IMU, ranging, calibration, or six-node operation.",
+  "target_policy": {
+    "selection": "explicit_cli_device_id",
+    "eligible_registry_status": "registered",
+    "discover_by": "jlink_serial",
+    "com_port_is_identity": false
+  },
+  "telemetry_contract_profile_id": "six_node_telemetry_v1",
+  "probe": {
+    "radio_tx_enabled": false,
+    "expected_dw3110_device_id": "0xDECA0302",
+    "boot_delay_ms": 100,
+    "retry_interval_ms": 2000,
+    "success_status_interval_ms": 5000,
+    "emit_startup_identity": true,
+    "require_post_flash_identity_and_pass": true
+  }
+}

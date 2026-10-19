@@ -1,0 +1,7 @@
+SelectEmuBySN 760225018
+device NRF52833_XXAA
+si SWD
+speed 100
+connect
+savebin DWM-03-SPARE_760225018_preflash_code.bin, 0x00000000, 0x80000
+q

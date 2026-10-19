@@ -1,0 +1,10 @@
+/* Generated from hardware JSON; do not edit. */
+#pragma once
+#define ICM_NODE_NAME "DWM-02-PELVIS"
+#define ICM_DEVICE_ID "DWM-02"
+#define ICM_JLINK_SERIAL "760224787"
+#define ICM_CONFIG_SHA256 "aee8f2a0b13b8025783011ffacd3e1c21a8990b628dd780533a73682cdf7e49d"
+#define ICM_SERIAL_BAUD 115200U
+#define ICM_SAMPLE_RATE_HZ 60U
+#define ICM_I2C_ADDRESS 0x69U
+#define ICM_WHO_AM_I_VALUE 0xEAU

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-08-30T12:58:08+12:00",
+  "purpose": "Pre-flash preservation of the original DWM3001CDK nRF52833 state",
+  "device": {
+    "board": "DWM3001CDK",
+    "target": "NRF52833_XXAA",
+    "jlink_serial_number": "760225018",
+    "jlink_hardware_version": "V1.00",
+    "target_voltage_v": 3.3,
+    "interface": "SWD",
+    "interface_speed_khz": 1000
+  },
+  "debugger": {
+    "commander_version": "9.72",
+    "firmware_before_first_connection": "J-Link OB-STM32F072-128KB-CortexM compiled May 4 2017 14:43:23",
+    "firmware_after_automatic_update": "J-Link OB-STM32F072-128KB-CortexM compiled Jun 25 2026 10:39:21",
+    "note": "SEGGER J-Link Commander automatically updated only the onboard J-Link firmware. No nRF52833 application flash write, erase, recover, or reset command was issued."
+  },
+  "access": {
+    "read_protection_enabled": false,
+    "evidence": "Two complete code-flash reads and two complete UICR reads succeeded and matched byte-for-byte."
+  },
+  "memory_ranges": [
+    {
+      "name": "code_flash",
+      "address": "0x00000000",
+      "length_bytes": 524288,
+      "state": "erased_all_bytes_0xFF",
+      "independent_reads_identical": true,
+      "canonical_bin": "dwm3001cdk_760225018_code_flash.bin",
+      "canonical_bin_sha256": "043E238A765F7CFBC62596A50E53C8FFB6B188A99357B0EBEDE251725D67589F",
+      "canonical_hex": "dwm3001cdk_760225018_code_flash.hex",
+      "canonical_hex_sha256": "881F3341E84C9A38C4BCB08723CF29A0F2BB3E97A350D8EEB0F290B4EA466747"
+    },
+    {
+      "name": "uicr",
+      "address": "0x10001000",
+      "length_bytes": 4096,
+      "state": "erased_all_bytes_0xFF",
+      "independent_reads_identical": true,
+      "canonical_bin": "dwm3001cdk_760225018_uicr.bin",
+      "canonical_bin_sha256": "F47A8EC3E9AFF2318D896942282AD4FE37D6391C82914F54A5DA8A37DE1300C6",
+      "canonical_hex": "dwm3001cdk_760225018_uicr.hex",
+      "canonical_hex_sha256": "E690B44075DE201841CE24E0EA305ACA6D1D9EFEA4EF5F93272E711C906A8C48"
+    },
+    {
+      "name": "ficr_identity",
+      "address": "0x10000000",
+      "length_bytes": 4096,
+      "state": "factory_programmed_read_only_identity",
+      "restorable": false,
+      "canonical_bin": "dwm3001cdk_760225018_ficr_identity.bin",
+      "canonical_bin_sha256": "7BFA843A37F1D03255ADDC5C071735A79D9BCF4CD77B788A255C871E30E800CA"
+    }
+  ],
+  "safety": {
+    "target_flash_written": false,
+    "target_flash_erased": false,
+    "recover_command_used": false,
+    "ficr_must_never_be_written": true
+  }
+}

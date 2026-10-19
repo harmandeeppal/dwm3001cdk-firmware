@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "registry_id": "dwm3001cdk_device_registry_v1",
+  "identity_policy": {
+    "primary_hardware_key": "jlink_serial",
+    "com_port_is_identity": false,
+    "description": "The permanent device number is bound to the onboard J-Link serial. COM ports are only last-seen connection details."
+  },
+  "devices": [
+    {
+      "device_id": "DWM-01",
+      "permanent_name": "DWM-01-HEAD",
+      "device_number": 1,
+      "body_position": "head",
+      "board_model": "Qorvo DWM3001CDK",
+      "jlink_serial": "760225805",
+      "status": "registered",
+      "label_lines": ["DWM-01", "HEAD", "SN 760225805"],
+      "last_seen_com_port": "COM13",
+      "backup_directory": "../backups/DWM3001CDK_760225805/2026-10-01_pre_comp971_official_port_pilot",
+      "firmware_state": {
+        "image": "comp971_official_qorvo_fira_star",
+        "production_role": "controlee_responder",
+        "short_address": "0x0002",
+        "assigned_slot": 1,
+        "slot_window": "2.0 ms to 4.0 ms",
+        "build_artifact": "../outputs/records/firmware/unified_releases/DWM3001CDK-COMP971-FreeRTOS_A40_VERIFIED_BACKUP.hex",
+        "boot_identity": "COMP971-MOTION-HEAD",
+        "verified": true,
+        "verification_scope": "Official Qorvo QM33 SDK 1.1.1 unified star build. FreeRTOS + Nordic SoftDevice + 60 Hz ICM-20948 IMU + 5 Hz FiRa star ranging. In 30-minute benchmark soak (gateway_raw_2026-10-12_101320), achieved 99.53% valid UWB ranging (8,829/8,871 blocks) with 0 stalls >= 5s. Validated in 19 October 2026 live demo with 60.16 Hz IMU, 0 sequence gaps, and 0.0% packet loss."
+      },
+      "uwb_calibration": {
+        "model": "linear_two_way_ranging",
+        "shared_slope_beta": 1.0486,
+        "mean_system_offset_alpha_cm": -2.16,
+        "inversion_formula": "True_Distance_cm = (Raw_Range_cm + 2.16) / 1.0486",
+        "residual_sd_cm": 1.17,
+        "combined_uncertainty_1sigma_cm": 3.0,
+        "valid_distance_range_cm": [30.0, 150.0]
+      },
+      "identity_history": [
+        {
+          "event": "current_assignment_replaced",
+          "previous_jlink_serial": "760225018",
+          "reason": "Reassigned during physical sensor inventory."
+        }
+      ]
+    },
+    {
+      "device_id": "DWM-02",
+      "permanent_name": "DWM-02-PELVIS",
+      "device_number": 2,
+      "body_position": "pelvis",
+      "board_model": "Qorvo DWM3001CDK",
+      "jlink_serial": "760224787",
+      "status": "registered",
+      "label_lines": ["DWM-02", "PELVIS", "SN 760224787"],
+      "last_seen_com_port": "COM6",
+      "backup_directory": "../backups/DWM3001CDK_760224787/2026-10-01_pre_official_uci_baseline",
+      "firmware_state": {
+        "image": "comp971_official_qorvo_fira_star_diag_v2",
+        "production_role": "controller_coordinator",
+        "short_address": "0x0001",
+        "assigned_slot": 0,
+        "slot_window": "0.0 ms to 2.0 ms (Poll), 12.0 ms to 14.0 ms (Final), 14.0 ms to 16.0 ms (Report)",
+        "build_artifact": "../outputs/records/firmware/2026-10-11_pelvis_diag_v2_step17/DWM-02-PELVIS__diag-v2-step17-unified__760224787.hex",
+        "boot_identity": "COMP971-MOTION-PELVIS",
+        "verified": true,
+        "verification_scope": "Step 17 unified diagnostic v2 build. Coordinates 5-link FiRa star round every 200 ms. Forwards star ranges (0x22) and 60 Hz IMU telemetry. Validated in 19 October 2026 live demo with 60.16 Hz IMU, 0 sequence gaps, and 0.0% packet loss."
+      },
+      "uwb_calibration": {
+        "topology_role": "star_coordinator_origin"
+      }
+    },
+    {
+      "device_id": "DWM-03",
+      "permanent_name": "DWM-03-LEFT-WRIST",
+      "device_number": 3,
+      "body_position": "left_wrist",
+      "board_model": "Qorvo DWM3001CDK",
+      "jlink_serial": "760225868",
+      "status": "registered",
+      "label_lines": ["DWM-03", "LEFT-WRIST", "SN 760225868"],
+      "last_seen_com_port": "COM12",
+      "backup_directory": "../backups/DWM3001CDK_760225868/2026-10-01_pre_official_uci_baseline",
+      "firmware_state": {
+        "image": "comp971_official_qorvo_fira_star_v6.7",
+        "production_role": "controlee_responder",
+        "short_address": "0x0003",
+        "assigned_slot": 2,
+        "slot_window": "4.0 ms to 6.0 ms",
+        "build_artifact": "../outputs/records/firmware/unified_releases/DWM3001CDK-COMP971-FreeRTOS_DIAG_V2_FINAL.hex",
+        "boot_identity": "COMP971-MOTION-LEFT-WRIST",
+        "verified": true,
+        "verification_scope": "Version 6.7 bounded recovery build. Streams 60 Hz IMU telemetry (107,586 samples in soak test). Validated in 19 October 2026 live demo with 60.16 Hz IMU, 0 sequence gaps, and 0.0% packet loss."
+      },
+      "uwb_calibration": {
+        "star_pair_index": 1,
+        "star_link": "Pelvis <-> Left Wrist"
+      }
+    },
+    {
+      "device_id": "DWM-04",
+      "permanent_name": "DWM-04-RIGHT-WRIST",
+      "device_number": 4,
+      "body_position": "right_wrist",
+      "board_model": "Qorvo DWM3001CDK",
+      "jlink_serial": "760225748",
+      "status": "registered",
+      "label_lines": ["DWM-04", "RIGHT-WRIST", "SN 760225748"],
+      "last_seen_com_port": "COM11",
+      "backup_directory": "../backups/DWM3001CDK_760225748/2026-09-27_preflash_backup",
+      "firmware_state": {
+        "image": "comp971_official_qorvo_fira_star",
+        "production_role": "controlee_responder",
+        "short_address": "0x0004",
+        "assigned_slot": 3,
+        "slot_window": "6.0 ms to 8.0 ms",
+        "build_artifact": "../outputs/records/firmware/unified_releases/DWM3001CDK-COMP971-FreeRTOS_A40_VERIFIED_BACKUP.hex",
+        "boot_identity": "COMP971-MOTION-RIGHT-WRIST",
+        "verified": true,
+        "verification_scope": "Unified star release. Streams 60 Hz IMU telemetry (107,080 samples in soak test). UWB ranging operational."
+      },
+      "uwb_calibration": {
+        "star_pair_index": 2,
+        "star_link": "Pelvis <-> Right Wrist"
+      }
+    },
+    {
+      "device_id": "DWM-05",
+      "permanent_name": "DWM-05-LEFT-ANKLE",
+      "device_number": 5,
+      "body_position": "left_ankle",
+      "board_model": "Qorvo DWM3001CDK",
+      "jlink_serial": "760225018",
+      "status": "registered",
+      "label_lines": ["DWM-05", "LEFT-ANKLE", "SN 760225018"],
+      "last_seen_com_port": "COM9",
+      "backup_directory": "../backups/DWM3001CDK_760225018/2026-08-30_preflash_backup",
+      "firmware_state": {
+        "image": "comp971_official_qorvo_fira_star",
+        "production_role": "controlee_responder",
+        "short_address": "0x0005",
+        "assigned_slot": 4,
+        "slot_window": "8.0 ms to 10.0 ms",
+        "build_artifact": "../outputs/records/firmware/unified_releases/DWM3001CDK-COMP971-FreeRTOS_A40_VERIFIED_BACKUP.hex",
+        "boot_identity": "COMP971-MOTION-LEFT-ANKLE",
+        "verified": true,
+        "verification_scope": "Unified star release. Streams 60 Hz IMU telemetry (107,602 samples in soak test). UWB ranging operational."
+      },
+      "uwb_calibration": {
+        "star_pair_index": 3,
+        "star_link": "Pelvis <-> Left Ankle"
+      }
+    },
+    {
+      "device_id": "DWM-06",
+      "permanent_name": "DWM-06-RIGHT-ANKLE",
+      "device_number": 6,
+      "body_position": "right_ankle",
+      "board_model": "Qorvo DWM3001CDK",
+      "jlink_serial": "760225934",
+      "status": "registered",
+      "label_lines": ["DWM-06", "RIGHT-ANKLE", "SN 760225934"],
+      "last_seen_com_port": "COM10",
+      "backup_directory": "../backups/DWM3001CDK_760225934/2026-09-27_preflash_backup",
+      "firmware_state": {
+        "image": "comp971_official_qorvo_fira_star",
+        "production_role": "controlee_responder",
+        "short_address": "0x0006",
+        "assigned_slot": 5,
+        "slot_window": "10.0 ms to 12.0 ms",
+        "build_artifact": "../outputs/records/firmware/unified_releases/DWM3001CDK-COMP971-FreeRTOS_A40_VERIFIED_BACKUP.hex",
+        "boot_identity": "COMP971-MOTION-RIGHT-ANKLE",
+        "verified": true,
+        "verification_scope": "Unified star release. Streams 60 Hz IMU telemetry (105,906 samples in soak test). Achieved 96.00% valid UWB ranging (8,516/8,871 blocks) in soak test."
+      },
+      "uwb_calibration": {
+        "star_pair_index": 4,
+        "star_link": "Pelvis <-> Right Ankle"
+      }
+    }
+  ]
+}

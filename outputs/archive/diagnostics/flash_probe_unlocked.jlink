@@ -1,0 +1,15 @@
+device NRF52833_XXAA
+si SWD
+speed 100
+SWDSelect
+SWDWriteDP 1 0x50000000
+SWDWriteDP 2 0x00000000
+SWDWriteAP 0 0x23000012
+SWDWriteAP 1 0x40000558
+SWDWriteAP 3 0x0000005A
+connect
+h
+loadfile C:\ncs\comp971_dissertation\hardware\outputs\diagnostics\dwm3001cdk_uwb_check\2026-09-26_single_node_probe_DWM-05\DWM-05-LEFT-ANKLE__dw3110_probe__760225018.hex 0 noreset
+r
+g
+q

@@ -1,0 +1,11 @@
+// Generated deployment command for the verified DWM-02 ICM diagnostic.
+// Target identity is J-Link 760224787 (DWM-02-PELVIS), not a COM port.
+USB 760224787
+device NRF52833_XXAA
+si SWD
+speed 1000
+connect
+loadfile "C:\Users\harma\OneDrive - AUT University\AUT - COMP971 Dissertation (60 points)\hardware\outputs\diagnostics\dwm3001cdk_icm20948_stream\2026-09-25_pelvis_icm_probe\DWM-02-PELVIS__icm20948_stream__760224787.hex"
+r
+g
+q

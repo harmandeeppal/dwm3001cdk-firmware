@@ -1,0 +1,17 @@
+{
+  "test": "DWM3001CDK onboard DW3110 SPI identity check",
+  "date": "2026-08-30",
+  "board": "decawave_dwm3001cdk",
+  "jlink_serial": "760225018",
+  "serial_port": "COM9",
+  "serial_baud": 115200,
+  "expected_device_id": "0xDECA0302",
+  "result": "PASS",
+  "radio_transmission_performed": false,
+  "firmware_source": "workspace/firmware/dwm3001cdk_uwb_check",
+  "artifacts": {
+    "zephyr.elf_sha256": "44B3C8E17F28509D93790797DB073D33E854FCAA34EA0A53028189AD88486DF9",
+    "zephyr.hex_sha256": "2F5C1587B9E02C8F4283AAF110924AC71E28C877B939C5575B4C5ADD6BE6D939",
+    "zephyr.bin_sha256": "162F9BF0875032742E1865999AA80D04AB2EF587ACB375542127FDFD726CA6AD"
+  }
+}

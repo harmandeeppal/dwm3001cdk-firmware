@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "test_date": "2026-08-31",
+  "test_name": "DWM-01-HEAD to externally powered ICM-20948 WHO_AM_I check",
+  "source_directory": "hardware/firmware/diagnostics/dwm3001cdk_icm20948_check",
+  "hardware": {
+    "dwm_device_name": "DWM-01-HEAD",
+    "board": "DWM3001CDK",
+    "target": "nRF52833_xxAA",
+    "jlink_serial_number": "760225018",
+    "jlink_cdc_uart": "COM9",
+    "icm_board": "Adafruit ICM-20948 breakout"
+  },
+  "power_contract": {
+    "source": "DWM3001CDK J2 jumper metal test point",
+    "measured_voltage_v": 3.26,
+    "icm_vin": "red micro test hook",
+    "ground": "J10 pin 6 / black micro test hook",
+    "warning": "J10 pins 2 and 4 are VRPI inputs and must not be used as sensor power outputs"
+  },
+  "i2c_contract": {
+    "controller": "i2c0",
+    "frequency_hz": 100000,
+    "sda": "J10 pin 3 / nRF P0.26 / blue micro test hook",
+    "scl": "J10 pin 5 / nRF P0.23 / yellow micro test hook",
+    "detected_address": "0x69",
+    "who_am_i_register": "0x00",
+    "expected_value": "0xEA",
+    "observed_value": "0xEA"
+  },
+  "execution": {
+    "flash_status": "passed",
+    "uart_status": "passed",
+    "icm20948_identity_status": "passed",
+    "serial_capture": "serial_capture_COM9_115200.txt"
+  },
+  "conclusion": "The ICM-20948 is healthy and communicates with DWM-01-HEAD at address 0x69 when supplied from the 3.3 V J2 rail. The earlier failure was caused by attempting to draw sensor power from the input-only J10 VRPI pins and, on the successful-test setup, an initially misplaced SCL hook on J10 pin 4 instead of pin 5."
+}

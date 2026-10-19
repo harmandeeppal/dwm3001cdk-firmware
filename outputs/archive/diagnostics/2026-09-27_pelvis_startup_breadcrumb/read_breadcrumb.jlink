@@ -1,0 +1,9 @@
+SelectEmuBySN 760224787
+device NRF52833_XXAA
+si SWD
+speed 500
+connect
+h
+mem32 0x20000760, 3
+mem8 0x20000D44, 24
+q

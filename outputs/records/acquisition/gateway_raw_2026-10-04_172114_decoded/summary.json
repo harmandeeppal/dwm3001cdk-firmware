@@ -1,0 +1,52 @@
+{
+  "format": "COMP971 gateway USB framed binary protocol v1",
+  "source": "hardware\\outputs\\records\\acquisition\\gateway_raw_2026-10-04_172114.bin",
+  "raw_bytes": 77682,
+  "imu_records": 1230,
+  "uwb_records": 0,
+  "node_status_records": 22,
+  "gateway_status_records": 15,
+  "uwb_diagnostic_records": 721,
+  "uwb_diagnostic_events_by_stage": {
+    "block_index": 30,
+    "cb_call_count": 31,
+    "cb_last_n_meas": 30,
+    "cb_last_status": 30,
+    "cb_last_type": 31,
+    "diag_action": 30,
+    "diag_ant_set": 30,
+    "diag_extra_status": 30,
+    "diag_msg_id": 30,
+    "diag_nb_reports": 30,
+    "dw3000_last_tx_diff": 30,
+    "dw3000_last_tx_status": 30,
+    "dw3000_tx_count": 30,
+    "dw3000_tx_hpdwarn_count": 30,
+    "interface_rx_count": 30,
+    "interface_tx_count": 30,
+    "last_reason_code": 30,
+    "session_state": 30,
+    "short_addr": 30,
+    "slot_index": 30,
+    "stopped": 29,
+    "unknown": 90
+  },
+  "invalid_frames": 0,
+  "bytes_not_in_valid_frames": 30,
+  "imu_records_by_node": {
+    "0": 636,
+    "1": 594,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "sequence_gaps_by_node": {
+    "0": 252,
+    "1": 312,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

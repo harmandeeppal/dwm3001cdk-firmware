@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "profile_id": "six_node_telemetry_v1",
+  "enabled": false,
+  "implementation_status": "mesh_and_remote_imu_transport_compiled_not_deployed",
+  "description": "Configuration contract for the six-device wearable telemetry system. It remains disabled until the scheduled full-mesh firmware has passed live timing, remote-IMU delivery, collector, and calibration acceptance checks.",
+  "device_ids": [
+    "DWM-01",
+    "DWM-02",
+    "DWM-03",
+    "DWM-04",
+    "DWM-05",
+    "DWM-06"
+  ],
+  "identity_policy": {
+    "discover_by": "jlink_serial",
+    "com_port_is_identity": false,
+    "require_startup_identity_frame": true
+  },
+  "telemetry": {
+    "serial_baud": 460800,
+    "imu_rate_hz": 60,
+    "imu_rate_decision": "60_hz_deployment_default; do_not_reduce_to_30_hz_without_a_controlled_30_60_100_hz_collection_training_and_validation_comparison",
+    "imu_modalities": ["accelerometer", "gyroscope"],
+    "magnetometer_policy": "disabled_not_initialized_not_read_not_transmitted",
+    "orientation_policy": "derive_6d_orientation_with_a_six_axis_accelerometer_gyroscope_estimator; no_magnetometer_input",
+    "uwb_matrix_order_source": "../../workspace/configs/topology/smplh_wearable_topology_v0.json",
+    "required_uwb_links": "complete_undirected_six_node_graph",
+    "timestamp_source": "collector_monotonic_clock_with_device_sequence_numbers",
+    "fusion_rate_policy": "60_hz_imu_timeline; attach_newest_timestamped_uwb_matrix_with_per_link_age_and_validity; never_present_held_uwb_values_as_new_measurements",
+    "remote_imu_transport": "five remote nodes batch raw six-axis samples over scheduled UWB uplink slots to PELVIS; PELVIS forwards source-labelled samples to the laptop"
+  },
+  "uwb": {
+    "topology": "scheduled_full_mesh_single_command_coordinator",
+    "channel": 5,
+    "data_rate": "6.8_Mbps",
+    "preamble_symbols": 128,
+    "antenna_delay_status": "unvalidated_per_device",
+    "mesh_pair_count": 15,
+    "initial_complete_matrix_rate_hz": "approximately_14_pending_live_measurement",
+    "validated_rate_target_hz": "20_to_30_only_if_all_15_links_meet_range_validity_loss_error_and_timing_acceptance",
+    "mesh_pair_order_source": "../../workspace/configs/topology/smplh_wearable_topology_v0.json",
+    "measurement_statuses": [
+      "valid_los_or_unknown",
+      "body_nlos_suspected",
+      "dropout_or_missing"
+    ]
+  },
+  "acceptance_gate": {
+    "require_all_six_startup_identities": true,
+    "require_per_device_imu_stream": true,
+    "require_configuration_derived_uploader_target": true,
+    "require_no_com_port_in_identity_or_build_configuration": true,
+    "require_pair_specific_antenna_delay_validation_before_calibrated_claim": true
+  }
+}

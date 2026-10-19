@@ -1,0 +1,48 @@
+{
+  "format": "COMP971 gateway USB framed binary protocol v1",
+  "source": "hardware\\outputs\\records\\acquisition\\gateway_raw_2026-10-07_101911.bin",
+  "raw_bytes": 3424920,
+  "imu_records": 72006,
+  "uwb_records": 2828,
+  "node_status_records": 1186,
+  "gateway_status_records": 600,
+  "uwb_diagnostic_records": 2357,
+  "uwb_diagnostic_events_by_stage": {
+    "connect_block_index": 73,
+    "connect_count_and_queue_depth": 71,
+    "disconnect_and_flush_counts": 74,
+    "dw3000_late_tx_count": 74,
+    "dw3000_tx_count": 74,
+    "fail_ring_last_block": 74,
+    "fail_ring_last_status": 74,
+    "fira_last_block_index": 74,
+    "fira_lifetime_min_lead": 74,
+    "fira_stall_recovery_count": 1250,
+    "fira_steady_fail_count": 73,
+    "fira_steady_total": 74,
+    "imu_task_free_stack_bytes": 74,
+    "interval_min_lead": 71,
+    "responder_reported_invalid_range": 1,
+    "status_task_free_stack_bytes": 74,
+    "unknown": 4,
+    "uwb_task_free_stack_bytes": 74
+  },
+  "invalid_frames": 0,
+  "bytes_not_in_valid_frames": 30,
+  "imu_records_by_node": {
+    "0": 36006,
+    "1": 36000,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "sequence_gaps_by_node": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

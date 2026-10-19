@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "profile_id": "ble_uwb_telemetry_v1",
+  "enabled": false,
+  "implementation_status": "architecture_and_packet_contract_started_not_flashable",
+  "description": "Final six-board production architecture. BLE carries direct IMU telemetry from every named wearable to an nRF52840 Dongle; UWB carries scheduled distance exchanges and range results to PELVIS.",
+  "identity_policy": {
+    "wearable_identity": "DWM J-Link serial and permanent node index",
+    "ble_identity": "provisioned node index and bonded device identity",
+    "com_port_is_identity": false
+  },
+  "ble": {
+    "central": "nRF52840_Dongle",
+    "peripheral_count": 6,
+    "wearable_role": "BLE peripheral",
+    "dongle_role": "BLE central and USB bridge",
+    "initial_phy": "1M",
+    "test_later_phy": "2M",
+    "att_mtu_minimum_bytes": 100,
+    "data_length_extension_required": true,
+    "security_final": "bonded_LE_Secure_Connections",
+    "imu_batch_max_samples": 3,
+    "imu_batch_period_ms": 50
+  },
+  "imu": {
+    "rate_hz": 60,
+    "modalities": ["accelerometer", "gyroscope"],
+    "magnetometer": "disabled",
+    "timestamp": "source_local_microseconds_with_sequence_number",
+    "transport": "direct_BLE_peripheral_to_nRF52840_Dongle"
+  },
+  "clock_sync": {
+    "authority": "DWM-02-PELVIS",
+    "transport": "periodic_UWB_two_way_clock_synchronisation",
+    "reported_fields": ["sync_epoch", "offset_us", "drift_ppb", "uncertainty_us"],
+    "fusion_policy": "laptop_maps_source_measurement_time_to_shared_timeline"
+  },
+  "uwb": {
+    "coordinator": "DWM-02-PELVIS",
+    "pair_count": 15,
+    "initial_full_matrix_rate_hz": 10,
+    "telemetry": "PELVIS_sends_timestamped_range_reports_to_dongle_over_BLE",
+    "remote_imu_uplink": "disabled_in_final_profile_after_BLE_validation"
+  },
+  "acceptance_gates": [
+    "six_named_BLE_connections",
+    "60Hz_IMU_from_each_node_with_sequence_loss_reporting",
+    "verified_cross_device_clock_mapping",
+    "all_15_UWB_pairs_reach_PELVIS_and_dongle",
+    "on_body_loss_latency_and_calibration_validation"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "artifact_type": "compiled_firmware_not_flashed",
+  "built_at_local": "2026-09-25T19:02:16+12:00",
+  "firmware_image": "dwm3001cdk_dw3110_probe",
+  "profile_id": "single_node_dw3110_probe_v1",
+  "target": {
+    "device_id": "DWM-01",
+    "permanent_name": "DWM-01-HEAD",
+    "jlink_serial": "760225805",
+    "identity_source": "../../../../config/device_registry.json"
+  },
+  "build": {
+    "board": "decawave_dwm3001cdk",
+    "toolchain": "Nordic nRF Connect SDK v3.4.0 / Zephyr 4.4.0",
+    "binary": "DWM-01-HEAD__dw3110_probe__760225805.hex",
+    "binary_sha256": "f29ae69caaf3e3516f8e4f12f732c6efe598599e20148f0f65d3741c5508af77",
+    "generated_configuration_sha256": "fff92f74ff51f65417b6e93f089aab3b3e707d40fb044f8928576da6e619eec3"
+  },
+  "verification": {
+    "configuration_validation": "passed",
+    "python_syntax_validation": "passed",
+    "firmware_compilation": "passed",
+    "flash_status": "not_flashed",
+    "hardware_telemetry_status": "not_yet_tested"
+  },
+  "limitations": [
+    "The probe reads the DW3110 SPI identity only and does not transmit UWB.",
+    "The probe does not test ICM-20948 telemetry, UWB ranging, antenna calibration, or six-node operation."
+  ]
+}

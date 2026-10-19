@@ -1,0 +1,8 @@
+SelectEmuBySN 760225805
+device NRF52833_XXAA
+si SWD
+speed 500
+connect
+savebin DWM-01-HEAD_760225805_preflash_code.bin, 0x00000000, 0x80000
+savebin DWM-01-HEAD_760225805_preflash_uicr.bin, 0x10001000, 0x1000
+q

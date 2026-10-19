@@ -1,0 +1,3214 @@
+﻿{
+    "test":  "6-node star benchmark",
+    "port":  "COM16",
+    "timestamp":  "2026-10-09_182008",
+    "duration_s":  10,
+    "active_duration_s":  8,
+    "imu_counts":  {
+                       "Node_5":  480,
+                       "Node_4":  474,
+                       "Node_3":  486,
+                       "Node_2":  480,
+                       "Node_1":  480,
+                       "Node_0":  480
+                   },
+    "node_status_latest":  {
+                               "Node_5":  {
+                                              "node_index":  5,
+                                              "flags":  5,
+                                              "sync_epoch":  0,
+                                              "imu_samples_acquired":  88584,
+                                              "imu_queue_put_ok":  88584,
+                                              "imu_queue_dropped":  0,
+                                              "imu_queue_high_water":  4,
+                                              "ble_imu_notify_ok":  14759,
+                                              "ble_imu_notify_failed":  0,
+                                              "ble_uwb_notify_failed":  0,
+                                              "uwb_range_attempts":  0,
+                                              "uwb_range_valid":  0,
+                                              "uwb_range_invalid":  0
+                                          },
+                               "Node_4":  {
+                                              "node_index":  4,
+                                              "flags":  5,
+                                              "sync_epoch":  0,
+                                              "imu_samples_acquired":  64272,
+                                              "imu_queue_put_ok":  64272,
+                                              "imu_queue_dropped":  0,
+                                              "imu_queue_high_water":  1,
+                                              "ble_imu_notify_ok":  10709,
+                                              "ble_imu_notify_failed":  0,
+                                              "ble_uwb_notify_failed":  0,
+                                              "uwb_range_attempts":  0,
+                                              "uwb_range_valid":  0,
+                                              "uwb_range_invalid":  0
+                                          },
+                               "Node_3":  {
+                                              "node_index":  3,
+                                              "flags":  5,
+                                              "sync_epoch":  0,
+                                              "imu_samples_acquired":  53148,
+                                              "imu_queue_put_ok":  53148,
+                                              "imu_queue_dropped":  0,
+                                              "imu_queue_high_water":  1,
+                                              "ble_imu_notify_ok":  8842,
+                                              "ble_imu_notify_failed":  0,
+                                              "ble_uwb_notify_failed":  0,
+                                              "uwb_range_attempts":  0,
+                                              "uwb_range_valid":  0,
+                                              "uwb_range_invalid":  0
+                                          },
+                               "Node_2":  {
+                                              "node_index":  2,
+                                              "flags":  5,
+                                              "sync_epoch":  0,
+                                              "imu_samples_acquired":  37062,
+                                              "imu_queue_put_ok":  37062,
+                                              "imu_queue_dropped":  0,
+                                              "imu_queue_high_water":  1,
+                                              "ble_imu_notify_ok":  6152,
+                                              "ble_imu_notify_failed":  0,
+                                              "ble_uwb_notify_failed":  0,
+                                              "uwb_range_attempts":  0,
+                                              "uwb_range_valid":  0,
+                                              "uwb_range_invalid":  0
+                                          },
+                               "Node_1":  {
+                                              "node_index":  1,
+                                              "flags":  5,
+                                              "sync_epoch":  0,
+                                              "imu_samples_acquired":  41292,
+                                              "imu_queue_put_ok":  41292,
+                                              "imu_queue_dropped":  0,
+                                              "imu_queue_high_water":  2,
+                                              "ble_imu_notify_ok":  6838,
+                                              "ble_imu_notify_failed":  0,
+                                              "ble_uwb_notify_failed":  0,
+                                              "uwb_range_attempts":  3442,
+                                              "uwb_range_valid":  3420,
+                                              "uwb_range_invalid":  22
+                                          },
+                               "Node_0":  {
+                                              "node_index":  0,
+                                              "flags":  5,
+                                              "sync_epoch":  0,
+                                              "imu_samples_acquired":  28296,
+                                              "imu_queue_put_ok":  28296,
+                                              "imu_queue_dropped":  0,
+                                              "imu_queue_high_water":  2,
+                                              "ble_imu_notify_ok":  4701,
+                                              "ble_imu_notify_failed":  0,
+                                              "ble_uwb_notify_failed":  0,
+                                              "uwb_range_attempts":  0,
+                                              "uwb_range_valid":  0,
+                                              "uwb_range_invalid":  0
+                                          }
+                           },
+    "uwb_summary":  {
+                        "Pair_4":  {
+                                       "pair_name":  "PELVIS \u003c-\u003e RIGHT-ANKLE",
+                                       "valid_count":  12,
+                                       "invalid_count":  28,
+                                       "total_attempts":  40,
+                                       "expected_rounds":  40,
+                                       "true_yield_pct":  30,
+                                       "wire_success_pct":  30,
+                                       "rate_hz":  1.5,
+                                       "median_cm":  44,
+                                       "min_cm":  42,
+                                       "max_cm":  47,
+                                       "first_range_s":  0.115,
+                                       "status_breakdown":  {
+                                                                "status_0":  12,
+                                                                "status_33":  28
+                                                            }
+                                   },
+                        "Pair_3":  {
+                                       "pair_name":  "PELVIS \u003c-\u003e LEFT-ANKLE",
+                                       "valid_count":  40,
+                                       "invalid_count":  0,
+                                       "total_attempts":  40,
+                                       "expected_rounds":  40,
+                                       "true_yield_pct":  100,
+                                       "wire_success_pct":  100,
+                                       "rate_hz":  5,
+                                       "median_cm":  50.5,
+                                       "min_cm":  45,
+                                       "max_cm":  53,
+                                       "first_range_s":  0.048,
+                                       "status_breakdown":  {
+                                                                "status_0":  40
+                                                            }
+                                   },
+                        "Pair_2":  {
+                                       "pair_name":  "PELVIS \u003c-\u003e RIGHT-WRIST",
+                                       "valid_count":  40,
+                                       "invalid_count":  0,
+                                       "total_attempts":  40,
+                                       "expected_rounds":  40,
+                                       "true_yield_pct":  100,
+                                       "wire_success_pct":  100,
+                                       "rate_hz":  5,
+                                       "median_cm":  46,
+                                       "min_cm":  42,
+                                       "max_cm":  51,
+                                       "first_range_s":  0.048,
+                                       "status_breakdown":  {
+                                                                "status_0":  40
+                                                            }
+                                   },
+                        "Pair_1":  {
+                                       "pair_name":  "PELVIS \u003c-\u003e LEFT-WRIST",
+                                       "valid_count":  6,
+                                       "invalid_count":  34,
+                                       "total_attempts":  40,
+                                       "expected_rounds":  40,
+                                       "true_yield_pct":  15,
+                                       "wire_success_pct":  15,
+                                       "rate_hz":  0.75,
+                                       "median_cm":  44.5,
+                                       "min_cm":  42,
+                                       "max_cm":  46,
+                                       "first_range_s":  3.816,
+                                       "status_breakdown":  {
+                                                                "status_0":  6,
+                                                                "status_33":  34
+                                                            }
+                                   },
+                        "Pair_0":  {
+                                       "pair_name":  "PELVIS \u003c-\u003e HEAD",
+                                       "valid_count":  40,
+                                       "invalid_count":  0,
+                                       "total_attempts":  40,
+                                       "expected_rounds":  40,
+                                       "true_yield_pct":  100,
+                                       "wire_success_pct":  100,
+                                       "rate_hz":  5,
+                                       "median_cm":  39,
+                                       "min_cm":  35,
+                                       "max_cm":  43,
+                                       "first_range_s":  0.048,
+                                       "status_breakdown":  {
+                                                                "status_0":  40
+                                                            }
+                                   }
+                    },
+    "first_range_elapsed":  {
+                                "Pair_4":  0.115,
+                                "Pair_3":  0.048,
+                                "Pair_2":  0.048,
+                                "Pair_1":  3.816,
+                                "Pair_0":  0.048
+                            },
+    "first_pelvis_uptime_s":  {
+                                  "Pair_4":  673.938,
+                                  "Pair_3":  239.613,
+                                  "Pair_2":  239.613,
+                                  "Pair_1":  677.712,
+                                  "Pair_0":  239.613
+                              },
+    "first_controlee_uptime_s":  {
+                                     "Pair_4":  0.062,
+                                     "Pair_3":  0.037,
+                                     "Pair_2":  0.026,
+                                     "Pair_1":  0.037,
+                                     "Pair_0":  0.001
+                                 },
+    "star_range_blocks":  [
+                              {
+                                  "elapsed_s":  2.134,
+                                  "block_index":  3403,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  37,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  51,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  51,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  46,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  2.255,
+                                  "block_index":  3404,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  38,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  43,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  52,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  44,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  2.496,
+                                  "block_index":  3405,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  39,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  44,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  50,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  42,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  2.734,
+                                  "block_index":  3406,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  39,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  45,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  51,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  45,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  2.914,
+                                  "block_index":  3407,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  38,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  47,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  51,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  43,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  3.098,
+                                  "block_index":  3408,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  42,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  44,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  49,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  46,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  3.277,
+                                  "block_index":  3409,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  37,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  43,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  48,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  47,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  3.397,
+                                  "block_index":  3410,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  38,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  48,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  50,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  44,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  3.637,
+                                  "block_index":  3411,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  39,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  50,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  53,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  46,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  3.816,
+                                  "block_index":  3412,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  39,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  42,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  47,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  50,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  43,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  3.996,
+                                  "block_index":  3413,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  39,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  46,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  45,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  51,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  44,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  4.177,
+                                  "block_index":  3414,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  40,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  45,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  48,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  49,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  43,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  4.415,
+                                  "block_index":  3415,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  39,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  44,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  46,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  49,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  4.714,
+                                  "block_index":  3416,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  43,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  45,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  45,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  46,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  4.834,
+                                  "block_index":  3417,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  39,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  42,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  47,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  47,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  5.017,
+                                  "block_index":  3418,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  36,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  50,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  50,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  5.315,
+                                  "block_index":  3419,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  40,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  46,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  53,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  5.494,
+                                  "block_index":  3420,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  40,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  45,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  53,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  5.675,
+                                  "block_index":  3421,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  41,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  47,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  48,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  5.797,
+                                  "block_index":  3422,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  37,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  45,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  51,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  6.037,
+                                  "block_index":  3423,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  42,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  49,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  50,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  6.214,
+                                  "block_index":  3424,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  39,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  46,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  48,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  6.454,
+                                  "block_index":  3425,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  41,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  44,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  53,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  6.636,
+                                  "block_index":  3426,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  41,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  42,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  52,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  6.814,
+                                  "block_index":  3427,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  35,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  50,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  51,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  7.058,
+                                  "block_index":  3428,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  35,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  44,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  51,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  7.234,
+                                  "block_index":  3429,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  41,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  44,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  50,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  7.415,
+                                  "block_index":  3430,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  35,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  45,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  50,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  7.656,
+                                  "block_index":  3431,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  37,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  49,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  53,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  7.835,
+                                  "block_index":  3432,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  39,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  46,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  45,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  8.075,
+                                  "block_index":  3433,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  37,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  46,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  51,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  8.254,
+                                  "block_index":  3434,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  35,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  47,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  50,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  8.435,
+                                  "block_index":  3435,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  39,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  50,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  50,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  8.675,
+                                  "block_index":  3436,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  39,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  51,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  52,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  8.854,
+                                  "block_index":  3437,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  39,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  49,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  51,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  9.034,
+                                  "block_index":  3438,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  36,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  49,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  52,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  9.274,
+                                  "block_index":  3439,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  39,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  46,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  52,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  9.514,
+                                  "block_index":  3440,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  39,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  47,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  49,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  9.694,
+                                  "block_index":  3441,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  41,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  46,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  52,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              },
+                              {
+                                  "elapsed_s":  9.875,
+                                  "block_index":  3442,
+                                  "pairs":  [
+                                                {
+                                                    "range_cm":  39,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                },
+                                                {
+                                                    "range_cm":  48,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  46,
+                                                    "status":  0,
+                                                    "flags":  1
+                                                },
+                                                {
+                                                    "range_cm":  -1,
+                                                    "status":  33,
+                                                    "flags":  0
+                                                }
+                                            ]
+                              }
+                          ],
+    "diagnostics":  [
+                        {
+                            "elapsed_s":  2.052,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  1064343000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  2.056,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  1064343000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  2.056,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  1064343000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  2.104,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB1",
+                            "stage_name":  "interval_min_lead_us",
+                            "sub_code":  75,
+                            "timestamp_us":  460905000,
+                            "detail":  187622
+                        },
+                        {
+                            "elapsed_s":  2.119,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xC8",
+                            "stage_name":  "0xC8",
+                            "sub_code":  75,
+                            "timestamp_us":  872549000,
+                            "detail":  3056
+                        },
+                        {
+                            "elapsed_s":  2.218,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  610798000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  2.218,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  610798000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  2.219,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  610798000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  2.24,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  878863000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  2.241,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  3,
+                            "timestamp_us":  878863000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  2.242,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  3,
+                            "timestamp_us":  878863000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  2.548,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xCB",
+                            "stage_name":  "0xCB",
+                            "sub_code":  77,
+                            "timestamp_us":  1459355000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  2.555,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  15,
+                            "timestamp_us":  681279000,
+                            "detail":  67307498
+                        },
+                        {
+                            "elapsed_s":  2.556,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  15,
+                            "timestamp_us":  681279000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  2.557,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  15,
+                            "timestamp_us":  681279000,
+                            "detail":  256
+                        },
+                        {
+                            "elapsed_s":  2.645,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  4,
+                            "timestamp_us":  464667000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  2.647,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  4,
+                            "timestamp_us":  464667000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  2.705,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  4,
+                            "timestamp_us":  464667000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  2.892,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB6",
+                            "stage_name":  "fira_last_block_index",
+                            "sub_code":  79,
+                            "timestamp_us":  1057714000,
+                            "detail":  3407
+                        },
+                        {
+                            "elapsed_s":  3.072,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  1065351000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  3.072,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  1065351000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  3.072,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  1065351000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  3.109,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xC9",
+                            "stage_name":  "0xC9",
+                            "sub_code":  80,
+                            "timestamp_us":  873555000,
+                            "detail":  976
+                        },
+                        {
+                            "elapsed_s":  3.124,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB2",
+                            "stage_name":  "dw3000_late_tx_count",
+                            "sub_code":  80,
+                            "timestamp_us":  461909000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  3.26,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  879870000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  3.261,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  3,
+                            "timestamp_us":  879870000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  3.261,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  3,
+                            "timestamp_us":  879870000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  3.507,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xCC",
+                            "stage_name":  "0xCC",
+                            "sub_code":  82,
+                            "timestamp_us":  1460361000,
+                            "detail":  2707
+                        },
+                        {
+                            "elapsed_s":  3.575,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  15,
+                            "timestamp_us":  682286000,
+                            "detail":  67307498
+                        },
+                        {
+                            "elapsed_s":  3.576,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  15,
+                            "timestamp_us":  682286000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  3.576,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  15,
+                            "timestamp_us":  682286000,
+                            "detail":  256
+                        },
+                        {
+                            "elapsed_s":  3.596,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xE2",
+                            "stage_name":  "0xE2",
+                            "sub_code":  0,
+                            "timestamp_us":  607964000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  3.606,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  4,
+                            "timestamp_us":  465675000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  3.606,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  4,
+                            "timestamp_us":  465675000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  3.607,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  4,
+                            "timestamp_us":  465675000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  3.777,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xCC",
+                            "stage_name":  "0xCC",
+                            "sub_code":  253,
+                            "timestamp_us":  608064000,
+                            "detail":  359
+                        },
+                        {
+                            "elapsed_s":  3.877,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xC8",
+                            "stage_name":  "0xC8",
+                            "sub_code":  84,
+                            "timestamp_us":  677821000,
+                            "detail":  3164
+                        },
+                        {
+                            "elapsed_s":  3.915,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB7",
+                            "stage_name":  "fira_lifetime_min_lead",
+                            "sub_code":  84,
+                            "timestamp_us":  1058720000,
+                            "detail":  -22388
+                        },
+                        {
+                            "elapsed_s":  4.063,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  1066359000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  4.063,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  1066359000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  4.064,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  1066359000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  4.13,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xCA",
+                            "stage_name":  "0xCA",
+                            "sub_code":  85,
+                            "timestamp_us":  874562000,
+                            "detail":  680
+                        },
+                        {
+                            "elapsed_s":  4.144,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  85,
+                            "timestamp_us":  462912000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  4.197,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  612813000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  4.197,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  612813000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  4.25,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  880878000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  4.251,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  3,
+                            "timestamp_us":  880878000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  4.257,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  612813000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  4.279,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  3,
+                            "timestamp_us":  880878000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  4.53,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xCD",
+                            "stage_name":  "0xCD",
+                            "sub_code":  86,
+                            "timestamp_us":  1461366000,
+                            "detail":  3060
+                        },
+                        {
+                            "elapsed_s":  4.625,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  4,
+                            "timestamp_us":  466683000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  4.625,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  4,
+                            "timestamp_us":  466683000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  4.626,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  4,
+                            "timestamp_us":  466683000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  4.655,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  15,
+                            "timestamp_us":  683293000,
+                            "detail":  67307498
+                        },
+                        {
+                            "elapsed_s":  4.655,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  15,
+                            "timestamp_us":  683293000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  4.655,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  15,
+                            "timestamp_us":  683293000,
+                            "detail":  256
+                        },
+                        {
+                            "elapsed_s":  4.796,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xCD",
+                            "stage_name":  "0xCD",
+                            "sub_code":  88,
+                            "timestamp_us":  609071000,
+                            "detail":  3224
+                        },
+                        {
+                            "elapsed_s":  4.898,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xC9",
+                            "stage_name":  "0xC9",
+                            "sub_code":  89,
+                            "timestamp_us":  678829000,
+                            "detail":  976
+                        },
+                        {
+                            "elapsed_s":  4.932,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xC8",
+                            "stage_name":  "0xC8",
+                            "sub_code":  89,
+                            "timestamp_us":  1059725000,
+                            "detail":  3164
+                        },
+                        {
+                            "elapsed_s":  5.083,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  1067367000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  5.083,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  1067367000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  5.112,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  1067367000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  5.164,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB4",
+                            "stage_name":  "fira_steady_fail_count",
+                            "sub_code":  90,
+                            "timestamp_us":  463921000,
+                            "detail":  27
+                        },
+                        {
+                            "elapsed_s":  5.179,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xCB",
+                            "stage_name":  "0xCB",
+                            "sub_code":  90,
+                            "timestamp_us":  875565000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  5.217,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  613820000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  5.217,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  613820000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  5.218,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  613820000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  5.271,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  881886000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  5.271,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  3,
+                            "timestamp_us":  881886000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  5.272,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  3,
+                            "timestamp_us":  881886000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  5.369,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  1472536000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  5.487,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  1472536000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  5.487,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  1472536000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  5.555,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  15,
+                            "timestamp_us":  684300000,
+                            "detail":  67307498
+                        },
+                        {
+                            "elapsed_s":  5.606,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xCE",
+                            "stage_name":  "0xCE",
+                            "sub_code":  86,
+                            "timestamp_us":  1462373000,
+                            "detail":  32
+                        },
+                        {
+                            "elapsed_s":  5.614,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  15,
+                            "timestamp_us":  684300000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  5.614,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  15,
+                            "timestamp_us":  684300000,
+                            "detail":  256
+                        },
+                        {
+                            "elapsed_s":  5.645,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  4,
+                            "timestamp_us":  467692000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  5.645,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  4,
+                            "timestamp_us":  467692000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  5.646,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  4,
+                            "timestamp_us":  467692000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  5.697,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xCE",
+                            "stage_name":  "0xCE",
+                            "sub_code":  89,
+                            "timestamp_us":  610077000,
+                            "detail":  32
+                        },
+                        {
+                            "elapsed_s":  5.914,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xCA",
+                            "stage_name":  "0xCA",
+                            "sub_code":  94,
+                            "timestamp_us":  679835000,
+                            "detail":  680
+                        },
+                        {
+                            "elapsed_s":  5.952,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xC9",
+                            "stage_name":  "0xC9",
+                            "sub_code":  94,
+                            "timestamp_us":  1060729000,
+                            "detail":  976
+                        },
+                        {
+                            "elapsed_s":  6.102,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  1068376000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  6.103,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  1068376000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.104,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  1068376000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.169,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xCC",
+                            "stage_name":  "0xCC",
+                            "sub_code":  95,
+                            "timestamp_us":  876570000,
+                            "detail":  2448
+                        },
+                        {
+                            "elapsed_s":  6.187,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB5",
+                            "stage_name":  "fira_steady_total",
+                            "sub_code":  95,
+                            "timestamp_us":  464929000,
+                            "detail":  2336
+                        },
+                        {
+                            "elapsed_s":  6.238,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  614828000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  6.238,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  614828000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.239,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  614828000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.29,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  882895000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  6.291,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  3,
+                            "timestamp_us":  882895000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.292,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  3,
+                            "timestamp_us":  882895000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.387,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  1473544000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  6.388,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  1473544000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.389,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  1473544000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.567,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xCF",
+                            "stage_name":  "0xCF",
+                            "sub_code":  86,
+                            "timestamp_us":  1463378000,
+                            "detail":  65546
+                        },
+                        {
+                            "elapsed_s":  6.634,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  15,
+                            "timestamp_us":  685307000,
+                            "detail":  67307498
+                        },
+                        {
+                            "elapsed_s":  6.635,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  15,
+                            "timestamp_us":  685307000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.636,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  15,
+                            "timestamp_us":  685307000,
+                            "detail":  256
+                        },
+                        {
+                            "elapsed_s":  6.665,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  4,
+                            "timestamp_us":  468700000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  6.666,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  4,
+                            "timestamp_us":  468700000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.724,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  4,
+                            "timestamp_us":  468700000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.777,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xCF",
+                            "stage_name":  "0xCF",
+                            "sub_code":  89,
+                            "timestamp_us":  611082000,
+                            "detail":  65536
+                        },
+                        {
+                            "elapsed_s":  6.935,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xCB",
+                            "stage_name":  "0xCB",
+                            "sub_code":  99,
+                            "timestamp_us":  680841000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  6.942,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xCA",
+                            "stage_name":  "0xCA",
+                            "sub_code":  99,
+                            "timestamp_us":  1061736000,
+                            "detail":  680
+                        },
+                        {
+                            "elapsed_s":  7.093,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  1069384000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  7.093,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  1069384000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.094,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  1069384000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.159,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xCD",
+                            "stage_name":  "0xCD",
+                            "sub_code":  101,
+                            "timestamp_us":  877576000,
+                            "detail":  3179
+                        },
+                        {
+                            "elapsed_s":  7.204,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB6",
+                            "stage_name":  "fira_last_block_index",
+                            "sub_code":  101,
+                            "timestamp_us":  465935000,
+                            "detail":  3429
+                        },
+                        {
+                            "elapsed_s":  7.256,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  615835000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  7.256,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  615835000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.258,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  615835000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.28,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  883903000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  7.28,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  3,
+                            "timestamp_us":  883903000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.281,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  3,
+                            "timestamp_us":  883903000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.407,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  1474552000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  7.407,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  1474552000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.407,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  1474552000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.586,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  86,
+                            "timestamp_us":  1464386000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.654,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  15,
+                            "timestamp_us":  686316000,
+                            "detail":  67307498
+                        },
+                        {
+                            "elapsed_s":  7.654,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  15,
+                            "timestamp_us":  686316000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.655,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  15,
+                            "timestamp_us":  686316000,
+                            "detail":  256
+                        },
+                        {
+                            "elapsed_s":  7.739,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  89,
+                            "timestamp_us":  612087000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.744,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  4,
+                            "timestamp_us":  469708000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  7.745,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  4,
+                            "timestamp_us":  469708000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.745,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  4,
+                            "timestamp_us":  469708000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  7.954,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xCC",
+                            "stage_name":  "0xCC",
+                            "sub_code":  104,
+                            "timestamp_us":  681846000,
+                            "detail":  20
+                        },
+                        {
+                            "elapsed_s":  7.961,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xCB",
+                            "stage_name":  "0xCB",
+                            "sub_code":  105,
+                            "timestamp_us":  1062740000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.083,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  1070392000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  8.083,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  1070392000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.112,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  1070392000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.179,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xCE",
+                            "stage_name":  "0xCE",
+                            "sub_code":  106,
+                            "timestamp_us":  878584000,
+                            "detail":  32
+                        },
+                        {
+                            "elapsed_s":  8.218,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  616843000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  8.218,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  616843000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.277,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  616843000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.284,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB7",
+                            "stage_name":  "fira_lifetime_min_lead",
+                            "sub_code":  106,
+                            "timestamp_us":  466940000,
+                            "detail":  187622
+                        },
+                        {
+                            "elapsed_s":  8.33,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  884911000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  8.33,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  3,
+                            "timestamp_us":  884911000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.331,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  3,
+                            "timestamp_us":  884911000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.367,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  1475560000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  8.368,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  1475560000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.368,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  1475560000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.606,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  86,
+                            "timestamp_us":  1465393000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.615,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  15,
+                            "timestamp_us":  687324000,
+                            "detail":  67307498
+                        },
+                        {
+                            "elapsed_s":  8.616,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  15,
+                            "timestamp_us":  687324000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  8.617,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  15,
+                            "timestamp_us":  687324000,
+                            "detail":  256
+                        },
+                        {
+                            "elapsed_s":  8.817,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  89,
+                            "timestamp_us":  613095000,
+                            "detail":  256
+                        },
+                        {
+                            "elapsed_s":  8.974,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xCD",
+                            "stage_name":  "0xCD",
+                            "sub_code":  109,
+                            "timestamp_us":  682852000,
+                            "detail":  3220
+                        },
+                        {
+                            "elapsed_s":  8.981,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xCC",
+                            "stage_name":  "0xCC",
+                            "sub_code":  110,
+                            "timestamp_us":  1063746000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  9.102,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  1071400000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  9.103,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  1071400000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  9.103,
+                            "source_node":  4,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  1071400000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  9.178,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  617851000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  9.178,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  617851000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  9.179,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  617851000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  9.187,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xC8",
+                            "stage_name":  "0xC8",
+                            "sub_code":  111,
+                            "timestamp_us":  467946000,
+                            "detail":  3056
+                        },
+                        {
+                            "elapsed_s":  9.201,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xCF",
+                            "stage_name":  "0xCF",
+                            "sub_code":  111,
+                            "timestamp_us":  879591000,
+                            "detail":  65536
+                        },
+                        {
+                            "elapsed_s":  9.319,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  3,
+                            "timestamp_us":  885919000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  9.32,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  3,
+                            "timestamp_us":  885919000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  9.32,
+                            "source_node":  3,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  3,
+                            "timestamp_us":  885919000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  9.387,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  2,
+                            "timestamp_us":  1476568000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  9.388,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  2,
+                            "timestamp_us":  1476568000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  9.388,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  2,
+                            "timestamp_us":  1476568000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  9.627,
+                            "source_node":  5,
+                            "pair_index":  0,
+                            "stage_code":  "0xBA",
+                            "stage_name":  "0xBA",
+                            "sub_code":  86,
+                            "timestamp_us":  1466399000,
+                            "detail":  -1872706887
+                        },
+                        {
+                            "elapsed_s":  9.635,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  15,
+                            "timestamp_us":  688332000,
+                            "detail":  67307498
+                        },
+                        {
+                            "elapsed_s":  9.636,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  15,
+                            "timestamp_us":  688332000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  9.636,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  15,
+                            "timestamp_us":  688332000,
+                            "detail":  256
+                        },
+                        {
+                            "elapsed_s":  9.724,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB3",
+                            "stage_name":  "fira_stall_recovery_count",
+                            "sub_code":  4,
+                            "timestamp_us":  471724000,
+                            "detail":  67108864
+                        },
+                        {
+                            "elapsed_s":  9.724,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB8",
+                            "stage_name":  "dw3000_sys_status_lo",
+                            "sub_code":  4,
+                            "timestamp_us":  471724000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  9.725,
+                            "source_node":  0,
+                            "pair_index":  0,
+                            "stage_code":  "0xB9",
+                            "stage_name":  "dw3000_sys_status_hi",
+                            "sub_code":  4,
+                            "timestamp_us":  471724000,
+                            "detail":  0
+                        },
+                        {
+                            "elapsed_s":  9.779,
+                            "source_node":  2,
+                            "pair_index":  0,
+                            "stage_code":  "0xBA",
+                            "stage_name":  "0xBA",
+                            "sub_code":  89,
+                            "timestamp_us":  614102000,
+                            "detail":  -1872706887
+                        },
+                        {
+                            "elapsed_s":  9.994,
+                            "source_node":  1,
+                            "pair_index":  0,
+                            "stage_code":  "0xCE",
+                            "stage_name":  "0xCE",
+                            "sub_code":  114,
+                            "timestamp_us":  683859000,
+                            "detail":  33
+                        }
+                    ],
+    "stall_snapshots":  [
+
+                        ]
+}

@@ -1,0 +1,33 @@
+{
+  "format": "COMP971 gateway USB framed binary protocol v1",
+  "source": "hardware\\outputs\\records\\acquisition\\gateway_smoke_v5_30s.bin",
+  "raw_bytes": 20268,
+  "imu_records": 408,
+  "uwb_records": 16,
+  "node_status_records": 5,
+  "gateway_status_records": 27,
+  "uwb_diagnostic_records": 16,
+  "uwb_diagnostic_events_by_stage": {
+    "dw3000_tx_count": 5,
+    "prog_session_started": 6,
+    "responder_reported_invalid_range": 5
+  },
+  "invalid_frames": 0,
+  "bytes_not_in_valid_frames": 0,
+  "imu_records_by_node": {
+    "0": 162,
+    "1": 246,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "sequence_gaps_by_node": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

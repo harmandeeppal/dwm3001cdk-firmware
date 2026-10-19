@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "artifact_type": "compiled_firmware_not_flashed",
+  "firmware_image": "dwm3001cdk_icm20948_stream",
+  "profile_id": "single_node_icm20948_stream_v1",
+  "target": {
+    "device_id": "DWM-02",
+    "permanent_name": "DWM-02-PELVIS",
+    "jlink_serial": "760224787",
+    "identity_source": "../../../../config/device_registry.json"
+  },
+  "build": {
+    "board": "decawave_dwm3001cdk",
+    "toolchain": "Nordic nRF Connect SDK v3.4.0 / Zephyr 4.4.0",
+    "binary": "DWM-02-PELVIS__icm20948_stream__760224787.hex",
+    "binary_sha256": "a76bcf846b458d1badf5c926eb9e99000a1b188f46455814c2595cb05f1ccce4",
+    "generated_configuration_sha256": "22cedb3938b4be5bf1bc3d675b095d4830ada84b15e6b329b672091e3cb5c134"
+  },
+  "verification": {
+    "configuration_validation": "passed",
+    "firmware_compilation": "passed",
+    "preflash_backup": {
+      "status": "passed_after_power_cycle",
+      "binary": "DWM-02-PELVIS__760224787_pre_icm_probe_after_power_cycle.bin",
+      "bytes": 524288,
+      "sha256": "fd536fc1c517f2a450a94e2b652cca53a590313d6955e499e8d0febd9a282364"
+    },
+    "flash_status": "not_flashed",
+    "hardware_telemetry_status": "not_tested"
+  },
+  "limitations": [
+    "ICM power LED is not evidence of I2C identity or telemetry.",
+    "The serial COM port is not treated as permanent device identity."
+  ]
+}

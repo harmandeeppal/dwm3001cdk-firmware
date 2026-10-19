@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "calibrated_at_utc_date": "2026-08-31",
+  "pair": ["DWM-01-HEAD", "DWM-02-PELVIS"],
+  "jlink_serials": ["760225018", "760224787"],
+  "method": "symmetric_pair_antenna_delay_multi_distance_line_of_sight",
+  "settings": {
+    "tx_antenna_delay": {
+      "DWM-01-HEAD": 16378,
+      "DWM-02-PELVIS": 16378
+    },
+    "rx_antenna_delay": {
+      "DWM-01-HEAD": 16378,
+      "DWM-02-PELVIS": 16378
+    },
+    "response_delay_uus": 1000
+  },
+  "validation_points": [
+    {
+      "known_distance_cm": 50,
+      "median_cm": 48,
+      "median_error_cm": -2,
+      "mean_cm": 46.71,
+      "standard_deviation_cm": 4.53,
+      "sample_count": 1188,
+      "capture": "calibration_final_050cm_balanced16378.json"
+    },
+    {
+      "known_distance_cm": 75,
+      "median_cm": 76,
+      "median_error_cm": 1,
+      "mean_cm": 76.12,
+      "standard_deviation_cm": 3.97,
+      "sample_count": 1246,
+      "capture": "calibration_final_075cm_balanced16378.json"
+    },
+    {
+      "known_distance_cm": 150,
+      "median_cm": 151,
+      "median_error_cm": 1,
+      "mean_cm": 150.76,
+      "standard_deviation_cm": 4.32,
+      "sample_count": 1247,
+      "capture": "calibration_final_150cm_balanced16378.json"
+    }
+  ],
+  "acceptance": {
+    "maximum_absolute_median_error_cm": 2,
+    "median_error_limit_cm": 5,
+    "offset_accuracy_passed": true,
+    "maximum_raw_standard_deviation_cm": 4.53,
+    "raw_noise_status": "near_4cm_target_use_timestamped_filtering_in_60hz_fusion"
+  },
+  "scope_note": "These are symmetric two-device pair values. Newly added body nodes require their own registration and calibration."
+}

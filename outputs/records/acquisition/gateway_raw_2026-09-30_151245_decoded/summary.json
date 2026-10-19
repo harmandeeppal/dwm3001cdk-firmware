@@ -1,0 +1,34 @@
+{
+  "format": "COMP971 gateway USB framed binary protocol v1",
+  "source": "hardware\\outputs\\records\\acquisition\\gateway_raw_2026-09-30_151245.bin",
+  "raw_bytes": 403776,
+  "imu_records": 7172,
+  "uwb_records": 115,
+  "node_status_records": 114,
+  "gateway_status_records": 60,
+  "uwb_diagnostic_records": 2513,
+  "uwb_diagnostic_events_by_stage": {
+    "final_tx_failed": 148,
+    "responder_final_not_received": 148,
+    "responder_response_tx_failed": 1036,
+    "response_wait_failed": 1181
+  },
+  "invalid_frames": 0,
+  "bytes_not_in_valid_frames": 44,
+  "imu_records_by_node": {
+    "0": 0,
+    "1": 3581,
+    "2": 3591,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "sequence_gaps_by_node": {
+    "0": 0,
+    "1": 27,
+    "2": 6,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

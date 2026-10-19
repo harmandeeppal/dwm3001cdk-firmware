@@ -1,0 +1,9 @@
+device NRF52833_XXAA
+si SWD
+speed 4000
+connect
+r
+loadfile C:\ncs\builds\dwm3001cdk_icm20948_stream\dwm3001cdk_icm20948_stream\zephyr\zephyr.hex
+r
+g
+q

@@ -1,0 +1,132 @@
+/*
+ * DWM3001CDK board overlay for nrf52833_dk (Zephyr 2.7.1)
+ *
+ * DW3110 UWB chip — SPIM3:
+ *   SCK  = P0.03  (pin 3)
+ *   MOSI = P0.08  (pin 8)
+ *   MISO = P0.29  (pin 29)
+ *   CS   = P1.06  (gpio1 pin 6, active low)
+ *   IRQ  = P1.02  (gpio1 pin 2, active high)
+ *   RST  = P0.25  (gpio0 pin 25, active low)
+ *   WKUP = P1.19  (gpio1 pin 19, active high)
+ *
+ * UART0: TX=P0.19  RX=P0.15
+ *
+ */
+
+&pinctrl {
+	uwb_spi3_default: uwb_spi3_default {
+		group1 {
+			psels = <NRF_PSEL(SPIM_SCK, 0, 3)>,
+				<NRF_PSEL(SPIM_MOSI, 0, 8)>,
+				<NRF_PSEL(SPIM_MISO, 0, 29)>;
+		};
+	};
+	uwb_spi3_sleep: uwb_spi3_sleep {
+		group1 {
+			psels = <NRF_PSEL(SPIM_SCK, 0, 3)>,
+				<NRF_PSEL(SPIM_MOSI, 0, 8)>,
+				<NRF_PSEL(SPIM_MISO, 0, 29)>;
+			low-power-enable;
+		};
+	};
+
+	host_uart_default: host_uart_default {
+		group1 {
+			psels = <NRF_PSEL(UART_TX, 0, 19)>,
+				<NRF_PSEL(UART_RX, 0, 15)>;
+		};
+	};
+	host_uart_sleep: host_uart_sleep {
+		group1 {
+			psels = <NRF_PSEL(UART_TX, 0, 19)>,
+				<NRF_PSEL(UART_RX, 0, 15)>;
+			low-power-enable;
+		};
+	};
+
+	icm_i2c0_default: icm_i2c0_default {
+		group1 {
+			psels = <NRF_PSEL(TWIM_SDA, 0, 26)>,
+				<NRF_PSEL(TWIM_SCL, 0, 23)>;
+		};
+	};
+	icm_i2c0_sleep: icm_i2c0_sleep {
+		group1 {
+			psels = <NRF_PSEL(TWIM_SDA, 0, 26)>,
+				<NRF_PSEL(TWIM_SCL, 0, 23)>;
+			low-power-enable;
+		};
+	};
+};
+
+/* SPIM3 — DW3110 UWB chip (CS pin comes from the board devicetree). */
+&spi3 {
+	compatible = "nordic,nrf-spim";
+	status = "okay";
+	/* DWM3001CDK DW3110 chip-select: P1.06, active low. */
+	cs-gpios = <&gpio1 6 GPIO_ACTIVE_LOW>;
+	pinctrl-0 = <&uwb_spi3_default>;
+	pinctrl-1 = <&uwb_spi3_sleep>;
+	pinctrl-names = "default", "sleep";
+};
+
+/* UART0 — host serial interface (override nrf52833_dk defaults to free P0.08 for SPI) */
+&uart0 {
+	status = "okay";
+	/* Full mesh collection forwards six 60 Hz IMU streams plus UWB results. */
+	current-speed = <460800>;
+	pinctrl-0 = <&host_uart_default>;
+	pinctrl-1 = <&host_uart_sleep>;
+	pinctrl-names = "default", "sleep";
+};
+
+/* Disable spi1 — not used, avoid any resource conflict */
+&spi1 {
+	status = "disabled";
+};
+
+/* External Adafruit ICM-20948 on the J10 Raspberry-Pi header. */
+&i2c0 {
+	compatible = "nordic,nrf-twim";
+	status = "okay";
+	pinctrl-0 = <&icm_i2c0_default>;
+	pinctrl-1 = <&icm_i2c0_sleep>;
+	pinctrl-names = "default", "sleep";
+	clock-frequency = <100000>;
+};
+
+
+/* Ensure console goes to our UART0 */
+/ {
+	chosen {
+		zephyr,console = &uart0;
+		zephyr,shell-uart = &uart0;
+	};
+};
+
+/* GPIO aliases for DW3110 control pins */
+/ {
+	aliases {
+		uwb-irq    = &uwb_irq_pin;
+		uwb-rst    = &uwb_rst_pin;
+		uwb-wakeup = &uwb_wakeup_pin;
+	};
+
+	uwb_ctrl_pins {
+		compatible = "gpio-keys";
+
+		uwb_irq_pin: uwb_irq {
+			gpios = <&gpio1 2 GPIO_ACTIVE_HIGH>;
+			label = "UWB IRQ";
+		};
+		uwb_rst_pin: uwb_rst {
+			gpios = <&gpio0 25 GPIO_ACTIVE_LOW>;
+			label = "UWB RST";
+		};
+		uwb_wakeup_pin: uwb_wakeup {
+			gpios = <&gpio1 19 GPIO_ACTIVE_HIGH>;
+			label = "UWB WAKEUP";
+		};
+	};
+};

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "profile_id": "single_node_icm20948_stream_v1",
+  "enabled": false,
+  "implementation_status": "implemented_pending_physical_verification",
+  "firmware_image": "dwm3001cdk_icm20948_stream",
+  "description": "One-board external ICM-20948 power, identity, and telemetry diagnostic. The selected device is explicit and resolved through device_registry.json. It does not verify UWB ranging, antenna calibration, or six-node operation.",
+  "target_policy": {
+    "selection": "explicit_cli_device_id",
+    "eligible_registry_status": "registered",
+    "discover_by": "jlink_serial",
+    "com_port_is_identity": false
+  },
+  "telemetry_contract_profile_id": "six_node_telemetry_v1",
+  "external_imu": {
+    "sensor_model": "ICM-20948",
+    "i2c_address": "0x69",
+    "expected_who_am_i": "0xEA",
+    "require_startup_identity": true,
+    "require_valid_stream_records": true
+  },
+  "programming": {
+    "backend": "nrfutil_device",
+    "interface": "SWD",
+    "swd_clock_khz": 1000,
+    "device_family": "nrf52",
+    "flash_options": {
+      "chip_erase_mode": "ERASE_RANGES_TOUCHED_BY_FIRMWARE",
+      "verify": "VERIFY_READ",
+      "reset": "RESET_PIN"
+    }
+  }
+}

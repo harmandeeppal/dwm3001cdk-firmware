@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "layout_id": "six_position_body_layout_v1",
+  "description": "Permanent device numbering and body-position order for the six DWM3001CDK wearable units.",
+  "naming_pattern": "DWM-{number:02d}-{position_label}",
+  "simulation_authority": "../../workspace/configs/topology/smplh_wearable_topology_v0.json",
+  "positions": [
+    {
+      "number": 1,
+      "key": "head",
+      "position_label": "HEAD",
+      "device_id": "DWM-01",
+      "permanent_name": "DWM-01-HEAD"
+    },
+    {
+      "number": 2,
+      "key": "pelvis",
+      "position_label": "PELVIS",
+      "device_id": "DWM-02",
+      "permanent_name": "DWM-02-PELVIS"
+    },
+    {
+      "number": 3,
+      "key": "left_wrist",
+      "position_label": "LEFT-WRIST",
+      "device_id": "DWM-03",
+      "permanent_name": "DWM-03-LEFT-WRIST"
+    },
+    {
+      "number": 4,
+      "key": "right_wrist",
+      "position_label": "RIGHT-WRIST",
+      "device_id": "DWM-04",
+      "permanent_name": "DWM-04-RIGHT-WRIST"
+    },
+    {
+      "number": 5,
+      "key": "left_ankle",
+      "position_label": "LEFT-ANKLE",
+      "device_id": "DWM-05",
+      "permanent_name": "DWM-05-LEFT-ANKLE"
+    },
+    {
+      "number": 6,
+      "key": "right_ankle",
+      "position_label": "RIGHT-ANKLE",
+      "device_id": "DWM-06",
+      "permanent_name": "DWM-06-RIGHT-ANKLE"
+    }
+  ]
+}
+

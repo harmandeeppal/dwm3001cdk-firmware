@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "artifact_type": "compiled_firmware_not_flashed",
+  "firmware_image": "dwm3001cdk_icm20948_stream",
+  "profile_id": "single_node_icm20948_stream_v1",
+  "target": {
+    "device_id": "DWM-02",
+    "permanent_name": "DWM-02-PELVIS",
+    "jlink_serial": "760224787"
+  },
+  "build": {
+    "board": "decawave_dwm3001cdk",
+    "toolchain": "Nordic nRF Connect SDK v3.4.0 / Zephyr 4.4.0",
+    "binary": "DWM-02-PELVIS__icm20948_stream_workram_init__760224787.hex",
+    "binary_sha256": "37686b6572090e778a45096ba0c7275b8da4db294d7ef9b0c089dee0de3a69e3",
+    "generated_configuration_sha256": "aee8f2a0b13b8025783011ffacd3e1c21a8990b628dd780533a73682cdf7e49d"
+  },
+  "programming": {
+    "source": "../../../../config/profiles/single_node_icm20948_stream_v1.json",
+    "status": "not_programmed",
+    "failure": "J-Link refused before image download: failed to preserve target RAM at 0x20000000-0x2001FFFF.",
+    "integrity_check": "Original flash vector remained 20003000,00005A21,000097D3,000059F5, matching the verified backup."
+  }
+}

@@ -1,0 +1,7 @@
+#ifndef BLE_TEST_CONFIG_H
+#define BLE_TEST_CONFIG_H
+
+#define BLE_TEST_NODE_INDEX 1U
+#define BLE_TEST_NODE_NAME "DWM-02-PELVIS"
+
+#endif

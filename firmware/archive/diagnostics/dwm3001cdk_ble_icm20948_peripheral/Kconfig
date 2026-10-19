@@ -1,0 +1,8 @@
+source "Kconfig.zephyr"
+
+config COMP971_NODE_INDEX
+	int "COMP971 wearable node index"
+	range 0 5
+	default 1
+	help
+	  Permanent wearable identity carried in every BLE telemetry packet.

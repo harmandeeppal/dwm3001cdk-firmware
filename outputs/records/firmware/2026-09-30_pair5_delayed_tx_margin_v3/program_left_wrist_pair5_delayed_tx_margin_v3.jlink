@@ -1,0 +1,9 @@
+SelectEmuBySN 760225868
+device NRF52833_XXAA
+si SWD
+speed 4000
+connect
+loadfile hardware/outputs/records/firmware/2026-09-30_pair5_delayed_tx_margin_v3/DWM-03-LEFT-WRIST__pair5-delayed-tx-margin-v3__nrf52833.hex
+r
+g
+q
